@@ -1,0 +1,61 @@
+<svg class="lalah-bot" viewBox="0 0 132 132" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <defs>
+    <linearGradient id="lbShell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#D6DFEE"/>
+    </linearGradient>
+    <linearGradient id="lbBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5FD0FF"/>
+      <stop offset="1" stop-color="#1A5FD0"/>
+    </linearGradient>
+    <radialGradient id="lbEye" cx=".5" cy=".45" r=".55">
+      <stop offset="0" stop-color="#F2FEFF"/>
+      <stop offset=".55" stop-color="#8FF0FF"/>
+      <stop offset="1" stop-color="#3FB6FF"/>
+    </radialGradient>
+    <radialGradient id="lbGlow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#4DC3FF" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#4DC3FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse class="lb-shadow" cx="60" cy="126" rx="26" ry="4" fill="#032B69" opacity=".18"/>
+
+  <g class="lb-float">
+    <!-- left arm (resting) -->
+    <g class="lb-arm-left">
+      <path d="M33 84 Q22 92 24 104" stroke="#C9D3E3" stroke-width="9" stroke-linecap="round" fill="none"/>
+      <circle cx="24" cy="106" r="6.5" fill="url(#lbShell)" stroke="#C3CDDC"/>
+    </g>
+    <!-- body -->
+    <path d="M34 80 Q60 70 86 80 L82 112 Q60 120 38 112 Z" fill="url(#lbShell)" stroke="#C3CDDC" stroke-width="1.2"/>
+    <path class="lb-chest" d="M45 87 Q60 82 75 87 L73 103 Q60 108 47 103 Z" fill="url(#lbBlue)"/>
+    <circle cx="54" cy="95" r="1.6" fill="#DFF7FF" opacity=".9"/>
+    <circle cx="60" cy="95" r="1.6" fill="#DFF7FF" opacity=".9"/>
+    <circle cx="66" cy="95" r="1.6" fill="#DFF7FF" opacity=".9"/>
+
+    <!-- head -->
+    <rect x="12" y="20" width="12" height="28" rx="6" fill="url(#lbBlue)"/>
+    <rect x="96" y="20" width="12" height="28" rx="6" fill="url(#lbBlue)"/>
+    <rect x="44" y="6" width="32" height="12" rx="6" fill="url(#lbShell)" stroke="#C3CDDC"/>
+    <circle cx="60" cy="5" r="4" fill="#F59E1B"/>
+    <rect x="18" y="12" width="84" height="64" rx="30" fill="url(#lbShell)" stroke="#C3CDDC" stroke-width="1.2"/>
+    <rect x="27" y="24" width="66" height="40" rx="20" fill="#0B1530"/>
+    <ellipse cx="60" cy="44" rx="30" ry="18" fill="url(#lbGlow)"/>
+    <g class="lb-eyes">
+      <circle cx="46" cy="42" r="8" fill="url(#lbEye)"/>
+      <circle cx="74" cy="42" r="8" fill="url(#lbEye)"/>
+      <circle cx="43.5" cy="39" r="2.2" fill="#FFFFFF"/>
+      <circle cx="71.5" cy="39" r="2.2" fill="#FFFFFF"/>
+    </g>
+    <path class="lb-smile" d="M52 54 Q60 59 68 54" stroke="#8FF0FF" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+    <!-- right arm (waves on hover) -->
+    <g class="lb-arm-right">
+      <path d="M86 86 Q108 82 114 66" stroke="#C9D3E3" stroke-width="9" stroke-linecap="round" fill="none"/>
+      <g class="lb-hand">
+        <circle cx="116" cy="60" r="8" fill="url(#lbShell)" stroke="#C3CDDC"/>
+        <path d="M111 54 v-6 M116 52 v-7 M121 54 v-6" stroke="#C3CDDC" stroke-width="3.4" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+</svg>
