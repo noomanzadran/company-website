@@ -1135,6 +1135,10 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    /* Don't keep visitors waiting: hide the loading screen after 1.5 s even if some files are still loading */
+    setTimeout(function () { var p = document.getElementById('preloader'); if (p) p.remove(); }, 1500);
+  </script>
   <script src="assets/js/contact.js"></script>
   <script src="assets/js/hero-wave.js"></script>
 
