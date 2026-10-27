@@ -4,23 +4,21 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Shams Technology Team – Software &amp; Digital Solutions</title>
-  <meta name="description" content="Shams Technology Team builds school management software for Afghanistan: English, Dari and Pashto, Solar Hijri dates, and it works offline.">
-  <meta name="keywords" content="school ERP Afghanistan, school management system Kabul, Shams Technology">
+  <title data-i18n="home.shams-technology-team-software-digital">Shams Technology Team – Software &amp; Digital Solutions</title>
+  <meta name="description" content="Shams Technology Team builds school management software for Afghanistan: English, Dari and Pashto, Solar Hijri dates, and it works offline." data-i18n-attr="content:home.shams-technology-team-builds-school">
+  <meta name="keywords" content="school ERP Afghanistan, school management system Kabul, Shams Technology" data-i18n-attr="content:home.school-erp-afghanistan-school-management">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&family=Vazirmatn:wght@400;600&display=swap" rel="stylesheet">
+  <link href="assets/vendor/fonts/fonts.css" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css" rel="stylesheet">
+  <link href="assets/vendor/devicon/devicon.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
@@ -28,9 +26,15 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/featured.css" rel="stylesheet">
+  <link href="assets/css/rtl.css" rel="stylesheet">
 
   <!-- Theme: must load before the page paints -->
   <script src="assets/js/theme-init.js"></script>
+
+  <!-- Language (English / Dari / Pashto): must load before the page paints -->
+  <script src="assets/i18n/fa-AF.js"></script>
+  <script src="assets/i18n/ps-AF.js"></script>
+  <script src="assets/js/i18n.js"></script>
 
   <!-- =======================================================
   * Template Name: Append
@@ -46,7 +50,7 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0" aria-label="Shams Technology Team home">
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0" aria-label="Shams Technology Team home" data-i18n-attr="aria-label:common.shams-technology-team-home">
         <img src="assets/img/logo-mark.png" alt="" class="logo-mark" width="44" height="44">
         <span class="logo-text">
           <span class="sitename">Shams</span>
@@ -56,18 +60,28 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html#hero" class="active">Home</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#services">Services</a></li>
-          <li><a href="index.html#portfolio">Portfolio</a></li>
-          <li><a href="index.html#team">Team</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="index.html#hero" class="active" data-i18n="common.home">Home</a></li>
+          <li><a href="index.html#about" data-i18n="common.about">About</a></li>
+          <li><a href="index.html#services" data-i18n="common.services">Services</a></li>
+          <li><a href="index.html#portfolio" data-i18n="common.portfolio">Portfolio</a></li>
+          <li><a href="index.html#team" data-i18n="common.team">Team</a></li>
+          <li><a href="index.html#contact" data-i18n="common.contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
       <div class="actions">
-        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch light or dark mode">
+        <div class="dropdown lang-switch">
+          <button type="button" class="lang-toggle" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Change language" data-i18n-attr="aria-label:common.change-language">
+            <i class="bi bi-translate" aria-hidden="true"></i><span class="lang-current" translate="no">English</span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><button type="button" class="dropdown-item" data-lang="en" lang="en" dir="ltr" translate="no">English</button></li>
+            <li><button type="button" class="dropdown-item" data-lang="fa-AF" lang="fa-AF" dir="rtl" translate="no">دری</button></li>
+            <li><button type="button" class="dropdown-item" data-lang="ps-AF" lang="ps-AF" dir="rtl" translate="no">پښتو</button></li>
+          </ul>
+        </div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch light or dark mode" data-i18n-attr="aria-label:common.switch-light-or-dark-mode">
           <i class="bi bi-moon-stars-fill"></i>
           <i class="bi bi-sun-fill"></i>
         </button>
@@ -87,16 +101,16 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1 data-aos="fade-up">Shams Technology Team</h1>
+            <h1 data-aos="fade-up" data-i18n="home.shams-technology-team">Shams Technology Team</h1>
           </div>
         </div>
         <div class="row justify-content-end">
           <div class="col-lg-4 col-md-7">
             <div class="hero-aside" data-aos="fade-up" data-aos-delay="200">
               <span class="gold-line"></span>
-              <h2>Build, innovate and make an impact.</h2>
-              <p>We design and build software, systems and digital solutions for schools, businesses and organisations across Afghanistan.</p>
-              <a href="#portfolio" class="explore-link">
+              <h2 data-i18n="home.build-innovate-and-make-an">Build, innovate and make an impact.</h2>
+              <p data-i18n="home.we-design-and-build-software">We design and build software, systems and digital solutions for schools, businesses and organisations across Afghanistan.</p>
+              <a href="#portfolio" class="explore-link" data-i18n="home.explore-our-projects">
                 Explore our projects
                 <span class="arrow-box"><i class="bi bi-chevron-right"></i></span>
               </a>
@@ -112,7 +126,7 @@
 
       <div class="container" data-aos="fade-up">
 
-        <p class="tech-title">Technologies we build with</p>
+        <p class="tech-title" data-i18n="home.technologies-we-build-with">Technologies we build with</p>
 
         <div class="row gy-4">
 
@@ -177,11 +191,11 @@
         <div class="row align-items-xl-center gy-5">
 
           <div class="col-xl-5 content">
-            <h3>About Us</h3>
-            <h2>Technology built in Afghanistan, for Afghanistan.</h2>
-            <p>Shams Technology Team is a Kabul-based team of eight engineers, developers and specialists. We build software that fits the way people and organisations here really work: in Dari, Pashto and English, mobile-first for low-bandwidth connections, and reliable on the devices people actually use.</p>
-            <p>Our work ranges from AI chatbots serving thousands of students to e-commerce marketplaces, national education platforms and management systems. We take each project from idea to launch, and we stay with our clients after it goes live.</p>
-            <a href="#team" class="read-more"><span>Meet the team</span><i class="bi bi-arrow-right"></i></a>
+            <h3 data-i18n="home.about-us">About Us</h3>
+            <h2 data-i18n="home.technology-built-in-afghanistan-for">Technology built in Afghanistan, for Afghanistan.</h2>
+            <p data-i18n="home.shams-technology-team-is-a">Shams Technology Team is a Kabul-based team of eight engineers, developers and specialists. We build software that fits the way people and organisations here really work: in Dari, Pashto and English, mobile-first for low-bandwidth connections, and reliable on the devices people actually use.</p>
+            <p data-i18n="home.our-work-ranges-from-ai">Our work ranges from AI chatbots serving thousands of students to e-commerce marketplaces, national education platforms and management systems. We take each project from idea to launch, and we stay with our clients after it goes live.</p>
+            <a href="#team" class="read-more"><span data-i18n="home.meet-the-team">Meet the team</span><i class="bi bi-arrow-right"></i></a>
           </div>
 
           <div class="col-xl-7">
@@ -190,32 +204,32 @@
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon-box">
                   <i class="bi bi-cpu"></i>
-                  <h3>AI &amp; Chatbots</h3>
-                  <p>Multilingual AI assistants on web, WhatsApp and Telegram, built on real documents for accurate answers.</p>
+                  <h3 data-i18n="home.ai-chatbots">AI &amp; Chatbots</h3>
+                  <p data-i18n="home.multilingual-ai-assistants-on-web">Multilingual AI assistants on web, WhatsApp and Telegram, built on real documents for accurate answers.</p>
                 </div>
               </div> <!-- End Icon Box -->
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box">
                   <i class="bi bi-diagram-3"></i>
-                  <h3>ERP &amp; Management Systems</h3>
-                  <p>School ERPs, HR and leave systems that replace paperwork with clear, role-based dashboards.</p>
+                  <h3 data-i18n="home.erp-management-systems">ERP &amp; Management Systems</h3>
+                  <p data-i18n="home.school-erps-hr-and-leave">School ERPs, HR and leave systems that replace paperwork with clear, role-based dashboards.</p>
                 </div>
               </div> <!-- End Icon Box -->
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon-box">
                   <i class="bi bi-globe2"></i>
-                  <h3>Web, E-commerce &amp; E-learning</h3>
-                  <p>Marketplaces, learning platforms and websites, fully trilingual with right-to-left support.</p>
+                  <h3 data-i18n="home.web-e-commerce-e-learning">Web, E-commerce &amp; E-learning</h3>
+                  <p data-i18n="home.marketplaces-learning-platforms-and-websites">Marketplaces, learning platforms and websites, fully trilingual with right-to-left support.</p>
                 </div>
               </div> <!-- End Icon Box -->
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <div class="icon-box">
                   <i class="bi bi-shield-lock"></i>
-                  <h3>Cloud, Automation &amp; Security</h3>
-                  <p>Secure deployments on cloud servers, automated workflows and integrations that save hours of manual work.</p>
+                  <h3 data-i18n="home.cloud-automation-security">Cloud, Automation &amp; Security</h3>
+                  <p data-i18n="home.secure-deployments-on-cloud-servers">Secure deployments on cloud servers, automated workflows and integrations that save hours of manual work.</p>
                 </div>
               </div> <!-- End Icon Box -->
 
@@ -237,28 +251,28 @@
           <div class="col-lg-3 col-6">
             <div class="stats-item">
               <div class="num"><span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter">10</span><b>+</b></div>
-              <p>Projects delivered</p>
+              <p data-i18n="home.projects-delivered">Projects delivered</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-6">
             <div class="stats-item">
-              <div class="num"><span data-purecounter-start="0" data-purecounter-end="368" data-purecounter-duration="1" class="purecounter">368</span><b>K+</b></div>
-              <p>Students using our AI tutor</p>
+              <div class="num"><span data-purecounter-start="0" data-purecounter-end="368" data-purecounter-duration="1" class="purecounter">368</span><b data-i18n="home.thousand-plus">K+</b></div>
+              <p data-i18n="home.students-using-our-ai-tutor">Students using our AI tutor</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-6">
             <div class="stats-item">
-              <div class="num"><span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter">20</span><b>M+</b></div>
-              <p>Messages answered by AI</p>
+              <div class="num"><span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter">20</span><b data-i18n="home.million-plus">M+</b></div>
+              <p data-i18n="home.messages-answered-by-ai">Messages answered by AI</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-6">
             <div class="stats-item">
               <div class="num"><span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1" class="purecounter">11</span></div>
-              <p>Websites we manage and monitor</p>
+              <p data-i18n="home.websites-we-manage-and-monitor">Websites we manage and monitor</p>
             </div>
           </div><!-- End Stats Item -->
 
@@ -273,8 +287,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>What We Build</h2>
-        <p>Software, systems and AI for schools, universities, businesses and organisations</p>
+        <h2 data-i18n="home.what-we-build">What We Build</h2>
+        <p data-i18n="home.software-systems-and-ai-for">Software, systems and AI for schools, universities, businesses and organisations</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -285,8 +299,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-diagram-3"></i></div>
               <div>
-                <h4 class="title">ERP &amp; SaaS Systems</h4>
-                <p class="description">Complete ERP platforms for schools, universities and businesses: students, staff, attendance, exams, HR and reports. Offline on your own computer or online in the cloud for many branches.</p>
+                <h4 class="title" data-i18n="home.erp-saas-systems">ERP &amp; SaaS Systems</h4>
+                <p class="description" data-i18n="home.complete-erp-platforms-for-schools">Complete ERP platforms for schools, universities and businesses: students, staff, attendance, exams, HR and reports. Offline on your own computer or online in the cloud for many branches.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -295,8 +309,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-cash-coin"></i></div>
               <div>
-                <h4 class="title">Finance &amp; Accounting Systems</h4>
-                <p class="description">Fees, invoices, payroll, expenses and income in AFN and other currencies, with printable receipts and clear financial reports.</p>
+                <h4 class="title" data-i18n="home.finance-accounting-systems">Finance &amp; Accounting Systems</h4>
+                <p class="description" data-i18n="home.fees-invoices-payroll-expenses-and">Fees, invoices, payroll, expenses and income in AFN and other currencies, with printable receipts and clear financial reports.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -305,8 +319,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-robot"></i></div>
               <div>
-                <h4 class="title">AI Chatbots &amp; Assistants</h4>
-                <p class="description">Multilingual AI assistants in Dari, Pashto and English on your website, WhatsApp and Telegram, trained on your own documents so the answers are accurate.</p>
+                <h4 class="title" data-i18n="home.ai-chatbots-assistants">AI Chatbots &amp; Assistants</h4>
+                <p class="description" data-i18n="home.multilingual-ai-assistants-in-dari">Multilingual AI assistants in Dari, Pashto and English on your website, WhatsApp and Telegram, trained on your own documents so the answers are accurate.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -315,8 +329,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-mortarboard"></i></div>
               <div>
-                <h4 class="title">E-learning Platforms</h4>
-                <p class="description">Learning management systems, exam preparation and digital lessons that reach students across the country, even on slow connections.</p>
+                <h4 class="title" data-i18n="home.e-learning-platforms">E-learning Platforms</h4>
+                <p class="description" data-i18n="home.learning-management-systems-exam-preparation">Learning management systems, exam preparation and digital lessons that reach students across the country, even on slow connections.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -325,8 +339,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-shop"></i></div>
               <div>
-                <h4 class="title">E-commerce &amp; Marketplaces</h4>
-                <p class="description">Online stores and multi-vendor marketplaces with seller portals, cash on delivery, secure payments and full right-to-left support.</p>
+                <h4 class="title" data-i18n="home.e-commerce-marketplaces">E-commerce &amp; Marketplaces</h4>
+                <p class="description" data-i18n="home.online-stores-and-multi-vendor">Online stores and multi-vendor marketplaces with seller portals, cash on delivery, secure payments and full right-to-left support.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -335,8 +349,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-window-stack"></i></div>
               <div>
-                <h4 class="title">Websites &amp; Web Applications</h4>
-                <p class="description">Company websites, WordPress sites and custom web apps: fast, mobile-first and easy for your team to manage.</p>
+                <h4 class="title" data-i18n="home.websites-web-applications">Websites &amp; Web Applications</h4>
+                <p class="description" data-i18n="home.company-websites-wordpress-sites-and">Company websites, WordPress sites and custom web apps: fast, mobile-first and easy for your team to manage.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -345,8 +359,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-lightning-charge"></i></div>
               <div>
-                <h4 class="title">Automation &amp; Integrations</h4>
-                <p class="description">WhatsApp Business messaging, automated forms, approvals and reports that replace paperwork and save your staff hours every week.</p>
+                <h4 class="title" data-i18n="home.automation-integrations">Automation &amp; Integrations</h4>
+                <p class="description" data-i18n="home.whatsapp-business-messaging-automated-forms">WhatsApp Business messaging, automated forms, approvals and reports that replace paperwork and save your staff hours every week.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -355,8 +369,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-shield-lock"></i></div>
               <div>
-                <h4 class="title">Cloud, Network &amp; Security</h4>
-                <p class="description">Secure servers and cloud deployments, networks, backups and security reviews that keep your systems running and your data safe.</p>
+                <h4 class="title" data-i18n="home.cloud-network-security">Cloud, Network &amp; Security</h4>
+                <p class="description" data-i18n="home.secure-servers-and-cloud-deployments">Secure servers and cloud deployments, networks, backups and security reviews that keep your systems running and your data safe.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -372,8 +386,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Featured Work</h2>
-        <p>Real systems we built and run every day</p>
+        <h2 data-i18n="home.featured-work">Featured Work</h2>
+        <p data-i18n="home.real-systems-we-built-and">Real systems we built and run every day</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -381,8 +395,8 @@
         <!-- Work 1: AI Tutor Chatbot -->
         <div class="row gy-5 align-items-center features-item">
           <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
-            <span class="work-tag">AI &amp; Chatbots</span>
-            <h3 class="with-logo">
+            <span class="work-tag" data-i18n="home.ai-chatbots">AI &amp; Chatbots</span>
+            <h3 class="with-logo" data-i18n="home.ai-tutor-chatbot">
               <span class="bot-mascot">
                 <svg class="ai-bot" viewBox="0 0 132 132" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   <defs>
@@ -448,46 +462,46 @@
               </span>
               AI Tutor Chatbot
             </h3>
-            <p>One of the first AI tutors built for Afghan students. It answers students' questions in Dari, Pashto and English on WhatsApp, Telegram and the web. We built the chatbot, the student experience and the live analytics dashboard behind it.</p>
+            <p data-i18n="home.one-of-the-first-ai">One of the first AI tutors built for Afghan students. It answers students' questions in Dari, Pashto and English on WhatsApp, Telegram and the web. We built the chatbot, the student experience and the live analytics dashboard behind it.</p>
             <div class="work-stats">
-              <div><b>368,000+</b><span>Students</span></div>
-              <div><b>20M+</b><span>Messages answered</span></div>
-              <div><b>~3 sec</b><span>Average answer</span></div>
+              <div><b>368,000+</b><span data-i18n="home.students">Students</span></div>
+              <div><b data-i18n="home.20m">20M+</b><span data-i18n="home.messages-answered">Messages answered</span></div>
+              <div><b data-i18n="home.3-sec">~3 sec</b><span data-i18n="home.average-answer">Average answer</span></div>
             </div>
             <ul>
-              <li><i class="bi bi-check2-circle"></i><span>Answers grounded in real curriculum content</span></li>
-              <li><i class="bi bi-check2-circle"></i><span>WhatsApp Business, Telegram and web in one system</span></li>
-              <li><i class="bi bi-check2-circle"></i><span>Live dashboard: users, engagement, regions and system health</span></li>
+              <li><i class="bi bi-check2-circle"></i><span data-i18n="home.answers-grounded-in-real-curriculum">Answers grounded in real curriculum content</span></li>
+              <li><i class="bi bi-check2-circle"></i><span data-i18n="home.whatsapp-business-telegram-and-web">WhatsApp Business, Telegram and web in one system</span></li>
+              <li><i class="bi bi-check2-circle"></i><span data-i18n="home.live-dashboard-users-engagement-regions">Live dashboard: users, engagement, regions and system health</span></li>
             </ul>
           </div>
           <div class="col-lg-7" data-aos="zoom-out" data-aos-delay="150">
             <div class="work-shot">
-              <div class="bar"><i></i><i></i><i></i><span>AI Tutor Dashboard</span></div>
-              <div class="mk" role="img" aria-label="AI tutor dashboard: 368,943 users, 20.3 million messages, 3 second average answer">
+              <div class="bar"><i></i><i></i><i></i><span data-i18n="home.ai-tutor-dashboard">AI Tutor Dashboard</span></div>
+              <div class="mk" role="img" aria-label="AI tutor dashboard: 368,943 users, 20.3 million messages, 3 second average answer" data-i18n-attr="aria-label:home.ai-tutor-dashboard-368-943">
                 <div class="mk-head">
-                  <b><img src="assets/img/chatbot.svg" alt="" width="24" height="24"> AI Tutor Dashboard</b>
-                  <span class="mk-live"><i></i> Live</span>
+                  <b data-i18n="home.ai-tutor-dashboard"><img src="assets/img/chatbot.svg" alt="" width="24" height="24"> AI Tutor Dashboard</b>
+                  <span class="mk-live" data-i18n="home.live"><i></i> Live</span>
                 </div>
                 <div class="mk-tiles">
-                  <div><small>Total users</small><b>368,943</b><em>All time</em></div>
-                  <div><small>Messages answered</small><b>20.3M</b><em>All time</em></div>
-                  <div><small>Avg. answer time</small><b>3.0s</b><em>Per message</em></div>
-                  <div><small>Monthly users</small><b>70,945</b><em>Last month</em></div>
+                  <div><small data-i18n="home.total-users">Total users</small><b>368,943</b><em data-i18n="home.all-time">All time</em></div>
+                  <div><small data-i18n="home.messages-answered">Messages answered</small><b data-i18n="home.20-3m">20.3M</b><em data-i18n="home.all-time">All time</em></div>
+                  <div><small data-i18n="home.avg-answer-time">Avg. answer time</small><b data-i18n="home.3-0s">3.0s</b><em data-i18n="home.per-message">Per message</em></div>
+                  <div><small data-i18n="home.monthly-users">Monthly users</small><b>70,945</b><em data-i18n="home.last-month">Last month</em></div>
                 </div>
                 <div class="mk-row">
                   <div class="mk-card">
-                    <small>Users by channel</small>
+                    <small data-i18n="home.users-by-channel">Users by channel</small>
                     <ul class="mk-list">
                       <li><i class="bi bi-whatsapp"></i> WhatsApp <b>368,349</b></li>
                       <li><i class="bi bi-telegram"></i> Telegram <b>489</b></li>
-                      <li><i class="bi bi-globe2"></i> Web <b>106</b></li>
+                      <li data-i18n="home.web"><i class="bi bi-globe2"></i> Web <b>106</b></li>
                     </ul>
                   </div>
                   <div class="mk-card">
-                    <small>Top regions</small>
-                    <div class="mk-bar"><span>Afghanistan</span><b>99.7%</b><i style="width: 99.7%"></i></div>
-                    <div class="mk-bar"><span>Pakistan</span><b>0.1%</b><i style="width: 2%"></i></div>
-                    <div class="mk-health"><span class="ok">Healthy</span> Engagement <b>52.3%</b></div>
+                    <small data-i18n="home.top-regions">Top regions</small>
+                    <div class="mk-bar"><span data-i18n="home.afghanistan">Afghanistan</span><b>99.7%</b><i style="width: 99.7%"></i></div>
+                    <div class="mk-bar"><span data-i18n="home.pakistan">Pakistan</span><b>0.1%</b><i style="width: 2%"></i></div>
+                    <div class="mk-health" data-i18n="home.engagement"><span class="ok" data-i18n="home.healthy">Healthy</span> Engagement <b>52.3%</b></div>
                   </div>
                 </div>
               </div>
@@ -499,38 +513,38 @@
         <div class="row gy-5 align-items-center features-item">
           <div class="col-lg-7 order-2 order-lg-1" data-aos="zoom-out" data-aos-delay="150">
             <div class="work-shot">
-              <div class="bar"><i></i><i></i><i></i><span>Website Status</span></div>
-              <div class="mk" role="img" aria-label="Live status board for 11 websites: 9 up, 2 offline by design, 0 down">
+              <div class="bar"><i></i><i></i><i></i><span data-i18n="home.website-status">Website Status</span></div>
+              <div class="mk" role="img" aria-label="Live status board for 11 websites: 9 up, 2 offline by design, 0 down" data-i18n-attr="aria-label:home.live-status-board-for-11">
                 <div class="mk-head">
-                  <b><i class="bi bi-activity"></i> Website Status</b>
-                  <span class="mk-live"><i></i> Live</span>
+                  <b data-i18n="home.website-status"><i class="bi bi-activity"></i> Website Status</b>
+                  <span class="mk-live" data-i18n="home.live"><i></i> Live</span>
                 </div>
                 <div class="mk-chips">
-                  <span>11 sites</span><span class="ok">Up 9</span><span>Down 0</span><span class="muted">Offline by design 2</span>
+                  <span data-i18n="home.11-sites">11 sites</span><span class="ok" data-i18n="home.up-9">Up 9</span><span data-i18n="home.down-0">Down 0</span><span class="muted" data-i18n="home.offline-by-design-2">Offline by design 2</span>
                 </div>
                 <div class="mk-sites">
-                  <div><b>Website 01</b><em>e-commerce</em><span class="ok">Up</span><i class="mk-up"></i><small>SSL 78 days left</small></div>
-                  <div><b>Website 02</b><em>e-commerce</em><span class="ok">Up</span><i class="mk-up"></i><small>SSL 42 days left</small></div>
-                  <div><b>Website 03</b><em>company site</em><span class="ok">Up</span><i class="mk-up"></i><small>SSL 77 days left</small></div>
-                  <div><b>Website 04</b><em>non-profit</em><span class="ok">Up</span><i class="mk-up"></i><small>SSL 86 days left</small></div>
-                  <div><b>Website 05</b><em>e-commerce</em><span class="ok">Up</span><i class="mk-up"></i><small>SSL 41 days left</small></div>
-                  <div><b>Website 06</b><em>company site</em><span class="muted">Offline</span><i class="mk-up off"></i><small>Offline by design</small></div>
+                  <div><b data-i18n="home.website-01">Website 01</b><em data-i18n="home.e-commerce">e-commerce</em><span class="ok" data-i18n="home.up">Up</span><i class="mk-up"></i><small data-i18n="home.ssl-78-days-left">SSL 78 days left</small></div>
+                  <div><b data-i18n="home.website-02">Website 02</b><em data-i18n="home.e-commerce">e-commerce</em><span class="ok" data-i18n="home.up">Up</span><i class="mk-up"></i><small data-i18n="home.ssl-42-days-left">SSL 42 days left</small></div>
+                  <div><b data-i18n="home.website-03">Website 03</b><em data-i18n="home.company-site">company site</em><span class="ok" data-i18n="home.up">Up</span><i class="mk-up"></i><small data-i18n="home.ssl-77-days-left">SSL 77 days left</small></div>
+                  <div><b data-i18n="home.website-04">Website 04</b><em data-i18n="home.non-profit">non-profit</em><span class="ok" data-i18n="home.up">Up</span><i class="mk-up"></i><small data-i18n="home.ssl-86-days-left">SSL 86 days left</small></div>
+                  <div><b data-i18n="home.website-05">Website 05</b><em data-i18n="home.e-commerce">e-commerce</em><span class="ok" data-i18n="home.up">Up</span><i class="mk-up"></i><small data-i18n="home.ssl-41-days-left">SSL 41 days left</small></div>
+                  <div><b data-i18n="home.website-06">Website 06</b><em data-i18n="home.company-site">company site</em><span class="muted" data-i18n="home.offline">Offline</span><i class="mk-up off"></i><small data-i18n="home.offline-by-design">Offline by design</small></div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-            <span class="work-tag">Website Care &amp; Security</span>
-            <h3>11 websites, watched around the clock</h3>
-            <p>We look after a group of e-commerce and company websites from deployment to daily care. A live status board checks every site, its admin and its API, so we often fix problems before customers notice them.</p>
+            <span class="work-tag" data-i18n="home.website-care-security">Website Care &amp; Security</span>
+            <h3 data-i18n="home.11-websites-watched-around-the">11 websites, watched around the clock</h3>
+            <p data-i18n="home.we-look-after-a-group">We look after a group of e-commerce and company websites from deployment to daily care. A live status board checks every site, its admin and its API, so we often fix problems before customers notice them.</p>
             <div class="work-stats">
-              <div><b>11</b><span>Websites managed</span></div>
-              <div><b>24/7</b><span>Uptime monitoring</span></div>
+              <div><b>11</b><span data-i18n="home.websites-managed">Websites managed</span></div>
+              <div><b>24/7</b><span data-i18n="home.uptime-monitoring">Uptime monitoring</span></div>
             </div>
             <ul>
-              <li><i class="bi bi-check2-circle"></i><span>Deployment, hosting and SSL certificate tracking</span></li>
-              <li><i class="bi bi-check2-circle"></i><span>Security updates and regular snapshot backups</span></li>
-              <li><i class="bi bi-check2-circle"></i><span>Products, content and design changes on request</span></li>
+              <li><i class="bi bi-check2-circle"></i><span data-i18n="home.deployment-hosting-and-ssl-certificate">Deployment, hosting and SSL certificate tracking</span></li>
+              <li><i class="bi bi-check2-circle"></i><span data-i18n="home.security-updates-and-regular-snapshot">Security updates and regular snapshot backups</span></li>
+              <li><i class="bi bi-check2-circle"></i><span data-i18n="home.products-content-and-design-changes">Products, content and design changes on request</span></li>
             </ul>
           </div>
         </div><!-- Features Item -->
@@ -544,8 +558,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>A selection of systems we have designed, built and launched</p>
+        <h2 data-i18n="home.portfolio">Portfolio</h2>
+        <p data-i18n="home.a-selection-of-systems-we">A selection of systems we have designed, built and launched</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -553,128 +567,128 @@
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-ai">AI &amp; Chatbots</li>
-            <li data-filter=".filter-systems">Systems &amp; Automation</li>
-            <li data-filter=".filter-web">Platforms &amp; Web</li>
+            <li data-filter="*" class="filter-active" data-i18n="home.all">All</li>
+            <li data-filter=".filter-ai" data-i18n="home.ai-chatbots">AI &amp; Chatbots</li>
+            <li data-filter=".filter-systems" data-i18n="home.systems-automation">Systems &amp; Automation</li>
+            <li data-filter=".filter-web" data-i18n="home.platforms-web">Platforms &amp; Web</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-systems">
               <a href="project-erp.html" class="pf-open">
-                <img src="assets/img/projects/erp-ui1-light.jpg" class="img-fluid img-light" alt="Shams School ERP" loading="lazy">
-                <img src="assets/img/projects/erp-ui1-dark.jpg" class="img-fluid img-dark" alt="Shams School ERP, dark mode" loading="lazy">
+                <img src="assets/img/projects/erp-ui1-light.jpg" class="img-fluid img-light" alt="Shams School ERP" loading="lazy" data-i18n-attr="alt:home.shams-school-erp">
+                <img src="assets/img/projects/erp-ui1-dark.jpg" class="img-fluid img-dark" alt="Shams School ERP, dark mode" loading="lazy" data-i18n-attr="alt:home.shams-school-erp-dark-mode">
               </a>
               <div class="portfolio-info">
-                <h4>Shams School ERP</h4>
-                <p>Our school management system: students, exams, fees, HR and payroll, in 3 languages</p>
-                <a href="assets/img/projects/erp-ui1-light.jpg" title="Shams School ERP" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="project-erp.html" title="Project details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4 data-i18n="home.shams-school-erp">Shams School ERP</h4>
+                <p data-i18n="home.our-school-management-system-students">Our school management system: students, exams, fees, HR and payroll, in 3 languages</p>
+                <a href="assets/img/projects/erp-ui1-light.jpg" title="Shams School ERP" data-gallery="portfolio-gallery" class="glightbox preview-link" data-i18n-attr="title:home.shams-school-erp"><i class="bi bi-zoom-in"></i></a>
+                <a href="project-erp.html" title="Project details" class="details-link" data-i18n-attr="title:home.project-details"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
               <a href="project-marketplace.html" class="pf-open">
-                <img src="assets/img/projects/market-ui1-light.jpg" class="img-fluid img-light" alt="Trilingual Marketplace" loading="lazy">
-                <img src="assets/img/projects/market-ui1-dark.jpg" class="img-fluid img-dark" alt="Trilingual Marketplace, dark mode" loading="lazy">
+                <img src="assets/img/projects/market-ui1-light.jpg" class="img-fluid img-light" alt="Trilingual Marketplace" loading="lazy" data-i18n-attr="alt:home.trilingual-marketplace">
+                <img src="assets/img/projects/market-ui1-dark.jpg" class="img-fluid img-dark" alt="Trilingual Marketplace, dark mode" loading="lazy" data-i18n-attr="alt:home.trilingual-marketplace-dark-mode">
               </a>
               <div class="portfolio-info">
-                <h4>Trilingual Marketplace</h4>
-                <p>Online marketplace with seller portal, offers, cash on delivery and escrow</p>
-                <a href="assets/img/projects/market-ui1-light.jpg" title="Trilingual Marketplace" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="project-marketplace.html" title="Project details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4 data-i18n="home.trilingual-marketplace">Trilingual Marketplace</h4>
+                <p data-i18n="home.online-marketplace-with-seller-portal">Online marketplace with seller portal, offers, cash on delivery and escrow</p>
+                <a href="assets/img/projects/market-ui1-light.jpg" title="Trilingual Marketplace" data-gallery="portfolio-gallery" class="glightbox preview-link" data-i18n-attr="title:home.trilingual-marketplace"><i class="bi bi-zoom-in"></i></a>
+                <a href="project-marketplace.html" title="Project details" class="details-link" data-i18n-attr="title:home.project-details"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ai">
               <a href="project-university-assistant.html" class="pf-open">
-                <img src="assets/img/projects/uniai-cover-light.jpg" class="img-fluid img-light" alt="University AI Assistant" loading="lazy">
-                <img src="assets/img/projects/uniai-cover-dark.jpg" class="img-fluid img-dark" alt="University AI Assistant, dark mode" loading="lazy">
+                <img src="assets/img/projects/uniai-cover-light.jpg" class="img-fluid img-light" alt="University AI Assistant" loading="lazy" data-i18n-attr="alt:home.university-ai-assistant">
+                <img src="assets/img/projects/uniai-cover-dark.jpg" class="img-fluid img-dark" alt="University AI Assistant, dark mode" loading="lazy" data-i18n-attr="alt:home.university-ai-assistant-dark-mode">
               </a>
               <div class="portfolio-info">
-                <h4>University AI Assistant</h4>
-                <p>Answers student questions in Dari, Pashto and English on web, WhatsApp and Telegram</p>
-                <a href="assets/img/projects/uniai-cover-light.jpg" title="University AI Assistant" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="project-university-assistant.html" title="Project details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4 data-i18n="home.university-ai-assistant">University AI Assistant</h4>
+                <p data-i18n="home.answers-student-questions-in-dari">Answers student questions in Dari, Pashto and English on web, WhatsApp and Telegram</p>
+                <a href="assets/img/projects/uniai-cover-light.jpg" title="University AI Assistant" data-gallery="portfolio-gallery" class="glightbox preview-link" data-i18n-attr="title:home.university-ai-assistant"><i class="bi bi-zoom-in"></i></a>
+                <a href="project-university-assistant.html" title="Project details" class="details-link" data-i18n-attr="title:home.project-details"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ai">
               <a href="project-ai-engine.html" class="pf-open">
-                <img src="assets/img/projects/aierp-ui1-light.jpg" class="img-fluid img-light" alt="AI Engine for an Education ERP" loading="lazy">
-                <img src="assets/img/projects/aierp-ui1-dark.jpg" class="img-fluid img-dark" alt="AI Engine for an Education ERP, dark mode" loading="lazy">
+                <img src="assets/img/projects/aierp-ui1-light.jpg" class="img-fluid img-light" alt="AI Engine for an Education ERP" loading="lazy" data-i18n-attr="alt:home.ai-engine-for-an-education">
+                <img src="assets/img/projects/aierp-ui1-dark.jpg" class="img-fluid img-dark" alt="AI Engine for an Education ERP, dark mode" loading="lazy" data-i18n-attr="alt:home.ai-engine-for-an-education-2">
               </a>
               <div class="portfolio-info">
-                <h4>AI Engine for an Education ERP</h4>
-                <p>AI tutor for students and a data assistant for staff</p>
-                <a href="assets/img/projects/aierp-ui1-light.jpg" title="AI Engine for an Education ERP" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="project-ai-engine.html" title="Project details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4 data-i18n="home.ai-engine-for-an-education">AI Engine for an Education ERP</h4>
+                <p data-i18n="home.ai-tutor-for-students-and">AI tutor for students and a data assistant for staff</p>
+                <a href="assets/img/projects/aierp-ui1-light.jpg" title="AI Engine for an Education ERP" data-gallery="portfolio-gallery" class="glightbox preview-link" data-i18n-attr="title:home.ai-engine-for-an-education"><i class="bi bi-zoom-in"></i></a>
+                <a href="project-ai-engine.html" title="Project details" class="details-link" data-i18n-attr="title:home.project-details"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
               <a href="project-exam-prep.html" class="pf-open">
-                <img src="assets/img/projects/exam-ui1-light.jpg" class="img-fluid img-light" alt="Entrance Exam Preparation" loading="lazy">
-                <img src="assets/img/projects/exam-ui1-dark.jpg" class="img-fluid img-dark" alt="Entrance Exam Preparation, dark mode" loading="lazy">
+                <img src="assets/img/projects/exam-ui1-light.jpg" class="img-fluid img-light" alt="Entrance Exam Preparation" loading="lazy" data-i18n-attr="alt:home.entrance-exam-preparation">
+                <img src="assets/img/projects/exam-ui1-dark.jpg" class="img-fluid img-dark" alt="Entrance Exam Preparation, dark mode" loading="lazy" data-i18n-attr="alt:home.entrance-exam-preparation-dark-mode">
               </a>
               <div class="portfolio-info">
-                <h4>Entrance Exam Preparation</h4>
-                <p>Digital lessons and practice tests for the university entrance exam</p>
-                <a href="assets/img/projects/exam-ui1-light.jpg" title="Entrance Exam Preparation" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="project-exam-prep.html" title="Project details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4 data-i18n="home.entrance-exam-preparation">Entrance Exam Preparation</h4>
+                <p data-i18n="home.digital-lessons-and-practice-tests">Digital lessons and practice tests for the university entrance exam</p>
+                <a href="assets/img/projects/exam-ui1-light.jpg" title="Entrance Exam Preparation" data-gallery="portfolio-gallery" class="glightbox preview-link" data-i18n-attr="title:home.entrance-exam-preparation"><i class="bi bi-zoom-in"></i></a>
+                <a href="project-exam-prep.html" title="Project details" class="details-link" data-i18n-attr="title:home.project-details"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
               <a href="project-education-platform.html" class="pf-open">
-                <img src="assets/img/projects/nated-cover-light.jpg" class="img-fluid img-light" alt="National Education Platform" loading="lazy">
-                <img src="assets/img/projects/nated-cover-dark.jpg" class="img-fluid img-dark" alt="National Education Platform, dark mode" loading="lazy">
+                <img src="assets/img/projects/nated-cover-light.jpg" class="img-fluid img-light" alt="National Education Platform" loading="lazy" data-i18n-attr="alt:home.national-education-platform">
+                <img src="assets/img/projects/nated-cover-dark.jpg" class="img-fluid img-dark" alt="National Education Platform, dark mode" loading="lazy" data-i18n-attr="alt:home.national-education-platform-dark-mode">
               </a>
               <div class="portfolio-info">
-                <h4>National Education Platform</h4>
-                <p>Nationwide video lessons for students and teachers</p>
-                <a href="assets/img/projects/nated-cover-light.jpg" title="National Education Platform" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="project-education-platform.html" title="Project details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4 data-i18n="home.national-education-platform">National Education Platform</h4>
+                <p data-i18n="home.nationwide-video-lessons-for-students">Nationwide video lessons for students and teachers</p>
+                <a href="assets/img/projects/nated-cover-light.jpg" title="National Education Platform" data-gallery="portfolio-gallery" class="glightbox preview-link" data-i18n-attr="title:home.national-education-platform"><i class="bi bi-zoom-in"></i></a>
+                <a href="project-education-platform.html" title="Project details" class="details-link" data-i18n-attr="title:home.project-details"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-systems">
               <a href="project-leave-management.html" class="pf-open">
-                <img src="assets/img/projects/leave-cover-light.jpg" class="img-fluid img-light" alt="Leave Management System" loading="lazy">
-                <img src="assets/img/projects/leave-cover-dark.jpg" class="img-fluid img-dark" alt="Leave Management System, dark mode" loading="lazy">
+                <img src="assets/img/projects/leave-cover-light.jpg" class="img-fluid img-light" alt="Leave Management System" loading="lazy" data-i18n-attr="alt:home.leave-management-system">
+                <img src="assets/img/projects/leave-cover-dark.jpg" class="img-fluid img-dark" alt="Leave Management System, dark mode" loading="lazy" data-i18n-attr="alt:home.leave-management-system-dark-mode">
               </a>
               <div class="portfolio-info">
-                <h4>Leave Management System</h4>
-                <p>Online leave requests and two-step approval for 90+ employees</p>
-                <a href="assets/img/projects/leave-cover-light.jpg" title="Leave Management System" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="project-leave-management.html" title="Project details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4 data-i18n="home.leave-management-system">Leave Management System</h4>
+                <p data-i18n="home.online-leave-requests-and-two">Online leave requests and two-step approval for 90+ employees</p>
+                <a href="assets/img/projects/leave-cover-light.jpg" title="Leave Management System" data-gallery="portfolio-gallery" class="glightbox preview-link" data-i18n-attr="title:home.leave-management-system"><i class="bi bi-zoom-in"></i></a>
+                <a href="project-leave-management.html" title="Project details" class="details-link" data-i18n-attr="title:home.project-details"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-systems">
               <a href="project-student-messaging.html" class="pf-open">
-                <img src="assets/img/projects/msg-ui1-light.jpg" class="img-fluid img-light" alt="Student Messaging &amp; Automation" loading="lazy">
-                <img src="assets/img/projects/msg-ui1-dark.jpg" class="img-fluid img-dark" alt="Student Messaging &amp; Automation, dark mode" loading="lazy">
+                <img src="assets/img/projects/msg-ui1-light.jpg" class="img-fluid img-light" alt="Student Messaging &amp; Automation" loading="lazy" data-i18n-attr="alt:home.student-messaging-automation">
+                <img src="assets/img/projects/msg-ui1-dark.jpg" class="img-fluid img-dark" alt="Student Messaging &amp; Automation, dark mode" loading="lazy" data-i18n-attr="alt:home.student-messaging-automation-dark-mode">
               </a>
               <div class="portfolio-info">
-                <h4>Student Messaging &amp; Automation</h4>
-                <p>WhatsApp broadcasts and an automated registration pipeline</p>
-                <a href="assets/img/projects/msg-ui1-light.jpg" title="Student Messaging &amp; Automation" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="project-student-messaging.html" title="Project details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4 data-i18n="home.student-messaging-automation">Student Messaging &amp; Automation</h4>
+                <p data-i18n="home.whatsapp-broadcasts-and-an-automated">WhatsApp broadcasts and an automated registration pipeline</p>
+                <a href="assets/img/projects/msg-ui1-light.jpg" title="Student Messaging &amp; Automation" data-gallery="portfolio-gallery" class="glightbox preview-link" data-i18n-attr="title:home.student-messaging-automation"><i class="bi bi-zoom-in"></i></a>
+                <a href="project-student-messaging.html" title="Project details" class="details-link" data-i18n-attr="title:home.project-details"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
               <a href="project-multisite-website.html" class="pf-open">
-                <img src="assets/img/projects/multi-ui1-light.jpg" class="img-fluid img-light" alt="Foundation Multisite Website" loading="lazy">
-                <img src="assets/img/projects/multi-ui1-dark.jpg" class="img-fluid img-dark" alt="Foundation Multisite Website, dark mode" loading="lazy">
+                <img src="assets/img/projects/multi-ui1-light.jpg" class="img-fluid img-light" alt="Foundation Multisite Website" loading="lazy" data-i18n-attr="alt:home.foundation-multisite-website">
+                <img src="assets/img/projects/multi-ui1-dark.jpg" class="img-fluid img-dark" alt="Foundation Multisite Website, dark mode" loading="lazy" data-i18n-attr="alt:home.foundation-multisite-website-dark-mode">
               </a>
               <div class="portfolio-info">
-                <h4>Foundation Multisite Website</h4>
-                <p>Custom WordPress theme for a six-site network</p>
-                <a href="assets/img/projects/multi-ui1-light.jpg" title="Foundation Multisite Website" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="project-multisite-website.html" title="Project details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4 data-i18n="home.foundation-multisite-website">Foundation Multisite Website</h4>
+                <p data-i18n="home.custom-wordpress-theme-for-a">Custom WordPress theme for a six-site network</p>
+                <a href="assets/img/projects/multi-ui1-light.jpg" title="Foundation Multisite Website" data-gallery="portfolio-gallery" class="glightbox preview-link" data-i18n-attr="title:home.foundation-multisite-website"><i class="bi bi-zoom-in"></i></a>
+                <a href="project-multisite-website.html" title="Project details" class="details-link" data-i18n-attr="title:home.project-details"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -696,8 +710,8 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="content px-xl-5">
-              <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
-              <p>
+              <h3><span data-i18n="home.frequently-asked">Frequently Asked </span><strong data-i18n="home.questions">Questions</strong></h3>
+              <p data-i18n="home.answers-to-the-questions-we">
                 Answers to the questions we hear most often. If yours is not here, send us a message and we will reply.
               </p>
             </div>
@@ -707,49 +721,49 @@
 
             <div class="faq-container">
               <div class="faq-item faq-active">
-                <h3><span class="num">1.</span> <span>What kind of projects do you take on?</span></h3>
+                <h3><span class="num">1.</span> <span data-i18n="home.what-kind-of-projects-do">What kind of projects do you take on?</span></h3>
                 <div class="faq-content">
-                  <p>Websites, school and business systems (ERP), AI chatbots and automation. We take a project from the first idea to launch, and we keep supporting it after that.</p>
+                  <p data-i18n="home.websites-school-and-business-systems">Websites, school and business systems (ERP), AI chatbots and automation. We take a project from the first idea to launch, and we keep supporting it after that.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3><span class="num">2.</span> <span>Do your systems support Dari and Pashto?</span></h3>
+                <h3><span class="num">2.</span> <span data-i18n="home.do-your-systems-support-dari">Do your systems support Dari and Pashto?</span></h3>
                 <div class="faq-content">
-                  <p>Yes. Our systems work in Dari, Pashto and English, with right-to-left layouts and Solar Hijri dates where they are needed.</p>
+                  <p data-i18n="home.yes-our-systems-work-in">Yes. Our systems work in Dari, Pashto and English, with right-to-left layouts and Solar Hijri dates where they are needed.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3><span class="num">3.</span> <span>Can the system keep working when the internet is down?</span></h3>
+                <h3><span class="num">3.</span> <span data-i18n="home.can-the-system-keep-working">Can the system keep working when the internet is down?</span></h3>
                 <div class="faq-content">
-                  <p>Yes. Our school ERP runs on the local network and keeps working offline, with automatic backups so no data is lost.</p>
+                  <p data-i18n="home.yes-our-school-erp-runs">Yes. Our school ERP runs on the local network and keeps working offline, with automatic backups so no data is lost.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3><span class="num">4.</span> <span>How long does a project take?</span></h3>
+                <h3><span class="num">4.</span> <span data-i18n="home.how-long-does-a-project">How long does a project take?</span></h3>
                 <div class="faq-content">
-                  <p>A simple website usually takes a few weeks. Larger systems are built in phases, so you see working parts early and can give feedback as we go.</p>
+                  <p data-i18n="home.a-simple-website-usually-takes">A simple website usually takes a few weeks. Larger systems are built in phases, so you see working parts early and can give feedback as we go.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3><span class="num">5.</span> <span>Do you provide support after launch?</span></h3>
+                <h3><span class="num">5.</span> <span data-i18n="home.do-you-provide-support-after">Do you provide support after launch?</span></h3>
                 <div class="faq-content">
-                  <p>Yes. We offer hosting, updates, backups and monitoring, and we fix problems quickly when something needs attention.</p>
+                  <p data-i18n="home.yes-we-offer-hosting-updates">Yes. We offer hosting, updates, backups and monitoring, and we fix problems quickly when something needs attention.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3><span class="num">6.</span> <span>Can you add AI to a system we already use?</span></h3>
+                <h3><span class="num">6.</span> <span data-i18n="home.can-you-add-ai-to">Can you add AI to a system we already use?</span></h3>
                 <div class="faq-content">
-                  <p>Yes. We can add a chatbot or a data assistant that answers questions from your own data, in your users’ languages, on the web, WhatsApp or Telegram.</p>
+                  <p data-i18n="home.yes-we-can-add-a">Yes. We can add a chatbot or a data assistant that answers questions from your own data, in your users’ languages, on the web, WhatsApp or Telegram.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -769,14 +783,14 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Our Team</h2>
-        <p>The people behind Shams Technology Team</p>
+        <h2 data-i18n="home.our-team">Our Team</h2>
+        <p data-i18n="home.the-people-behind-shams-technology">The people behind Shams Technology Team</p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
         <!-- Leadership: organisation structure -->
-        <p class="team-group" data-aos="fade-up">Leadership</p>
+        <p class="team-group" data-aos="fade-up" data-i18n="home.leadership">Leadership</p>
         <div class="org">
 
           <!-- Top: CEO -->
@@ -784,13 +798,13 @@
             <div class="member lead ceo">
               <div class="member-img">
                 <span class="initials">SH</span>
-                <img src="assets/img/team/shams-haqyar.jpg" alt="Shams Haqyar" onerror="this.remove()">
+                <img src="assets/img/team/shams-haqyar.jpg" alt="Shams Haqyar" onerror="this.remove()" data-i18n-attr="alt:home.shams-haqyar">
                 <div class="overlay">
-                  <h4>Shams Haqyar</h4>
-                  <span>Co-Founder &amp; CEO</span>
+                  <h4 data-i18n="home.shams-haqyar">Shams Haqyar</h4>
+                  <span data-i18n="home.co-founder-ceo">Co-Founder &amp; CEO</span>
                 </div>
               </div>
-              <p class="bio">Software engineer and AI specialist with more than 7 years of experience in software, AI systems, EdTech and HR technology. He leads the team's systems, ERPs and AI solutions.</p>
+              <p class="bio" data-i18n="home.software-engineer-and-ai-specialist">Software engineer and AI specialist with more than 7 years of experience in software, AI systems, EdTech and HR technology. He leads the team's systems, ERPs and AI solutions.</p>
             </div>
           </div>
 
@@ -800,44 +814,44 @@
             <div class="member lead" data-aos="fade-up" data-aos-delay="150">
               <div class="member-img">
                 <span class="initials">NZ</span>
-                <img src="assets/img/team/nooman-zadran.jpg" alt="Nooman Zadran" onerror="this.remove()">
+                <img src="assets/img/team/nooman-zadran.jpg" alt="Nooman Zadran" onerror="this.remove()" data-i18n-attr="alt:home.nooman-zadran">
                 <div class="overlay">
-                  <h4>Nooman Zadran</h4>
-                  <span>Co-Founder &amp; CTO</span>
+                  <h4 data-i18n="home.nooman-zadran">Nooman Zadran</h4>
+                  <span data-i18n="home.co-founder-cto">Co-Founder &amp; CTO</span>
                 </div>
               </div>
-              <p class="bio">M.Sc. in Network Security and B.Sc. in Computer Science (Gujarat University, India). Experience in web development at TOPS Technologies and in AI data, OCR and machine learning at Shaip.AI. He leads our technology and security.</p>
+              <p class="bio" data-i18n="home.m-sc-in-network-security">M.Sc. in Network Security and B.Sc. in Computer Science (Gujarat University, India). Experience in web development at TOPS Technologies and in AI data, OCR and machine learning at Shaip.AI. He leads our technology and security.</p>
             </div>
 
             <div class="member lead" data-aos="fade-up" data-aos-delay="250">
               <div class="member-img">
                 <span class="initials">HF</span>
-                <img src="assets/img/team/habibullah-farahmand.jpg" alt="Habibullah Farahmand" onerror="this.remove()">
+                <img src="assets/img/team/habibullah-farahmand.jpg" alt="Habibullah Farahmand" onerror="this.remove()" data-i18n-attr="alt:home.habibullah-farahmand">
                 <div class="overlay">
-                  <h4>Habibullah Farahmand</h4>
-                  <span>Co-Founder &amp; COO</span>
+                  <h4 data-i18n="home.habibullah-farahmand">Habibullah Farahmand</h4>
+                  <span data-i18n="home.co-founder-coo">Co-Founder &amp; COO</span>
                 </div>
               </div>
-              <p class="bio">Bachelor's in Computer Science (Government College University, Lahore). Works in data management, automation, web development and AI-powered solutions, and runs the team's projects and operations.</p>
+              <p class="bio" data-i18n="home.bachelors-in-computer-science-government">Bachelor's in Computer Science (Government College University, Lahore). Works in data management, automation, web development and AI-powered solutions, and runs the team's projects and operations.</p>
             </div>
 
           </div>
         </div>
 
         <!-- Team members -->
-        <p class="team-group" data-aos="fade-up">Team</p>
+        <p class="team-group" data-aos="fade-up" data-i18n="home.team">Team</p>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 gy-4 justify-content-center team-grid">
 
           <div class="col" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img">
                 <span class="initials">NA</span>
-                <img src="assets/img/team/nasib-alizada.jpg" alt="Nasib Alizada" onerror="this.remove()">
+                <img src="assets/img/team/nasib-alizada.jpg" alt="Nasib Alizada" onerror="this.remove()" data-i18n-attr="alt:home.nasib-alizada">
               </div>
               <div class="member-info">
-                <h4>Nasib Alizada</h4>
-                <span>Database Developer</span>
-                <p>Master's in Computer Science (Russia). Has worked with national and international NGOs as a data collector, M&amp;E and IT officer, and database developer.</p>
+                <h4 data-i18n="home.nasib-alizada">Nasib Alizada</h4>
+                <span data-i18n="home.database-developer">Database Developer</span>
+                <p data-i18n="home.masters-in-computer-science-russia">Master's in Computer Science (Russia). Has worked with national and international NGOs as a data collector, M&amp;E and IT officer, and database developer.</p>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -846,12 +860,12 @@
             <div class="member">
               <div class="member-img">
                 <span class="initials">NB</span>
-                <img src="assets/img/team/najib-behzad.jpg" alt="Najib Behzad" onerror="this.remove()">
+                <img src="assets/img/team/najib-behzad.jpg" alt="Najib Behzad" onerror="this.remove()" data-i18n-attr="alt:home.najib-behzad">
               </div>
               <div class="member-info">
-                <h4>Najib Behzad</h4>
-                <span>Marketing Lead</span>
-                <p>Computer Science graduate who has worked with several companies and NGOs. He leads marketing and brings our systems to schools and organisations.</p>
+                <h4 data-i18n="home.najib-behzad">Najib Behzad</h4>
+                <span data-i18n="home.marketing-lead">Marketing Lead</span>
+                <p data-i18n="home.computer-science-graduate-who-has">Computer Science graduate who has worked with several companies and NGOs. He leads marketing and brings our systems to schools and organisations.</p>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -860,12 +874,12 @@
             <div class="member">
               <div class="member-img">
                 <span class="initials">AS</span>
-                <img src="assets/img/team/aziz-shiekh.jpg" alt="Aziz Shiekh" onerror="this.remove()">
+                <img src="assets/img/team/aziz-shiekh.jpg" alt="Aziz Shiekh" onerror="this.remove()" data-i18n-attr="alt:home.aziz-shiekh">
               </div>
               <div class="member-info">
-                <h4>Aziz Shiekh</h4>
-                <span>Full Stack Developer</span>
-                <p>Master's in Computer Science (India). Has worked with many international NGOs and companies; works with the team from Germany.</p>
+                <h4 data-i18n="home.aziz-shiekh">Aziz Shiekh</h4>
+                <span data-i18n="home.full-stack-developer">Full Stack Developer</span>
+                <p data-i18n="home.masters-in-computer-science-india">Master's in Computer Science (India). Has worked with many international NGOs and companies; works with the team from Germany.</p>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -874,12 +888,12 @@
             <div class="member">
               <div class="member-img">
                 <span class="initials">AS</span>
-                <img src="assets/img/team/ahmad-waris-sakha.jpg" alt="Ahmad Waris Sakha" onerror="this.remove()">
+                <img src="assets/img/team/ahmad-waris-sakha.jpg" alt="Ahmad Waris Sakha" onerror="this.remove()" data-i18n-attr="alt:home.ahmad-waris-sakha">
               </div>
               <div class="member-info">
-                <h4>Ahmad Waris Sakha</h4>
-                <span>Frontend Developer</span>
-                <p>M.Sc. IT in Network Security and Bachelor's in Computer Engineering (Gujarat University, India). Network Engineer with a background in IT support and security; builds the interfaces of our websites and systems.</p>
+                <h4 data-i18n="home.ahmad-waris-sakha">Ahmad Waris Sakha</h4>
+                <span data-i18n="home.frontend-developer">Frontend Developer</span>
+                <p data-i18n="home.m-sc-it-in-network">M.Sc. IT in Network Security and Bachelor's in Computer Engineering (Gujarat University, India). Network Engineer with a background in IT support and security; builds the interfaces of our websites and systems.</p>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -888,12 +902,12 @@
             <div class="member">
               <div class="member-img">
                 <span class="initials">SM</span>
-                <img src="assets/img/team/shafiullah-muslimyar.jpg" alt="Shafiullah Muslimyar" onerror="this.remove()">
+                <img src="assets/img/team/shafiullah-muslimyar.jpg" alt="Shafiullah Muslimyar" onerror="this.remove()" data-i18n-attr="alt:home.shafiullah-muslimyar">
               </div>
               <div class="member-info">
-                <h4>Shafiullah Muslimyar</h4>
-                <span>Sales Officer</span>
-                <p>Bachelor's degree (Kabul). Has worked with several companies and brings strong experience in sales and communication.</p>
+                <h4 data-i18n="home.shafiullah-muslimyar">Shafiullah Muslimyar</h4>
+                <span data-i18n="home.sales-officer">Sales Officer</span>
+                <p data-i18n="home.bachelors-degree-kabul-has-worked">Bachelor's degree (Kabul). Has worked with several companies and brings strong experience in sales and communication.</p>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -902,12 +916,12 @@
             <div class="member">
               <div class="member-img">
                 <span class="initials">SK</span>
-                <img src="assets/img/team/somaya-karimi.jpg" alt="Somaya Karimi" onerror="this.remove()">
+                <img src="assets/img/team/somaya-karimi.jpg" alt="Somaya Karimi" onerror="this.remove()" data-i18n-attr="alt:home.somaya-karimi">
               </div>
               <div class="member-info">
-                <h4>Somaya Karimi</h4>
-                <span>Graphic Designer</span>
-                <p>Bachelor's in Computer Science (Bangladesh). Has worked with many companies; works with the team from Bangladesh.</p>
+                <h4 data-i18n="home.somaya-karimi">Somaya Karimi</h4>
+                <span data-i18n="home.graphic-designer">Graphic Designer</span>
+                <p data-i18n="home.bachelors-in-computer-science-bangladesh">Bachelor's in Computer Science (Bangladesh). Has worked with many companies; works with the team from Bangladesh.</p>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -926,9 +940,9 @@
         <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-xl-10">
             <div class="text-center">
-              <h3>Have a project in mind?</h3>
-              <p>Tell us what you need. We will reply with a clear plan, a timeline and the cost.</p>
-              <a class="cta-btn" href="#contact">Get in touch</a>
+              <h3 data-i18n="home.have-a-project-in-mind">Have a project in mind?</h3>
+              <p data-i18n="home.tell-us-what-you-need">Tell us what you need. We will reply with a clear plan, a timeline and the cost.</p>
+              <a class="cta-btn" href="#contact" data-i18n="home.get-in-touch">Get in touch</a>
             </div>
           </div>
         </div>
@@ -943,8 +957,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Tell us about your project and we will get back to you</p>
+        <h2 data-i18n="home.contact">Contact</h2>
+        <p data-i18n="home.tell-us-about-your-project">Tell us about your project and we will get back to you</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -957,25 +971,25 @@
               <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="200">
                   <i class="bi bi-geo-alt"></i>
-                  <h3>Location &amp; Hours</h3>
-                  <p>Kabul, Afghanistan</p>
-                  <p>Open 24/7 · Hybrid (office and remote)</p>
+                  <h3 data-i18n="home.location-hours">Location &amp; Hours</h3>
+                  <p data-i18n="home.kabul-afghanistan">Kabul, Afghanistan</p>
+                  <p data-i18n="home.open-24-7-hybrid-office">Open 24/7 · Hybrid (office and remote)</p>
                 </div>
               </div><!-- End Info Item -->
 
               <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="300">
                   <i class="bi bi-whatsapp"></i>
-                  <h3>Call or WhatsApp</h3>
+                  <h3 data-i18n="home.call-or-whatsapp">Call or WhatsApp</h3>
                   <p><a href="tel:+93799781780">+93 799 781 780</a></p>
-                  <p><a href="https://wa.me/93799781780" target="_blank" rel="noopener">Chat on WhatsApp</a></p>
+                  <p><a href="https://wa.me/93799781780" target="_blank" rel="noopener" data-i18n="home.chat-on-whatsapp">Chat on WhatsApp</a></p>
                 </div>
               </div><!-- End Info Item -->
 
               <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="400">
                   <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
+                  <h3 data-i18n="home.email-us">Email Us</h3>
                   <p><a href="mailto:shams.technology.team@gmail.com">shams.technology.team@gmail.com</a></p>
                 </div>
               </div><!-- End Info Item -->
@@ -983,7 +997,7 @@
               <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="500">
                   <i class="bi bi-share"></i>
-                  <h3>Follow Us</h3>
+                  <h3 data-i18n="home.follow-us">Follow Us</h3>
                   <div class="contact-social">
                     <a href="https://www.facebook.com/share/1PkvLTYsu2/" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
                     <a href="https://www.instagram.com/shamstechnologyteam" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
@@ -1001,30 +1015,30 @@
               <div class="row gy-4">
 
                 <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required data-i18n-attr="placeholder:home.your-name">
                 </div>
 
                 <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required data-i18n-attr="placeholder:home.your-email">
                 </div>
 
                 <div class="col-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject (for example: School ERP demo)">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject (for example: School ERP demo)" data-i18n-attr="placeholder:home.subject-for-example-school-erp">
                 </div>
 
                 <div class="col-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Tell us what you need" required></textarea>
+                  <textarea class="form-control" name="message" rows="6" placeholder="Tell us what you need" required data-i18n-attr="placeholder:home.tell-us-what-you-need-2"></textarea>
                 </div>
 
                 <input type="text" name="_honey" class="d-none" tabindex="-1" autocomplete="off">
 
                 <div class="col-12 text-center form-actions">
-                  <div class="loading">Sending your message…</div>
+                  <div class="loading" data-i18n="home.sending-your-message">Sending your message…</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Thank you! Your message has been sent. We will reply soon.</div>
+                  <div class="sent-message" data-i18n="home.thank-you-your-message-has">Thank you! Your message has been sent. We will reply soon.</div>
 
-                  <button type="submit"><i class="bi bi-send"></i> Send message</button>
-                  <button type="button" id="sendWhatsApp" class="btn-alt"><i class="bi bi-whatsapp"></i> Send on WhatsApp</button>
+                  <button type="submit" data-i18n="home.send-message"><i class="bi bi-send"></i> Send message</button>
+                  <button type="button" id="sendWhatsApp" class="btn-alt" data-i18n="home.send-on-whatsapp"><i class="bi bi-whatsapp"></i> Send on WhatsApp</button>
                 </div>
 
               </div>
@@ -1048,7 +1062,7 @@
             <img src="assets/img/logo-mark.png" alt="" class="logo-mark" width="44" height="44">
             <span class="sitename">Shams Technology Team</span>
           </a>
-          <p>A Kabul-based team building software, systems and AI for schools, universities, businesses and organisations, in Dari, Pashto and English.</p>
+          <p data-i18n="common.a-kabul-based-team-building">A Kabul-based team building software, systems and AI for schools, universities, businesses and organisations, in Dari, Pashto and English.</p>
           <div class="social-links d-flex mt-4">
             <a href="https://www.facebook.com/share/1PkvLTYsu2/" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
             <a href="https://www.instagram.com/shamstechnologyteam" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
@@ -1058,41 +1072,41 @@
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
+          <h4 data-i18n="common.useful-links">Useful Links</h4>
           <ul>
-            <li><a href="index.html#hero">Home</a></li>
-            <li><a href="index.html#about">About us</a></li>
-            <li><a href="index.html#services">Services</a></li>
-            <li><a href="index.html#portfolio">Portfolio</a></li>
-            <li><a href="index.html#team">Team</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="index.html#hero" data-i18n="common.home">Home</a></li>
+            <li><a href="index.html#about" data-i18n="common.about-us">About us</a></li>
+            <li><a href="index.html#services" data-i18n="common.services">Services</a></li>
+            <li><a href="index.html#portfolio" data-i18n="common.portfolio">Portfolio</a></li>
+            <li><a href="index.html#team" data-i18n="common.team">Team</a></li>
+            <li><a href="index.html#contact" data-i18n="common.contact">Contact</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
+          <h4 data-i18n="common.our-services">Our Services</h4>
           <ul>
-            <li><a href="project-erp.html">ERP &amp; school systems</a></li>
-            <li><a href="project-university-assistant.html">AI chatbots</a></li>
-            <li><a href="project-education-platform.html">E-learning platforms</a></li>
-            <li><a href="project-marketplace.html">Websites &amp; e-commerce</a></li>
-            <li><a href="project-student-messaging.html">Automation</a></li>
+            <li><a href="project-erp.html" data-i18n="common.erp-school-systems">ERP &amp; school systems</a></li>
+            <li><a href="project-university-assistant.html" data-i18n="common.ai-chatbots">AI chatbots</a></li>
+            <li><a href="project-education-platform.html" data-i18n="common.e-learning-platforms">E-learning platforms</a></li>
+            <li><a href="project-marketplace.html" data-i18n="common.websites-e-commerce">Websites &amp; e-commerce</a></li>
+            <li><a href="project-student-messaging.html" data-i18n="common.automation">Automation</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contact Us</h4>
-          <p>Kabul, Afghanistan</p>
-          <p>Open 24/7 · Hybrid</p>
-          <p class="mt-4"><strong>Phone / WhatsApp:</strong> <span><a href="tel:+93799781780">+93 799 781 780</a></span></p>
-          <p><strong>Email:</strong> <span><a href="mailto:shams.technology.team@gmail.com">shams.technology.team@gmail.com</a></span></p>
+          <h4 data-i18n="common.contact-us">Contact Us</h4>
+          <p data-i18n="common.kabul-afghanistan">Kabul, Afghanistan</p>
+          <p data-i18n="common.open-24-7-hybrid">Open 24/7 · Hybrid</p>
+          <p class="mt-4"><strong data-i18n="common.phone-whatsapp">Phone / WhatsApp:</strong> <span><a href="tel:+93799781780">+93 799 781 780</a></span></p>
+          <p><strong data-i18n="common.email">Email:</strong> <span><a href="mailto:shams.technology.team@gmail.com">shams.technology.team@gmail.com</a></span></p>
         </div>
 
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>2026</span> <a href="index.html"><strong class="sitename">Shams Technology Team</strong></a>. <span>All Rights Reserved.</span></p>
+      <p>© <span>2026</span> <a href="index.html"><strong class="sitename" data-i18n="common.shams-technology-team">Shams Technology Team</strong></a>. <span data-i18n="common.all-rights-reserved">All Rights Reserved.</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->

@@ -1,0 +1,563 @@
+/**
+ * Right-to-left styles for Dari (fa-AF) and Pashto (ps-AF).
+ * Every rule here is scoped to [dir="rtl"], so the English (left-to-right) site is never affected.
+ *
+ * Part 1 (hand-written): fonts, the language switcher, icons, numbers and mixed-direction text.
+ * Part 2 (generated):    mirror images of the left/right rules in main.css and featured.css
+ *                        (margins, paddings, borders, positions, alignment). If you change a
+ *                        left/right value in main.css, change the matching rule in part 2 too.
+ */
+
+/* ========== Language switcher (shown in every language) ========== */
+.lang-switch .lang-toggle {
+  height: 40px; padding: 0 14px; border-radius: 20px; gap: 7px;
+  border: 1px solid var(--line); background: var(--surface-color); color: var(--heading-color);
+  display: inline-flex; align-items: center; cursor: pointer; font-size: 14px; font-weight: 600;
+  transition: border-color .2s, color .2s;
+}
+.lang-switch .lang-toggle:hover, .lang-switch .lang-toggle[aria-expanded="true"] { border-color: var(--accent-color); color: var(--accent-color); }
+.lang-switch .lang-toggle .bi { color: var(--accent-color); font-size: 16px; line-height: 1; }
+.lang-switch .lang-current:lang(fa-AF), .lang-switch .lang-current:lang(ps-AF),
+.lang-switch .dropdown-item[dir="rtl"] { font-family: "Vazirmatn", Tahoma, sans-serif; }
+.lang-switch .dropdown-menu {
+  min-width: 150px; padding: 6px; border-radius: 12px; border: 1px solid var(--line);
+  background: var(--surface-color); box-shadow: 0 12px 30px rgba(3, 20, 55, .14);
+}
+.lang-switch .dropdown-item {
+  border-radius: 8px; padding: 9px 12px; font-size: 15px; color: var(--default-color); text-align: start;
+}
+.lang-switch .dropdown-item:hover, .lang-switch .dropdown-item:focus { background: var(--lapis-soft, #E6EBF9); color: var(--accent-color); }
+.lang-switch .dropdown-item.active, .lang-switch .dropdown-item:active { background: var(--accent-color); color: #fff; }
+:root[data-theme="dark"] .lang-switch .dropdown-item:hover { background: rgba(77, 163, 255, .12); }
+:root[data-theme="dark"] .lang-switch .dropdown-item.active { color: #0A0B0F; }
+/* Phones: a round icon button like the dark/light button, so the header keeps its original layout */
+@media (max-width: 575px) {
+  .lang-switch .lang-toggle { width: 40px; padding: 0; justify-content: center; border-radius: 50%; }
+  .lang-switch .lang-current { display: none; }
+}
+
+/* ========== Fonts and typography for Dari / Pashto ========== */
+html[dir="rtl"] {
+  --default-font: "Vazirmatn", Tahoma, sans-serif;
+  --heading-font: "Vazirmatn", Tahoma, sans-serif;
+  --nav-font: "Vazirmatn", Tahoma, sans-serif;
+}
+html[dir="rtl"] body { line-height: 1.8; }
+/* Arabic-script letters must join: no extra letter spacing, no italics */
+html[dir="rtl"] body *:not(.sitename):not(.logo-sub) { letter-spacing: normal !important; }
+html[dir="rtl"] body :is(em, i, cite, blockquote):not(.bi):not([class*="devicon"]) { font-style: normal; }
+/* Taller lines so dots and marks above/below letters are not cut off */
+html[dir="rtl"] :is(h1, h2, h3, h4, h5, h6) { line-height: 1.5; }
+html[dir="rtl"] .hero-wave h1 { line-height: 1.35; font-weight: 800; }
+html[dir="rtl"] #stats .stats-item .num { line-height: 1.25; }
+
+/* The logo stays exactly as in English (brand mark) */
+html[dir="rtl"] .logo { direction: ltr; }
+html[dir="rtl"] .logo .sitename { font-family: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif; }
+html[dir="rtl"] .logo .logo-sub { font-family: "Instrument Sans", system-ui, sans-serif; }
+
+/* ========== Mixed-direction content ========== */
+/* Phone numbers and e-mail addresses always read left-to-right */
+html[dir="rtl"] a[href^="tel:"], html[dir="rtl"] a[href^="mailto:"] { direction: ltr; unicode-bidi: isolate; display: inline-block; }
+/* Form fields: text typed by visitors follows its own direction; e-mail is always left-to-right */
+html[dir="rtl"] .php-email-form .form-control { text-align: start; }
+html[dir="rtl"] .php-email-form input[type="email"] { direction: ltr; text-align: right; }
+html[dir="rtl"] .php-email-form input[type="email"]:placeholder-shown { direction: rtl; }
+html[dir="rtl"] .contact .form-actions button i { margin-right: 0; margin-left: 6px; }
+
+/* ========== Direction-dependent icons ========== */
+/* Arrows and chevrons that mean "forward" point left in RTL. (Social, check and other icons are not mirrored.) */
+html[dir="rtl"] :is(.bi-arrow-right, .bi-arrow-left, .bi-chevron-right, .bi-chevron-left, .bi-arrow-right-short, .bi-arrow-left-short)::before {
+  display: inline-block; transform: scaleX(-1);
+}
+
+/* ========== Small fixes the automatic mirroring cannot know about ========== */
+/* Progress bars in the dashboard mock-up fill from the right */
+html[dir="rtl"] #features .mk-bar i { background: linear-gradient(270deg, var(--accent-color), #F59E1B); }
+/* Numbers in the stats bar: digits then the "thousand/million" word */
+html[dir="rtl"] #stats .stats-item .num b { margin-inline-start: .15em; font-size: .6em; }
+
+
+/* ==================== Part 2: generated mirror rules ==================== */
+
+/* ---- mirrored from main.css ---- */
+
+[dir="rtl"] .theme-toggle:hover {
+  transform: rotate(12deg);
+}
+
+@media (max-width: 1200px) {
+  [dir="rtl"] .header .actions {
+    margin-left: 12px;
+    margin-right: 0;
+  }
+}
+
+[dir="rtl"] .header .logo:hover img.logo-mark {
+  transform: scale(1.06) rotate(4deg);
+}
+
+[dir="rtl"] .hero-wave .explore-link:hover .arrow-box {
+  transform: translateX(-4px);
+}
+
+[dir="rtl"] #team .org-top::after {
+  right: 50%;
+  transform: translateX(50%);
+  left: auto;
+}
+
+[dir="rtl"] #team .org-bottom > .member::before {
+  right: 50%;
+  transform: translateX(50%);
+  left: auto;
+}
+
+[dir="rtl"] #team .member {
+  text-align: right;
+}
+
+[dir="rtl"] #team .member .member-info {
+  text-align: right;
+}
+
+[dir="rtl"] #services .service-item .icon {
+  margin-left: 34px;
+  margin-right: 0;
+}
+
+[dir="rtl"] #stats .stats-item {
+  padding: 6px 22px 6px 0;
+  border-right: 3px solid #F59E1B;
+  text-align: right;
+  border-left: 0;
+}
+
+[dir="rtl"] .php-email-form .error-message {
+  text-align: right;
+}
+
+[dir="rtl"] .php-email-form .loading:before {
+  margin: 0 0 -6px 10px;
+}
+
+[dir="rtl"] .header .logo img {
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+[dir="rtl"] .header .logo span {
+  padding-right: 3px;
+  padding-left: 0;
+}
+
+@media (max-width: 1200px) {
+  [dir="rtl"] .header .btn-getstarted {
+    margin: 0 0 0 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  [dir="rtl"] .navmenu a i,
+  [dir="rtl"] .navmenu a:focus i {
+    margin-right: 5px;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  [dir="rtl"] .navmenu li:last-child a {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  [dir="rtl"] .navmenu .dropdown ul {
+    right: 14px;
+    left: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  [dir="rtl"] .navmenu .dropdown .dropdown ul {
+    right: -90%;
+    left: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  [dir="rtl"] .navmenu .dropdown .dropdown:hover>ul {
+    right: -100%;
+    left: auto;
+  }
+}
+
+@media (max-width: 1199px) {
+  [dir="rtl"] .mobile-nav-toggle {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  [dir="rtl"] .navmenu a i,
+  [dir="rtl"] .navmenu a:focus i {
+    margin-right: 5px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  [dir="rtl"] .navmenu .active i,
+  [dir="rtl"] .navmenu .active:focus i {
+    transform: rotate(-180deg);
+  }
+}
+
+@media (max-width: 1199px) {
+  [dir="rtl"] .mobile-nav-active .mobile-nav-toggle {
+    left: 15px;
+    margin-left: 0;
+    right: auto;
+    margin-right: 0;
+  }
+}
+
+[dir="rtl"] .footer .footer-about .logo img {
+  margin-left: 6px;
+  margin-right: 0;
+}
+
+[dir="rtl"] .footer .social-links a {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+[dir="rtl"] .footer .footer-links ul i {
+  padding-left: 2px;
+  padding-right: 0;
+}
+
+[dir="rtl"] #preloader:before {
+  right: calc(50% - 30px);
+  left: auto;
+}
+
+[dir="rtl"] .scroll-top {
+  left: 15px;
+  right: auto;
+}
+
+[dir="rtl"] .page-title nav ol li+li {
+  padding-right: 10px;
+  padding-left: 0;
+}
+
+[dir="rtl"] .page-title nav ol li+li::before {
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+[dir="rtl"] .section-title h2:before {
+  margin: 0 0 10px 15px;
+}
+
+[dir="rtl"] .section-title h2:after {
+  margin: 0 15px 10px 0;
+}
+
+[dir="rtl"] .about .content .read-more i {
+  margin-right: 5px;
+  margin-left: 0;
+}
+
+[dir="rtl"] .about .content .read-more:hover {
+  padding-left: 19px;
+  padding-right: 0;
+}
+
+[dir="rtl"] .about .content .read-more:hover i {
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+[dir="rtl"] .services .service-item::after {
+  right: 0;
+  border-left: 5px solid var(--background-color);
+  left: auto;
+  border-right: 0;
+}
+
+[dir="rtl"] .services .service-item .icon {
+  margin-left: 50px;
+  margin-right: 0;
+}
+
+[dir="rtl"] .services .service-item .icon:before {
+  left: -15px;
+  right: auto;
+}
+
+[dir="rtl"] .features .features-item ul i {
+  padding-left: 4px;
+  padding-right: 0;
+}
+
+[dir="rtl"] .portfolio .portfolio-filters li:first-child {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+[dir="rtl"] .portfolio .portfolio-filters li:last-child {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+[dir="rtl"] .portfolio .portfolio-item .portfolio-info h4 {
+  padding-left: 50px;
+  padding-right: 0;
+}
+
+[dir="rtl"] .portfolio .portfolio-item .portfolio-info p {
+  padding-left: 50px;
+  padding-right: 0;
+}
+
+[dir="rtl"] .portfolio .portfolio-item .portfolio-info .preview-link,
+[dir="rtl"] .portfolio .portfolio-item .portfolio-info .details-link {
+  left: 50px;
+  right: auto;
+}
+
+[dir="rtl"] .portfolio .portfolio-item .portfolio-info .details-link {
+  left: 14px;
+  right: auto;
+}
+
+[dir="rtl"] .pricing ul {
+  text-align: right;
+}
+
+[dir="rtl"] .pricing ul i {
+  padding-left: 3px;
+  padding-right: 0;
+}
+
+[dir="rtl"] .faq .faq-container .faq-item h3 {
+  margin: 0 0 0 30px;
+}
+
+[dir="rtl"] .faq .faq-container .faq-item h3 .num {
+  padding-left: 5px;
+  padding-right: 0;
+}
+
+[dir="rtl"] .faq .faq-container .faq-item .faq-toggle {
+  left: 20px;
+  right: auto;
+}
+
+[dir="rtl"] .faq .faq-container .faq-active .faq-toggle {
+  transform: rotate(-90deg);
+}
+
+[dir="rtl"] .call-to-action img {
+  right: 0;
+  left: auto;
+}
+
+[dir="rtl"] .testimonials .testimonial-item .testimonial-img {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+[dir="rtl"] .testimonials .testimonial-item .quote-icon-left {
+  right: -5px;
+  left: auto;
+}
+
+[dir="rtl"] .testimonials .testimonial-item .quote-icon-right {
+  left: -5px;
+  right: auto;
+}
+
+[dir="rtl"] .recent-posts .post-author-img {
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+[dir="rtl"] .portfolio-details .portfolio-info h3:after {
+  right: 0;
+  left: auto;
+}
+
+[dir="rtl"] .portfolio-details .portfolio-description .testimonial-item .testimonial-img {
+  float: right;
+  margin: 0 0 0 10px;
+}
+
+[dir="rtl"] .portfolio-details .portfolio-description .testimonial-item .quote-icon-left {
+  right: -5px;
+  left: auto;
+}
+
+[dir="rtl"] .portfolio-details .portfolio-description .testimonial-item .quote-icon-right {
+  left: -5px;
+  right: auto;
+}
+
+[dir="rtl"] .service-details .services-list a i {
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+[dir="rtl"] .service-details .download-catalog a i {
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+[dir="rtl"] .service-details ul i {
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+[dir="rtl"] .blog-posts .post-author-img {
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+[dir="rtl"] .blog-details .content blockquote:after {
+  right: 0;
+  left: auto;
+}
+
+[dir="rtl"] .blog-details .meta-top ul li+li {
+  padding-right: 20px;
+  padding-left: 0;
+}
+
+[dir="rtl"] .blog-details .meta-top i {
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+[dir="rtl"] .blog-details .meta-bottom .cats {
+  padding: 0 0 0 20px;
+}
+
+[dir="rtl"] .blog-details .meta-bottom .tags li+li::before {
+  padding-left: 6px;
+  padding-right: 0;
+}
+
+[dir="rtl"] .blog-details .meta-bottom .share i {
+  padding-right: 5px;
+  padding-left: 0;
+}
+
+[dir="rtl"] .blog-author img {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+[dir="rtl"] .blog-author .social-links {
+  margin: 0 0 10px 10px;
+}
+
+[dir="rtl"] .blog-author .social-links a {
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+[dir="rtl"] .blog-comments .comment .comment-img {
+  margin-left: 14px;
+  margin-right: 0;
+}
+
+[dir="rtl"] .blog-comments .comment h5 .reply {
+  padding-right: 10px;
+  padding-left: 0;
+}
+
+[dir="rtl"] .blog-comments .comment.comment-reply {
+  padding-right: 40px;
+  padding-left: 0;
+}
+
+[dir="rtl"] .search-widget form button {
+  left: 0;
+  border-radius: 4px 0 0 4px;
+  right: auto;
+}
+
+[dir="rtl"] .categories-widget ul a span {
+  padding-right: 5px;
+  padding-left: 0;
+}
+
+[dir="rtl"] .recent-posts-widget .post-item img {
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+[dir="rtl"] .tags-widget ul a {
+  margin: 0 0 8px 6px;
+}
+
+[dir="rtl"] .tags-widget ul a span {
+  padding-right: 5px;
+  padding-left: 0;
+}
+
+/* ---- mirrored from featured.css ---- */
+
+[dir="rtl"] #features .work-shot .bar span {
+  margin-right: 8px;
+  margin-left: 0;
+}
+
+[dir="rtl"] #features .mk-list li b {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+[dir="rtl"] #features .mk-bar i {
+  right: 0;
+  left: auto;
+}
+
+[dir="rtl"] #features .mk-sites div {
+  border-right: 3px solid #1F8A5B;
+  border-left: 0;
+}
+
+[dir="rtl"] #features .mk-sites div:has(.off) {
+  border-right-color: var(--line);
+}
+
+[dir="rtl"] #features .mk-sites b {
+  padding-left: 46px;
+  padding-right: 0;
+}
+
+[dir="rtl"] #features .mk-sites span {
+  left: 10px;
+  right: auto;
+}
+
+[dir="rtl"] #stats .stats-item {
+  border-right: 1px solid var(--line);
+  text-align: right;
+  border-left: 0;
+}
+
+[dir="rtl"] #stats .stats-item::before {
+  right: 24px;
+  left: auto;
+}
+
+[dir="rtl"] .contact .form-actions button i {
+  margin-left: 6px;
+  margin-right: 0;
+}

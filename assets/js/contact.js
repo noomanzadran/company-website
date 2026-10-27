@@ -17,6 +17,9 @@
   }
 
   function show(el, on) { if (el) el.classList.toggle('d-block', on); }
+  // Error text in the visitor's language (Dari/Pashto via assets/js/i18n.js; English otherwise)
+  var FAIL = 'Sorry, the message could not be sent. Please try again or contact us on WhatsApp.';
+  function failText() { return window.ShamsI18n ? window.ShamsI18n.t('common.form-send-failed', FAIL) : FAIL; }
   function value(name) { return (form.elements[name] && form.elements[name].value || '').trim(); }
 
   form.addEventListener('submit', function (e) {
@@ -44,13 +47,13 @@
         if (String(data.success) === 'true') { show(sent, true); form.reset(); }
         else {
           // e.g. the first message ever: FormSubmit asks us to activate the form by email
-          if (error) error.textContent = data.message || 'Sorry, the message could not be sent. Please try again or contact us on WhatsApp.';
+          if (error) error.textContent = data.message || failText();
           show(error, true);
         }
       })
       .catch(function () {
         show(loading, false); button.disabled = false;
-        if (error) error.textContent = 'Sorry, the message could not be sent. Please try again or contact us on WhatsApp.';
+        if (error) error.textContent = failText();
         show(error, true);
       });
   });
