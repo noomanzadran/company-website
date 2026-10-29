@@ -290,8 +290,171 @@
 .contact .info-item .contact-social i {
   font-size: 18px; margin: 0; line-height: 1; color: inherit;
 }
-/* Team members: smaller cards (3 per row) and a clearer job title */
-#team .team-grid { max-width: 880px; margin-left: auto; margin-right: auto; }
-#team .team-grid .member .member-info > span {
-  font-size: 14.5px; font-weight: 700; letter-spacing: .01em;
+/* ===== Team members: clean, no boxes — round photo, name, position (leadership unchanged) ===== */
+#team .team-grid { max-width: 1040px; margin-left: auto; margin-right: auto; --bs-gutter-y: 44px; }
+@media (min-width: 992px) {
+  #team .team-grid > .col { flex: 0 0 25%; max-width: 25%; }   /* 4 per row */
 }
+#team .team-grid .member,
+#team .team-grid .member:hover {
+  background: none; border: 0; box-shadow: none; transform: none;
+  padding: 0; text-align: center;
+}
+#team .team-grid .member .member-img {
+  width: 140px; height: 140px; aspect-ratio: auto; margin: 0 auto 16px;
+  border-radius: 50%; overflow: hidden;
+  border: 4px solid var(--background-color);
+  box-shadow: 0 0 0 2px #F59E1B, 0 16px 34px -14px rgba(3, 43, 105, .55);
+  transition: transform .35s ease, box-shadow .35s ease;
+}
+#team .team-grid .member:hover .member-img {
+  transform: translateY(-4px);
+  box-shadow: 0 0 0 2px var(--accent-color), 0 22px 40px -14px rgba(3, 43, 105, .6);
+}
+#team .team-grid .member .member-img::after { display: none; }
+#team .team-grid .member .member-img img { object-position: center 25%; }
+#team .team-grid .member .initials { font-size: 40px; }
+#team .team-grid .member .member-info { padding: 0; text-align: center; }
+#team .team-grid .member .member-info h4 { font-size: 17px; line-height: 1.3; margin: 0; }
+#team .team-grid .member .member-info h4::after { margin: 8px auto; }
+#team .team-grid .member .member-info > span {
+  font-size: 14px; font-weight: 700; line-height: 1.4; margin: 0; padding: 0 6px;
+}
+#team .team-grid .member .member-info p { display: none; }   /* bio hidden to keep it compact */
+[dir="rtl"] #team .team-grid .member,
+[dir="rtl"] #team .team-grid .member .member-info { text-align: center; }
+
+/* ===== Team members: biography popup ===== */
+#team .team-grid .member { cursor: pointer; }
+#team .team-grid .member:focus-visible { outline: 2px solid var(--accent-color); outline-offset: 8px; border-radius: 12px; }
+.team-modal {
+  position: fixed; inset: 0; z-index: 10000; display: grid; place-items: center; padding: 20px;
+  background: rgba(3, 12, 30, .6); backdrop-filter: blur(4px);
+  opacity: 0; transition: opacity .25s ease;
+}
+.team-modal.show { opacity: 1; }
+.team-modal-box {
+  position: relative; width: 100%; max-width: 440px; text-align: center;
+  background: var(--surface-color); color: var(--default-color);
+  border: 1px solid var(--line); border-radius: 22px; padding: 38px 30px 32px;
+  box-shadow: 0 40px 80px -30px rgba(0, 0, 0, .5);
+  transform: translateY(14px) scale(.98); transition: transform .25s ease;
+}
+.team-modal.show .team-modal-box { transform: none; }
+.team-modal-close {
+  position: absolute; top: 14px; right: 14px; width: 36px; height: 36px; border-radius: 50%;
+  border: 1px solid var(--line); background: transparent; color: var(--heading-color);
+  display: grid; place-items: center; font-size: 15px; cursor: pointer;
+}
+.team-modal-close:hover { background: var(--accent-color); border-color: var(--accent-color); color: #fff; }
+[dir="rtl"] .team-modal-close { right: auto; left: 14px; }
+.team-modal-photo {
+  width: 150px; height: 150px; margin: 0 auto 18px; border-radius: 50%; overflow: hidden;
+  border: 4px solid var(--surface-color); box-shadow: 0 0 0 2px #F59E1B;
+  background: linear-gradient(135deg, #4DC3FF, #1A5FD0 55%, #032B69);
+  display: grid; place-items: center; color: #fff; font-size: 42px; font-weight: 800;
+}
+.team-modal-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
+.team-modal-name { font-size: 22px; font-weight: 700; color: var(--heading-color); margin: 0; }
+.team-modal-name::after {
+  content: ""; display: block; width: 28px; height: 3px; border-radius: 2px; background: #F59E1B; margin: 10px auto;
+}
+.team-modal-role { display: block; font-weight: 700; font-size: 14.5px; color: var(--accent-color); margin-bottom: 14px; }
+.team-modal-bio { font-size: 15px; line-height: 1.75; color: var(--muted); margin: 0; }
+@media (prefers-reduced-motion: reduce) { .team-modal, .team-modal-box { transition: none; } }
+
+/* Popup: big photo on the left, details on the right (stacked on phones) */
+.team-modal-box {
+  max-width: 780px; padding: 0; overflow: hidden; text-align: start;
+  display: grid; grid-template-columns: 300px 1fr; align-items: center;
+}
+.team-modal-photo {
+  grid-row: 1 / span 4; width: 100%; height: 100%; min-height: 380px; margin: 0;
+  border: 0; box-shadow: none; border-radius: 0; font-size: 72px;
+}
+.team-modal-name, .team-modal-role, .team-modal-bio { grid-column: 2; padding: 0 36px; }
+.team-modal-name { padding-top: 40px; font-size: 26px; }
+.team-modal-name::after { margin: 12px 0; }
+.team-modal-bio { padding-bottom: 40px; }
+.team-modal-close { z-index: 2; background: var(--surface-color); }
+@media (max-width: 680px) {
+  .team-modal-box { grid-template-columns: 1fr; text-align: center; max-width: 420px; }
+  .team-modal-photo { grid-row: auto; min-height: 0; height: 300px; }
+  .team-modal-name, .team-modal-role, .team-modal-bio { grid-column: 1; padding: 0 24px; }
+  .team-modal-name { padding-top: 22px; }
+  .team-modal-name::after { margin: 10px auto; }
+  .team-modal-bio { padding-bottom: 28px; }
+}
+
+/* ===== Leadership (CEO, CTO, COO): executive portraits — different from the team's round photos ===== */
+#team .org {
+  max-width: 800px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1.15fr 1fr;
+  align-items: end; gap: 26px;
+}
+#team .org-top, #team .org-bottom { display: contents; }          /* three portraits in one row */
+#team .org-top::after, #team .org-bottom::before,
+#team .org-bottom > .member::before { display: none; }           /* no org lines */
+#team .org-top .member { order: 2; max-width: none; }             /* CEO in the middle */
+#team .org-bottom > .member:first-child { order: 1; }             /* CTO left */
+#team .org-bottom > .member:last-child  { order: 3; }             /* COO right */
+
+#team .org .member,
+#team .org .member:hover {
+  background: none; border: 0; box-shadow: none; transform: none;
+  padding: 0; cursor: pointer; text-align: start;
+}
+/* portrait with a thin gradient frame */
+#team .org .member .member-img {
+  aspect-ratio: 4 / 5; border-radius: 26px; overflow: hidden; padding: 0;
+  border: 0; position: relative;
+  box-shadow: 0 0 0 2px #F59E1B,
+              0 30px 60px -28px rgba(3, 43, 105, .6);
+  transition: transform .4s ease, box-shadow .4s ease;
+}
+#team .org .member.ceo .member-img {
+  box-shadow: 0 0 0 2.5px #F59E1B, 0 40px 70px -28px rgba(3, 43, 105, .7);
+}
+#team .org .member:hover .member-img { transform: translateY(-8px); }
+#team .org .member .member-img img { border-radius: 0; border: 0; box-shadow: none; object-position: center 22%; }
+#team .org .member .member-img::after {                          /* deep navy fade for the name */
+  display: block; background: linear-gradient(180deg, transparent 50%, rgba(3, 18, 48, .92) 100%);
+}
+#team .org .member .initials { border-radius: 0; border: 0; box-shadow: none; font-size: 64px; }
+/* name + role on the portrait */
+#team .org .member .overlay {
+  top: auto; bottom: 0; left: 0; right: 0; width: auto; transform: none;
+  padding: 22px 22px 24px; text-align: start;
+}
+#team .org .member .overlay h4 { color: #fff; font-size: 21px; margin: 0 0 10px; }
+#team .org .member.ceo .overlay h4 { font-size: 25px; }
+#team .org .member .overlay h4::after { display: none; }
+#team .org .member .overlay span {                                 /* role badge */
+  display: inline-block; margin: 0; padding: 5px 12px; border-radius: 999px;
+  font-size: 11.5px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+  color: #fff; background: rgba(255, 255, 255, .14); border: 1px solid rgba(255, 255, 255, .35);
+  backdrop-filter: blur(4px);
+}
+#team .org .member .overlay span { color: #1b1300; background: #F59E1B; border-color: #F59E1B; }
+/* "View profile" appears on hover */
+#team .org .member .overlay::after {
+  content: "View profile  →"; display: block; margin-top: 12px; font-size: 12.5px; font-weight: 600;
+  color: rgba(255, 255, 255, .85); opacity: 0; transform: translateY(6px); transition: .3s ease;
+}
+[dir="rtl"] #team .org .member .overlay::after { content: "←"; }
+#team .org .member:hover .overlay::after { opacity: 1; transform: none; }
+#team .org .member .bio { display: none; }                         /* full bio opens in the popup */
+
+@media (max-width: 767px) {
+  #team .org { grid-template-columns: 1fr; max-width: 280px; gap: 22px; }
+  #team .org-top .member { order: 0; }                             /* CEO first on phones */
+}
+@media (prefers-reduced-motion: reduce) { #team .org .member .member-img, #team .org .member .overlay::after { transition: none; } }
+
+
+/* Leadership: name on one line at the bottom of the photo, below the face */
+#team .org .member .overlay { padding: 0 16px 18px; }
+#team .org .member .overlay::after { display: none; }
+#team .org .member .overlay h4 { font-size: 17px; line-height: 1.25; margin: 0 0 8px; white-space: nowrap; }
+#team .org .member.ceo .overlay h4 { font-size: 21px; }
+#team .org .member .overlay span { font-size: 10.5px; padding: 4px 11px; }
+#team .org .member .member-img::after { background: linear-gradient(180deg, transparent 58%, rgba(3, 18, 48, .95) 100%); }

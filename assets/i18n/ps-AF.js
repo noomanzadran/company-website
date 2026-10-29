@@ -193,6 +193,9 @@ window.SHAMS_I18N['ps-AF'] = {
   "home.ahmad-waris-sakha": "احمد وارث سخا",  // Ahmad Waris Sakha
   "home.frontend-developer": "فرانټ اېنډ پروګرامر",  // Frontend Developer
   "home.m-sc-it-in-network": "په شبکې امنیت کې د معلوماتي ټکنالوژۍ ماسټري او د کمپیوټر انجنیري لیسانس (د ګجرات پوهنتون، هند). د شبکې انجنیر چې د IT ملاتړ او امنیت تجربه لري؛ زموږ د وېبپاڼو او سیستمونو د کاروونکو مخونه جوړوي.",  // M.Sc. IT in Network Security and Bachelor's in Computer Engineering (Gujarat University, India). Network Engineer with a background in IT support and security; builds the interfaces of our websites and systems.
+  "home.ismail-farhang": "اسماعیل فرهنګ",  // Ismail Farhang REVIEW: confirm spelling with Ismail.
+  "home.it-support-engineer-content-specialist": "د معلوماتي ټکنالوژۍ د ملاتړ انجنیر او د ډیجیټلي محتوا متخصص",  // IT Support Engineer & Content Specialist
+  "home.3-years-of-experience-in-digital": "نوموړی د ډیجیټلي محتوا، وېب۳ (Web3)، ښوونیزې ټکنالوژۍ (EdTech) او مالي ټکنالوژۍ (FinTech) په برخو کې له درېیو کلونو څخه زیاته کاري تجربه لري. هغه د اغېزمنو اړیکو او کیسه‌ویلو له لارې پېچلي تخنیکي مفاهیم په ساده، روښانه او د پوهېدو وړ ژبه تشریح کوي، څو په زړه‌پورې محتوا تولید کړي، د بازارموندنې له فعالیتونو ملاتړ وکړي او د ډیجیټلي محصولاتو په وده کې اغېزمنه ونډه واخلي.",  // 3+ years of experience in digital content, Web3, EdTech and FinTech...
   "home.shafiullah-muslimyar": "شفیع الله مسلمیار",  // Shafiullah Muslimyar
   "home.sales-officer": "د پلور مسؤل",  // Sales Officer
   "home.bachelors-degree-kabul-has-worked": "لیسانس (کابل). له ګڼو شرکتونو سره یې کار کړی دی او په پلور او اړیکو کې پیاوړې تجربه لري.",  // Bachelor's degree (Kabul). Has worked with several companies and brings strong experience in sales and communication.

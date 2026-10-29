@@ -193,6 +193,9 @@ window.SHAMS_I18N['fa-AF'] = {
   "home.ahmad-waris-sakha": "احمد وارث سخا",  // Ahmad Waris Sakha
   "home.frontend-developer": "برنامه‌نویس فرانت‌اند",  // Frontend Developer
   "home.m-sc-it-in-network": "ماستری تکنالوژی معلوماتی در امنیت شبکه و لیسانس انجنیری کمپیوتر (پوهنتون گجرات، هند). انجنیر شبکه با سابقهٔ کار در پشتیبانی IT و امنیت؛ صفحه‌های کاربری ویب‌سایت‌ها و سیستم‌های ما را می‌سازد.",  // M.Sc. IT in Network Security and Bachelor's in Computer Engineering (Gujarat University, India). Network Engineer with a background in IT support and security; builds the interfaces of our websites and systems.
+  "home.ismail-farhang": "اسماعیل فرهنگ",  // Ismail Farhang REVIEW: confirm spelling with Ismail.
+  "home.it-support-engineer-content-specialist": "انجنیر پشتیبانی تکنالوژی معلوماتی و متخصص تولید محتوای دیجیتلی",  // IT Support Engineer & Content Specialist
+  "home.3-years-of-experience-in-digital": "بیش از سه سال تجربه کاری در زمینه‌های محتوای دیجیتلی، ویب۳ (Web3)، تکنالوژی آموزشی (EdTech) و تکنالوژی مالی (FinTech) دارد. او از طریق برقراری ارتباط مؤثر و داستان‌گویی، مفاهیم پیچیده تخنیکی را به زبانی ساده و روشن توضیح می‌دهد تا در تولید محتوای جذاب، حمایت از فعالیت‌های بازاریابی و رشد محصولات دیجیتلی نقش مؤثری داشته باشد.",  // 3+ years of experience in digital content, Web3, EdTech and FinTech...
   "home.shafiullah-muslimyar": "شفیع‌الله مسلم‌یار",  // Shafiullah Muslimyar
   "home.sales-officer": "مسئول فروشات",  // Sales Officer
   "home.bachelors-degree-kabul-has-worked": "لیسانس (کابل). با چندین شرکت کار کرده است و در فروشات و ارتباطات تجربهٔ قوی دارد.",  // Bachelor's degree (Kabul). Has worked with several companies and brings strong experience in sales and communication.
