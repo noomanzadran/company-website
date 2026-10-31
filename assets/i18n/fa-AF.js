@@ -172,7 +172,7 @@ window.SHAMS_I18N['fa-AF'] = {
   "home.the-people-behind-shams-technology": "کسانی که پشت تیم تکنالوژی شمس ایستاده‌اند",  // The people behind Shams Technology Team
   "home.leadership": "رهبری",  // Leadership
   "home.shams-haqyar": "شمس حق‌یار",  // Shams Haqyar REVIEW: All team names: please have each person confirm the spelling of their own name.
-  "home.co-founder-ceo": "هم‌بنیان‌گذار و رئیس اجرایی",  // Co-Founder & CEO
+  "home.co-founder-ceo": "مؤسس و رئیس اجرایی",  // Co-Founder & CEO
   "home.software-engineer-and-ai-specialist": "انجنیر نرم‌افزار و متخصص هوش مصنوعی با بیش از ۷ سال تجربه در نرم‌افزار، سیستم‌های هوش مصنوعی، تکنالوژی آموزشی و تکنالوژی منابع بشری. او سیستم‌ها، ERPها و راه‌حل‌های هوش مصنوعی تیم را رهبری می‌کند.",  // Software engineer and AI specialist with more than 7 years of experience in software, AI systems, EdTech and HR technology. He leads the team's systems, ERPs and AI solutions.
   "home.nooman-zadran": "نعمان زدران",  // Nooman Zadran REVIEW: "Nooman" spelled نعمان – confirm.
   "home.co-founder-cto": "هم‌بنیان‌گذار و رئیس بخش تکنالوژی",  // Co-Founder & CTO
