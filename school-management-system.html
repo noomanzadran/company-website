@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title data-i18n="sms.school-management-system-school-erp">School Management System (School ERP) – Shams Technology Team</title>
+  <meta name="description" content="Shams Technology Team School ERP: one system for students, attendance, exams and results, fees, staff and parents. Built for schools in Afghanistan, in Dari, Pashto and English, and it works without internet." data-i18n-attr="content:sms.shams-school-erp-one-system">
+  <meta name="keywords" content="school management system Afghanistan, school ERP Kabul, Dari Pashto school software, Shams Technology Team School ERP" data-i18n-attr="content:sms.school-management-system-afghanistan-school">
+  <link rel="canonical" href="https://shams-technology-team.vercel.app/school-management-system.html">
+
+  <!-- Social sharing (Facebook, WhatsApp, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Shams Technology Team">
+  <meta property="og:title" content="School Management System (School ERP) – Shams Technology Team">
+  <meta property="og:description" content="One system to run your whole school: students, attendance, exams, fees, staff and parents. In Dari, Pashto and English.">
+  <meta property="og:url" content="https://shams-technology-team.vercel.app/school-management-system.html">
+  <meta property="og:image" content="https://shams-technology-team.vercel.app/assets/img/projects/erp-ui1-light.jpg">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="1000">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="assets/vendor/fonts/fonts.css" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/featured.css" rel="stylesheet">
+  <link href="assets/css/sms.css" rel="stylesheet">
+  <link href="assets/css/rtl.css" rel="stylesheet">
+
+  <!-- Theme: must load before the page paints -->
+  <script src="assets/js/theme-init.js"></script>
+
+  <!-- Language (English / Dari / Pashto): must load before the page paints -->
+  <script src="assets/i18n/fa-AF.js"></script>
+  <script src="assets/i18n/ps-AF.js"></script>
+  <script src="assets/js/i18n.js"></script>
+</head>
+
+<body class="sms-page-body">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0" aria-label="Shams Technology Team home" data-i18n-attr="aria-label:common.shams-technology-team-home">
+        <img src="assets/img/logo-mark.png" alt="" class="logo-mark" width="44" height="44">
+        <span class="logo-text">
+          <span class="sitename">Shams</span>
+          <span class="logo-sub">Technology Team</span>
+        </span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero" data-i18n="common.home">Home</a></li>
+          <li><a href="index.html#about" data-i18n="common.about">About</a></li>
+          <li><a href="index.html#services" data-i18n="common.services">Services</a></li>
+          <li><a href="index.html#portfolio" data-i18n="common.portfolio">Portfolio</a></li>
+          <li><a href="index.html#team" data-i18n="common.team">Team</a></li>
+          <li><a href="index.html#contact" data-i18n="common.contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="actions">
+        <div class="dropdown lang-switch">
+          <button type="button" class="lang-toggle" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Change language" data-i18n-attr="aria-label:common.change-language">
+            <i class="bi bi-translate" aria-hidden="true"></i><span class="lang-current" translate="no">English</span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><button type="button" class="dropdown-item" data-lang="en" lang="en" dir="ltr" translate="no">English</button></li>
+            <li><button type="button" class="dropdown-item" data-lang="fa-AF" lang="fa-AF" dir="rtl" translate="no">دری</button></li>
+            <li><button type="button" class="dropdown-item" data-lang="ps-AF" lang="ps-AF" dir="rtl" translate="no">پښتو</button></li>
+          </ul>
+        </div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch light or dark mode" data-i18n-attr="aria-label:common.switch-light-or-dark-mode">
+          <i class="bi bi-moon-stars-fill"></i>
+          <i class="bi bi-sun-fill"></i>
+        </button>
+       
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main sms-page">
+
+    <!-- Hero -->
+    <section id="sms-hero" class="sms-hero section">
+      <div class="container">
+        <nav class="sms-breadcrumbs" aria-label="Breadcrumb" data-i18n-attr="aria-label:sms.breadcrumb">
+          <ol>
+            <li><a href="index.html" data-i18n="common.home">Home</a></li>
+            <li><a href="index.html#services" data-i18n="common.services">Services</a></li>
+            <li aria-current="page" data-i18n="sms.school-management-system">School Management System</li>
+          </ol>
+        </nav>
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-5" data-aos="fade-up">
+            <span class="sms-eyebrow" data-i18n="sms.shams-technology-team-school-erp">Shams Technology Team School ERP</span>
+            <h1 data-i18n="sms.one-system-to-run-your">One system to run your whole school.</h1>
+            <p class="sms-lead" data-i18n="sms.students-attendance-exams-and-results">Students, attendance, exams and results, fees, staff and parents in one place. Built for schools in Afghanistan, in Dari, Pashto and English, and it keeps working without internet.</p>
+            <div class="sms-actions">
+              <a href="#demo" class="sms-btn sms-btn-primary"><i class="bi bi-play-circle" aria-hidden="true"></i><span data-i18n="sms.request-a-demo">Request a demo</span></a>
+              <a href="https://wa.me/93770621526" target="_blank" rel="noopener" class="sms-btn sms-btn-outline"><i class="bi bi-whatsapp" aria-hidden="true"></i><span data-i18n="sms.contact-our-team">Contact our team</span></a>
+              <a href="#modules" class="sms-btn sms-btn-link"><span data-i18n="sms.explore-features">Explore features</span><i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <ul class="sms-chips">
+              <li><i class="bi bi-wifi-off" aria-hidden="true"></i><span data-i18n="sms.works-offline">Works offline</span></li>
+              <li><i class="bi bi-translate" aria-hidden="true"></i><span data-i18n="sms.dari-pashto-english">Dari · Pashto · English</span></li>
+              <li><i class="bi bi-calendar3" aria-hidden="true"></i><span data-i18n="sms.solar-hijri-dates">Solar Hijri dates</span></li>
+              <li><i class="bi bi-file-earmark-check" aria-hidden="true"></i><span data-i18n="sms.ministry-format-results">Ministry-format results</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-7" data-aos="zoom-out" data-aos-delay="150">
+            <figure class="sms-shot">
+              <img class="img-light" src="assets/img/projects/erp-ui1-light.jpg" width="1600" height="1000" alt="Shams Technology Team School ERP dashboard: students, attendance today, fees collected and upcoming events" data-i18n-attr="alt:sms.shams-school-erp-dashboard-students">
+              <img class="img-dark" src="assets/img/projects/erp-ui1-dark.jpg" width="1600" height="1000" alt="Shams Technology Team School ERP dashboard in dark mode" loading="lazy" data-i18n-attr="alt:sms.shams-school-erp-dashboard-in">
+              <figcaption data-i18n="sms.the-principals-dashboard-in-shams">The principal's dashboard in Shams Technology Team School ERP</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Hero -->
+
+    <!-- Value -->
+    <section id="sms-value" class="sms-value section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-i18n="sms.why-schools-move-to-shams">Why schools move to Shams Technology Team School ERP</h2>
+        <p data-i18n="sms.less-paperwork-for-staff-clear">Less paperwork for staff, clear information for owners and parents</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="sms-card">
+              <i class="bi bi-file-earmark-x" aria-hidden="true"></i>
+              <h3 data-i18n="sms.less-paperwork">Less paperwork</h3>
+              <p data-i18n="sms.registers-mark-sheets-and-fee">Registers, mark sheets and fee books move into one system. Staff enter information once and use it everywhere.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="150">
+            <div class="sms-card">
+              <i class="bi bi-eye" aria-hidden="true"></i>
+              <h3 data-i18n="sms.full-transparency">Full transparency</h3>
+              <p data-i18n="sms.owners-and-principals-see-attendance">Owners and principals see attendance, results and fees at any moment, and every payment has a receipt.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="sms-card">
+              <i class="bi bi-lightning-charge" aria-hidden="true"></i>
+              <h3 data-i18n="sms.faster-results">Faster results</h3>
+              <p data-i18n="sms.totals-percentages-and-result-sheets">Totals, percentages and result sheets are calculated automatically instead of by hand.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="250">
+            <div class="sms-card">
+              <i class="bi bi-hdd-network" aria-hidden="true"></i>
+              <h3 data-i18n="sms.works-without-internet">Works without internet</h3>
+              <p data-i18n="sms.installed-on-a-server-inside">Installed on a server inside your school, it keeps running when the internet is down. A cloud version is available for schools with many branches.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Value -->
+
+    <!-- Features overview -->
+    <section id="sms-overview" class="sms-overview section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-i18n="sms.everything-a-school-needs">Everything a school needs</h2>
+        <p data-i18n="sms.twelve-connected-modules-grouped-by">Twelve connected modules, grouped by the work they support</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="sms-group">
+              <div class="sms-group-head"><i class="bi bi-mortarboard" aria-hidden="true"></i><h3 data-i18n="sms.academic">Academic</h3></div>
+              <ul>
+                <li><a href="#mod-academic" data-i18n="sms.academic-management">Academic management</a></li>
+                <li><a href="#mod-exams" data-i18n="sms.exams-and-grading">Exams and grading</a></li>
+                <li><a href="#mod-timetable" data-i18n="sms.timetable-and-scheduling">Timetable and scheduling</a></li>
+                <li><a href="#mod-library" data-i18n="sms.library">Library</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="150">
+            <div class="sms-group">
+              <div class="sms-group-head"><i class="bi bi-building" aria-hidden="true"></i><h3 data-i18n="sms.administration">Administration</h3></div>
+              <ul>
+                <li><a href="#mod-students" data-i18n="sms.student-information">Student information</a></li>
+                <li><a href="#mod-attendance" data-i18n="sms.attendance">Attendance</a></li>
+                <li><a href="#mod-staff" data-i18n="sms.teachers-and-staff">Teachers and staff</a></li>
+                <li><a href="#mod-transport" data-i18n="sms.transport">Transport</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="sms-group">
+              <div class="sms-group-head"><i class="bi bi-cash-coin" aria-hidden="true"></i><h3 data-i18n="sms.finance">Finance</h3></div>
+              <ul>
+                <li><a href="#mod-fees" data-i18n="sms.fees-and-finance">Fees and finance</a></li>
+                <li><a href="#mod-reports" data-i18n="sms.reports-and-analytics">Reports and analytics</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="250">
+            <div class="sms-group">
+              <div class="sms-group-head"><i class="bi bi-chat-dots" aria-hidden="true"></i><h3 data-i18n="sms.communication">Communication</h3></div>
+              <ul>
+                <li><a href="#mod-parents" data-i18n="sms.parents-and-guardians">Parents and guardians</a></li>
+                <li><a href="#mod-messages" data-i18n="sms.notifications-and-messages">Notifications and messages</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Features overview -->
+
+    <!-- Modules -->
+    <section id="modules" class="sms-modules section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-i18n="sms.modules-in-detail">Modules in detail</h2>
+        <p data-i18n="sms.what-each-part-of-the">What each part of the system does for your school</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up">
+            <article class="sms-module" id="mod-students">
+              <div class="sms-module-head"><span class="sms-icon"><i class="bi bi-person-vcard" aria-hidden="true"></i></span><h3 data-i18n="sms.student-information">Student information</h3></div>
+              <p data-i18n="sms.a-complete-digital-file-for">A complete digital file for every student, from admission to graduation.</p>
+              <ul>
+                <li data-i18n="sms.registration-and-admission-with-student">Registration and admission with student ID and registration numbers</li>
+                <li data-i18n="sms.personal-and-guardian-information-documents">Personal and guardian information, documents and photos</li>
+                <li data-i18n="sms.class-and-section-assignment-promotion">Class and section assignment, promotion and transfer</li>
+                <li data-i18n="sms.academic-history-and-student-status">Academic history and student status</li>
+                <li data-i18n="sms.bulk-registration-with-import-and">Bulk registration with import and export</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <article class="sms-module" id="mod-academic">
+              <div class="sms-module-head"><span class="sms-icon"><i class="bi bi-journal-bookmark" aria-hidden="true"></i></span><h3 data-i18n="sms.academic-management">Academic management</h3></div>
+              <p data-i18n="sms.set-up-the-school-year">Set up the school year once and every module follows it.</p>
+              <ul>
+                <li data-i18n="sms.academic-years-terms-classes-sections">Academic years, terms, classes, sections and subjects</li>
+                <li data-i18n="sms.curriculum-lessons-and-syllabus">Curriculum, lessons and syllabus</li>
+                <li data-i18n="sms.subject-and-teacher-assignment">Subject and teacher assignment</li>
+                <li data-i18n="sms.academic-calendar-and-planning">Academic calendar and planning</li>
+                <li data-i18n="sms.tracking-of-academic-progress">Tracking of academic progress</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up">
+            <article class="sms-module" id="mod-attendance">
+              <div class="sms-module-head"><span class="sms-icon"><i class="bi bi-calendar-check" aria-hidden="true"></i></span><h3 data-i18n="sms.attendance">Attendance</h3></div>
+              <p data-i18n="sms.teachers-take-attendance-in-seconds">Teachers take attendance in seconds, on a computer or a phone.</p>
+              <ul>
+                <li data-i18n="sms.daily-attendance-for-students-teachers">Daily attendance for students, teachers and staff</li>
+                <li data-i18n="sms.present-absent-late-and-excused">Present, absent, late and excused</li>
+                <li data-i18n="sms.attendance-by-class-and-section">Attendance by class and section, or for a whole class at once</li>
+                <li data-i18n="sms.monthly-summaries-and-attendance-reports">Monthly summaries and attendance reports</li>
+                <li data-i18n="sms.absence-notices-to-parents-and">Absence notices to parents and guardians</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <article class="sms-module" id="mod-exams">
+              <div class="sms-module-head"><span class="sms-icon"><i class="bi bi-clipboard-data" aria-hidden="true"></i></span><h3 data-i18n="sms.exams-and-grading">Exams and grading</h3></div>
+              <p data-i18n="sms.from-exam-schedules-to-report">From exam schedules to report cards, with the marking rules your school uses.</p>
+              <ul>
+                <li data-i18n="sms.exam-schedules-and-subject-wise">Exam schedules and subject-wise marks entry</li>
+                <li data-i18n="sms.automatic-totals-percentages-and-results">Automatic totals, percentages and results</li>
+                <li data-i18n="sms.passed-conditional-and-failed-results">Passed, conditional and failed results</li>
+                <li data-i18n="sms.report-cards-and-class-result">Report cards and class result sheets in the Ministry format</li>
+                <li data-i18n="sms.result-publication-and-performance-analysis">Result publication and performance analysis</li>
+              </ul>
+              <a href="#exams" class="sms-more"><span data-i18n="sms.how-grading-works">How grading works</span><i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+            </article>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up">
+            <article class="sms-module" id="mod-staff">
+              <div class="sms-module-head"><span class="sms-icon"><i class="bi bi-person-badge" aria-hidden="true"></i></span><h3 data-i18n="sms.teachers-and-staff">Teachers and staff</h3></div>
+              <p data-i18n="sms.staff-records-assignments-and-leave">Staff records, assignments and leave in one place.</p>
+              <ul>
+                <li data-i18n="sms.teacher-and-staff-profiles-with">Teacher and staff profiles with employment information</li>
+                <li data-i18n="sms.departments-and-positions">Departments and positions</li>
+                <li data-i18n="sms.teacher-assignment-to-subjects-and">Teacher assignment to subjects and classes</li>
+                <li data-i18n="sms.staff-attendance-leave-requests-and">Staff attendance, leave requests and approvals</li>
+                <li data-i18n="sms.employee-records-documents-and-staff">Employee records, documents and staff reports</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <article class="sms-module" id="mod-timetable">
+              <div class="sms-module-head"><span class="sms-icon"><i class="bi bi-table" aria-hidden="true"></i></span><h3 data-i18n="sms.timetable-and-scheduling">Timetable and scheduling</h3></div>
+              <p data-i18n="sms.build-weekly-timetables-without-double">Build weekly timetables without double-booking teachers or rooms.</p>
+              <ul>
+                <li data-i18n="sms.class-and-teacher-timetables">Class and teacher timetables</li>
+                <li data-i18n="sms.periods-subjects-and-classroom-allocation">Periods, subjects and classroom allocation</li>
+                <li data-i18n="sms.conflict-detection">Conflict detection</li>
+                <li data-i18n="sms.daily-and-weekly-schedules">Daily and weekly schedules</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up">
+            <article class="sms-module" id="mod-fees">
+              <div class="sms-module-head"><span class="sms-icon"><i class="bi bi-wallet2" aria-hidden="true"></i></span><h3 data-i18n="sms.fees-and-finance">Fees and finance</h3></div>
+              <p data-i18n="sms.every-afghani-accounted-for-with">Every afghani accounted for, with a printed receipt for every payment.</p>
+              <ul>
+                <li data-i18n="sms.admission-registration-monthly-and-annual">Admission, registration, monthly and annual fees by category</li>
+                <li data-i18n="sms.payment-entry-outstanding-balances-and">Payment entry, outstanding balances and student fee records</li>
+                <li data-i18n="sms.discounts-and-scholarships">Discounts and scholarships</li>
+                <li data-i18n="sms.a4-receipts-income-and-expense">A4 receipts, income and expense tracking</li>
+                <li data-i18n="sms.financial-reports-for-the-owner">Financial reports for the owner and management</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <article class="sms-module" id="mod-parents">
+              <div class="sms-module-head"><span class="sms-icon"><i class="bi bi-people" aria-hidden="true"></i></span><h3 data-i18n="sms.parents-and-guardians">Parents and guardians</h3></div>
+              <p data-i18n="sms.parents-follow-their-children-without">Parents follow their children without visiting the school office.</p>
+              <ul>
+                <li data-i18n="sms.parent-profiles-linked-to-one">Parent profiles linked to one or more students</li>
+                <li data-i18n="sms.academic-progress-attendance-and-fee">Academic progress, attendance and fee information</li>
+                <li data-i18n="sms.announcements-and-messages-from-the">Announcements and messages from the school</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up">
+            <article class="sms-module" id="mod-library">
+              <div class="sms-module-head"><span class="sms-icon"><i class="bi bi-book" aria-hidden="true"></i></span><h3 data-i18n="sms.library">Library</h3></div>
+              <p data-i18n="sms.know-where-every-book-is">Know where every book is and who has it.</p>
+              <ul>
+                <li data-i18n="sms.book-catalogue-and-categories">Book catalogue and categories</li>
+                <li data-i18n="sms.issue-and-return-for-students">Issue and return for students and teachers</li>
+                <li data-i18n="sms.due-dates-overdue-books-and">Due dates, overdue books and library reports</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <article class="sms-module" id="mod-transport">
+              <div class="sms-module-head"><span class="sms-icon"><i class="bi bi-bus-front" aria-hidden="true"></i></span><h3 data-i18n="sms.transport">Transport</h3></div>
+              <p data-i18n="sms.school-buses-routes-and-the">School buses, routes and the students who use them.</p>
+              <ul>
+                <li data-i18n="sms.vehicles-and-drivers">Vehicles and drivers</li>
+                <li data-i18n="sms.routes-and-stops">Routes and stops</li>
+                <li data-i18n="sms.student-assignment-and-transport-fees">Student assignment and transport fees</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up">
+            <article class="sms-module" id="mod-messages">
+              <div class="sms-module-head"><span class="sms-icon"><i class="bi bi-bell" aria-hidden="true"></i></span><h3 data-i18n="sms.notifications-and-messages">Notifications and messages</h3></div>
+              <p data-i18n="sms.the-right-message-to-the">The right message to the right people at the right time.</p>
+              <ul>
+                <li data-i18n="sms.school-announcements-for-staff-and">School announcements for staff and parents</li>
+                <li data-i18n="sms.attendance-exam-and-result-notifications">Attendance, exam and result notifications</li>
+                <li data-i18n="sms.fee-reminders">Fee reminders</li>
+                <li data-i18n="sms.whatsapp-and-sms-where-available">WhatsApp and SMS where available</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <article class="sms-module" id="mod-reports">
+              <div class="sms-module-head"><span class="sms-icon"><i class="bi bi-bar-chart-line" aria-hidden="true"></i></span><h3 data-i18n="sms.reports-and-analytics">Reports and analytics</h3></div>
+              <p data-i18n="sms.clear-numbers-for-decisions-ready">Clear numbers for decisions, ready to print or share.</p>
+              <ul>
+                <li data-i18n="sms.enrolment-attendance-and-student-statistics">Enrolment, attendance and student statistics</li>
+                <li data-i18n="sms.academic-performance-and-exam-analysis">Academic performance and exam analysis</li>
+                <li data-i18n="sms.financial-and-staff-reports">Financial and staff reports</li>
+                <li data-i18n="sms.dashboards-and-custom-reports">Dashboards and custom reports</li>
+                <li data-i18n="sms.export-to-pdf-and-excel">Export to PDF and Excel</li>
+              </ul>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /Modules -->
+
+    <!-- Roles -->
+    <section id="roles" class="sms-roles section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-i18n="sms.a-dashboard-for-every-role">A dashboard for every role</h2>
+        <p data-i18n="sms.each-person-sees-only-what">Each person sees only what they need, and only what they are allowed to see</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-md-6 col-lg-4" data-aos="fade-up"><div class="sms-role"><i class="bi bi-shield-lock" aria-hidden="true"></i><div><h3 data-i18n="sms.super-administrator">Super administrator</h3><p data-i18n="sms.sets-up-the-school-users">Sets up the school, users, permissions and system settings.</p></div></div></div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="50"><div class="sms-role"><i class="bi bi-person-workspace" aria-hidden="true"></i><div><h3 data-i18n="sms.principal">Principal</h3><p data-i18n="sms.a-daily-picture-of-attendance">A daily picture of attendance, results, staff and fees.</p></div></div></div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"><div class="sms-role"><i class="bi bi-briefcase" aria-hidden="true"></i><div><h3 data-i18n="sms.school-manager">School manager</h3><p data-i18n="sms.admissions-classes-staff-and-day">Admissions, classes, staff and day-to-day administration.</p></div></div></div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up"><div class="sms-role"><i class="bi bi-journal-text" aria-hidden="true"></i><div><h3 data-i18n="sms.academic-manager">Academic manager</h3><p data-i18n="sms.subjects-timetables-exams-and-result">Subjects, timetables, exams and result sheets.</p></div></div></div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="50"><div class="sms-role"><i class="bi bi-calculator" aria-hidden="true"></i><div><h3 data-i18n="sms.accountant">Accountant</h3><p data-i18n="sms.fees-payments-receipts-expenses-and">Fees, payments, receipts, expenses and financial reports.</p></div></div></div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"><div class="sms-role"><i class="bi bi-easel" aria-hidden="true"></i><div><h3 data-i18n="sms.teacher">Teacher</h3><p data-i18n="sms.their-own-classes-attendance-marks">Their own classes: attendance, marks and timetable.</p></div></div></div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up"><div class="sms-role"><i class="bi bi-book-half" aria-hidden="true"></i><div><h3 data-i18n="sms.librarian">Librarian</h3><p data-i18n="sms.catalogue-book-loans-returns-and">Catalogue, book loans, returns and overdue books.</p></div></div></div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="50"><div class="sms-role"><i class="bi bi-person-lines-fill" aria-hidden="true"></i><div><h3 data-i18n="sms.hr-officer">HR officer</h3><p data-i18n="sms.staff-records-staff-attendance-leave">Staff records, staff attendance, leave and documents.</p></div></div></div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"><div class="sms-role"><i class="bi bi-house-heart" aria-hidden="true"></i><div><h3 data-i18n="sms.parent-or-guardian">Parent or guardian</h3><p data-i18n="sms.their-childrens-attendance-results-fees">Their children's attendance, results, fees and school news.</p></div></div></div>
+        </div>
+      </div>
+    </section><!-- /Roles -->
+
+    <!-- Exams -->
+    <section id="exams" class="sms-exams section light-background">
+      <div class="container">
+        <div class="row gy-5 align-items-center">
+          <div class="col-lg-5" data-aos="fade-up">
+            <span class="sms-eyebrow" data-i18n="sms.exams-and-grading">Exams and grading</span>
+            <h2 class="sms-h2" data-i18n="sms.marks-results-and-report-cards">Marks, results and report cards, calculated for you</h2>
+            <p data-i18n="sms.the-system-follows-the-marking">The system follows the marking structure your school uses. The standard set-up is:</p>
+            <div class="sms-rule">
+              <div><b>40</b><span data-i18n="sms.mid-year-exam">Mid-year exam</span></div>
+              <div><b>60</b><span data-i18n="sms.annual-exam">Annual exam</span></div>
+              <div><b>100</b><span data-i18n="sms.total">Total</span></div>
+              <div><b>40</b><span data-i18n="sms.pass-mark">Pass mark</span></div>
+            </div>
+            <ul class="sms-check">
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i><span data-i18n="sms.results-passed-conditional-or-failed">Results: passed, conditional or failed</span></li>
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i><span data-i18n="sms.totals-and-percentages-are-calculated">Totals and percentages are calculated automatically</span></li>
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i><span data-i18n="sms.report-cards-and-class-result">Report cards and class result sheets in the Ministry format</span></li>
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i><span data-i18n="sms.authorised-administrators-can-change-marks">Authorised administrators can change marks, pass mark and result rules</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-7" data-aos="zoom-out" data-aos-delay="150">
+            <div class="sms-report" role="group" aria-label="Example report card with sample data" data-i18n-attr="aria-label:sms.example-report-card-aria">
+              <div class="sms-report-head">
+                <div><b data-i18n="sms.report-card">Report card</b><span data-i18n="sms.grade-9-section-a-1405">Grade 9 · Section A · 1405</span></div>
+                <span class="sms-example" data-i18n="sms.example-sample-data">Example · sample data</span>
+              </div>
+              <div class="table-responsive">
+                <table class="sms-table">
+                  <thead>
+                    <tr><th scope="col" data-i18n="sms.subject">Subject</th><th scope="col" data-i18n="sms.mid-year-40">Mid-year (40)</th><th scope="col" data-i18n="sms.annual-60">Annual (60)</th><th scope="col" data-i18n="sms.total-100">Total (100)</th><th scope="col" data-i18n="sms.result">Result</th></tr>
+                  </thead>
+                  <tbody>
+                    <tr><td data-i18n="sms.mathematics">Mathematics</td><td>32</td><td>47</td><td>79</td><td><span class="sms-pass" data-i18n="sms.passed">Passed</span></td></tr>
+                    <tr><td data-i18n="sms.dari">Dari</td><td>35</td><td>51</td><td>86</td><td><span class="sms-pass" data-i18n="sms.passed">Passed</span></td></tr>
+                    <tr><td data-i18n="sms.pashto">Pashto</td><td>30</td><td>44</td><td>74</td><td><span class="sms-pass" data-i18n="sms.passed">Passed</span></td></tr>
+                    <tr><td data-i18n="sms.physics">Physics</td><td>14</td><td>21</td><td>35</td><td><span class="sms-fail" data-i18n="sms.below-40">Below 40</span></td></tr>
+                    <tr><td data-i18n="sms.biology">Biology</td><td>28</td><td>40</td><td>68</td><td><span class="sms-pass" data-i18n="sms.passed">Passed</span></td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="sms-report-foot">
+                <div><span data-i18n="sms.total">Total</span><b>342 / 500</b></div>
+                <div><span data-i18n="sms.percentage">Percentage</span><b>68.4%</b></div>
+                <div><span data-i18n="sms.final-result">Final result</span><b class="sms-cond" data-i18n="sms.conditional">Conditional</b></div>
+              </div>
+              <p class="sms-note" data-i18n="sms.in-this-example-the-student">In this example the student is below the pass mark in one subject, so the final result is conditional. Your school decides the exact rules.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Exams -->
+
+    <!-- Attendance and parents -->
+    <section id="attendance" class="sms-attendance section">
+      <div class="container">
+        <div class="row gy-5 align-items-center">
+          <div class="col-lg-5 order-2 order-lg-1" data-aos="zoom-out" data-aos-delay="150">
+            <figure class="sms-phone">
+              <img class="img-light" src="assets/img/projects/erp-ui3-light.jpg" width="1600" height="1000" alt="Taking today's attendance on a phone in Dari: present, absent and on leave" loading="lazy" data-i18n-attr="alt:sms.taking-todays-attendance-on-a">
+              <img class="img-dark" src="assets/img/projects/erp-ui3-dark.jpg" width="1600" height="1000" alt="Taking attendance on a phone, dark mode" loading="lazy" data-i18n-attr="alt:sms.taking-attendance-on-a-phone">
+              <figcaption data-i18n="sms.taking-attendance-on-a-phone-2">Taking attendance on a phone, in Dari</figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-up">
+            <span class="sms-eyebrow" data-i18n="sms.attendance-and-parents">Attendance and parents</span>
+            <h2 class="sms-h2" data-i18n="sms.parents-know-the-same-day">Parents know the same day</h2>
+            <p data-i18n="sms.teachers-mark-attendance-class-by">Teachers mark attendance class by class. The office sees the totals immediately, and parents are informed when their child is absent.</p>
+            <ul class="sms-status">
+              <li><span class="st st-present" data-i18n="sms.present">Present</span></li>
+              <li><span class="st st-absent" data-i18n="sms.absent">Absent</span></li>
+              <li><span class="st st-late" data-i18n="sms.late">Late</span></li>
+              <li><span class="st st-excused" data-i18n="sms.excused">Excused</span></li>
+            </ul>
+            <div class="sms-message">
+              <span class="sms-example" data-i18n="sms.example-message">Example message</span>
+              <p><i class="bi bi-chat-left-text" aria-hidden="true"></i><span data-i18n="sms.dear-parent-your-child-was">Dear parent, your child was absent today. Please contact the school office if you have any questions.</span></p>
+            </div>
+            <ul class="sms-check">
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i><span data-i18n="sms.notices-about-absence-exams-results">Notices about absence, exams, results and fees</span></li>
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i><span data-i18n="sms.announcements-to-all-parents-or">Announcements to all parents or to one class</span></li>
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i><span data-i18n="sms.whatsapp-and-sms-where-available">WhatsApp and SMS where available</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Attendance -->
+
+    <!-- Finance screenshot -->
+    <section id="finance" class="sms-finance section light-background">
+      <div class="container">
+        <div class="row gy-5 align-items-center">
+          <div class="col-lg-5" data-aos="fade-up">
+            <span class="sms-eyebrow" data-i18n="sms.fees-and-finance">Fees and finance</span>
+            <h2 class="sms-h2" data-i18n="sms.fees-in-afghanis-a-receipt">Fees in afghanis, a receipt for every payment</h2>
+            <p data-i18n="sms.accountants-record-a-payment-once">Accountants record a payment once. The student's balance, the receipt and the financial reports update together.</p>
+            <ul class="sms-check">
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i><span data-i18n="sms.yearly-and-monthly-fees-discounts">Yearly and monthly fees, discounts and scholarships</span></li>
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i><span data-i18n="sms.payment-history-and-outstanding-balance">Payment history and outstanding balance for each student</span></li>
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i><span data-i18n="sms.printed-a4-receipts-and-income">Printed A4 receipts and income and expense reports</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-7" data-aos="zoom-out" data-aos-delay="150">
+            <figure class="sms-shot">
+              <img class="img-light" src="assets/img/projects/erp-ui2-light.jpg" width="1600" height="1000" alt="Fee payment screen with payment history and a printed receipt in afghanis" loading="lazy" data-i18n-attr="alt:sms.fee-payment-screen-with-payment">
+              <img class="img-dark" src="assets/img/projects/erp-ui2-dark.jpg" width="1600" height="1000" alt="Fee payment screen, dark mode" loading="lazy" data-i18n-attr="alt:sms.fee-payment-screen-dark-mode">
+              <figcaption data-i18n="sms.fee-payment-and-receipt-in">Fee payment and receipt in Shams Technology Team School ERP</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Finance -->
+
+    <!-- Languages -->
+    <section id="languages" class="sms-languages section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-i18n="sms.three-languages-built-in">Three languages, built in</h2>
+        <p data-i18n="sms.every-screen-report-and-receipt">Every screen, report and receipt works in the language of your staff</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4 justify-content-center">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="sms-lang"><span class="sms-lang-name" lang="fa-AF" dir="rtl" translate="no">دری</span><h3 data-i18n="sms.dari">Dari</h3><p data-i18n="sms.right-to-left-screens-and">Right-to-left screens and Afghan Dari school terms.</p></div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
+            <div class="sms-lang"><span class="sms-lang-name" lang="ps-AF" dir="rtl" translate="no">پښتو</span><h3 data-i18n="sms.pashto">Pashto</h3><p data-i18n="sms.right-to-left-screens-and-2">Right-to-left screens and Afghan Pashto school terms.</p></div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="sms-lang"><span class="sms-lang-name" lang="en" dir="ltr" translate="no">English</span><h3 data-i18n="sms.english">English</h3><p data-i18n="sms.for-international-schools-and-english">For international schools and English-speaking staff.</p></div>
+          </div>
+        </div>
+        <ul class="sms-chips sms-chips-center" data-aos="fade-up">
+          <li><i class="bi bi-calendar3" aria-hidden="true"></i><span data-i18n="sms.solar-hijri-dates">Solar Hijri dates</span></li>
+          <li><i class="bi bi-arrow-left-right" aria-hidden="true"></i><span data-i18n="sms.right-to-left-and-left">Right-to-left and left-to-right layouts</span></li>
+          <li><i class="bi bi-fonts" aria-hidden="true"></i><span data-i18n="sms.clear-fonts-for-dari-and">Clear fonts for Dari and Pashto</span></li>
+          <li><i class="bi bi-person-gear" aria-hidden="true"></i><span data-i18n="sms.each-user-chooses-their-own">Each user chooses their own language</span></li>
+        </ul>
+      </div>
+    </section><!-- /Languages -->
+
+    <!-- Security -->
+    <section id="security" class="sms-security section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-i18n="sms.your-data-stays-safe">Your data stays safe</h2>
+        <p data-i18n="sms.built-for-schools-that-cannot">Built for schools that cannot afford to lose their records</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100"><div class="sms-card"><i class="bi bi-person-lock" aria-hidden="true"></i><h3 data-i18n="sms.role-based-access">Role-based access</h3><p data-i18n="sms.every-user-has-their-own">Every user has their own account and sees only what their role allows.</p></div></div>
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="150"><div class="sms-card"><i class="bi bi-hdd-rack" aria-hidden="true"></i><h3 data-i18n="sms.your-own-server">Your own server</h3><p data-i18n="sms.with-the-local-version-your">With the local version, your data stays inside your school.</p></div></div>
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200"><div class="sms-card"><i class="bi bi-cloud-check" aria-hidden="true"></i><h3 data-i18n="sms.automatic-backups">Automatic backups</h3><p data-i18n="sms.backups-are-taken-automatically-including">Backups are taken automatically, including before every update, so no data is lost.</p></div></div>
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="250"><div class="sms-card"><i class="bi bi-arrow-repeat" aria-hidden="true"></i><h3 data-i18n="sms.safe-updates">Safe updates</h3><p data-i18n="sms.new-versions-are-installed-with">New versions are installed with database migrations that keep your existing records.</p></div></div>
+        </div>
+      </div>
+    </section><!-- /Security -->
+
+    <!-- Why us -->
+    <section id="why" class="sms-why section">
+      <div class="container">
+        <div class="row gy-5 align-items-center">
+          <div class="col-lg-5" data-aos="fade-up">
+            <span class="sms-eyebrow" data-i18n="sms.why-shams-technology-team">Why Shams Technology Team</span>
+            <h2 class="sms-h2" data-i18n="sms.built-in-kabul-for-afghan">Built in Kabul, for Afghan schools</h2>
+            <p data-i18n="sms.we-are-a-local-team">We are a local team. We know the Ministry formats, the Solar Hijri calendar, fees in afghanis and unreliable internet, because we work with them every day.</p>
+            <a href="project-erp.html" class="sms-more"><span data-i18n="sms.read-how-we-built-shams">Read how we built Shams Technology Team School ERP</span><i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+          </div>
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <ul class="sms-why-list">
+              <li><i class="bi bi-geo-alt" aria-hidden="true"></i><div><h3 data-i18n="sms.local-understanding">Local understanding</h3><p data-i18n="sms.designed-around-how-schools-in">Designed around how schools in Afghanistan really work.</p></div></li>
+              <li><i class="bi bi-sliders" aria-hidden="true"></i><div><h3 data-i18n="sms.customisation">Customisation</h3><p data-i18n="sms.we-adapt-fees-exams-reports">We adapt fees, exams, reports and roles to your school.</p></div></li>
+              <li><i class="bi bi-person-video3" aria-hidden="true"></i><div><h3 data-i18n="sms.training">Training</h3><p data-i18n="sms.we-set-up-the-system">We set up the system and train your staff to use it.</p></div></li>
+              <li><i class="bi bi-headset" aria-hidden="true"></i><div><h3 data-i18n="sms.support">Support</h3><p data-i18n="sms.we-stay-with-you-after">We stay with you after launch, by phone, WhatsApp or in person.</p></div></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Why us -->
+
+    <!-- FAQ -->
+    <section id="faq" class="faq section light-background">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="content px-xl-5">
+              <h3><span data-i18n="sms.questions-from">Questions from </span><strong data-i18n="sms.schools">schools</strong></h3>
+              <p data-i18n="sms.if-your-question-is-not">If your question is not answered here, contact us and we will reply.</p>
+            </div>
+          </div>
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <div class="faq-container">
+              <div class="faq-item faq-active">
+                <h3><span class="num">1.</span> <span data-i18n="sms.how-do-we-get-started">How do we get started?</span></h3>
+                <div class="faq-content"><p data-i18n="sms.we-show-you-a-demo">We show you a demo, agree on the modules you need, install the system, add your school's information and train your staff.</p></div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <div class="faq-item">
+                <h3><span class="num">2.</span> <span data-i18n="sms.can-we-bring-our-existing">Can we bring our existing data from Excel?</span></h3>
+                <div class="faq-content"><p data-i18n="sms.yes-students-and-other-records">Yes. Students and other records can be imported in bulk, so you do not have to type them again.</p></div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <div class="faq-item">
+                <h3><span class="num">3.</span> <span data-i18n="sms.do-you-train-our-staff">Do you train our staff?</span></h3>
+                <div class="faq-content"><p data-i18n="sms.yes-we-train-administrators-teachers">Yes. We train administrators, teachers and accountants on the parts of the system they use.</p></div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <div class="faq-item">
+                <h3><span class="num">4.</span> <span data-i18n="sms.which-languages-does-it-support">Which languages does it support?</span></h3>
+                <div class="faq-content"><p data-i18n="sms.dari-pashto-and-english-with">Dari, Pashto and English, with right-to-left screens and Solar Hijri dates. Each user can choose their language.</p></div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <div class="faq-item">
+                <h3><span class="num">5.</span> <span data-i18n="sms.does-it-work-without-internet">Does it work without internet?</span></h3>
+                <div class="faq-content"><p data-i18n="sms.yes-the-local-version-runs">Yes. The local version runs on a server inside your school and keeps working when the internet is down. Schools with several branches can use the cloud version.</p></div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <div class="faq-item">
+                <h3><span class="num">6.</span> <span data-i18n="sms.can-it-be-adapted-to">Can it be adapted to our school?</span></h3>
+                <div class="faq-content"><p data-i18n="sms.yes-fees-exam-rules-reports">Yes. Fees, exam rules, reports, user roles and the modules you use can be adjusted to your school.</p></div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <div class="faq-item">
+                <h3><span class="num">7.</span> <span data-i18n="sms.what-support-do-you-provide">What support do you provide?</span></h3>
+                <div class="faq-content"><p data-i18n="sms.we-provide-updates-backups-and">We provide updates, backups and help by phone, WhatsApp or in person, and we fix problems quickly.</p></div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <div class="faq-item">
+                <h3><span class="num">8.</span> <span data-i18n="sms.how-much-does-it-cost">How much does it cost?</span></h3>
+                <div class="faq-content"><p data-i18n="sms.the-price-depends-on-the">The price depends on the number of students, the modules you choose and whether you use the local or cloud version. Contact us for a quote.</p></div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /FAQ -->
+
+    <!-- Demo request -->
+    <section id="demo" class="sms-demo contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-i18n="sms.see-it-working-at-your">See it working at your school</h2>
+        <p data-i18n="sms.request-a-demo-ask-for">Request a demo, ask for a quote or discuss what your school needs</p>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-5">
+            <div class="sms-cta-box">
+              <h3 data-i18n="sms.talk-to-our-team">Talk to our team</h3>
+              <p data-i18n="sms.ask-us-anything-about-shams">Ask us anything about Shams Technology Team School ERP.</p>
+              <a class="sms-btn sms-btn-primary w-100" href="https://wa.me/93770621526" target="_blank" rel="noopener"><i class="bi bi-whatsapp" aria-hidden="true"></i><span data-i18n="home.chat-on-whatsapp">Chat on WhatsApp</span></a>
+              <ul class="sms-contact">
+                <li><i class="bi bi-whatsapp" aria-hidden="true"></i><span><span class="sms-contact-label" data-i18n="home.call-or-whatsapp">Call or WhatsApp</span><span class="sms-numbers"><a href="tel:+93799781780">+93 799 781 780</a><a href="tel:+93770621526">+93 770 621 526</a></span></span></li>
+                <li><i class="bi bi-envelope" aria-hidden="true"></i><span><span class="sms-contact-label" data-i18n="sms.email">Email</span> <a href="mailto:shams.technology.team@gmail.com">shams.technology.team@gmail.com</a></span></li>
+                <li><i class="bi bi-geo-alt" aria-hidden="true"></i><span data-i18n="common.kabul-afghanistan">Kabul, Afghanistan</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <form id="contactForm" class="php-email-form" aria-label="Demo request form" data-i18n-attr="aria-label:sms.demo-request-form">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your name" required data-i18n-attr="placeholder:sms.your-name">
+                </div>
+                <div class="col-md-6">
+                  <input type="email" class="form-control" name="email" placeholder="Your email" required data-i18n-attr="placeholder:sms.your-email">
+                </div>
+                <input type="hidden" name="subject" value="School ERP demo request">
+                <div class="col-12">
+                  <textarea class="form-control" name="message" rows="5" placeholder="School name, city, number of students and the modules you are interested in" required data-i18n-attr="placeholder:sms.school-name-city-number-of"></textarea>
+                </div>
+                <input type="text" name="_honey" class="d-none" tabindex="-1" autocomplete="off">
+                <div class="col-12 text-center form-actions">
+                  <div class="loading" data-i18n="home.sending-your-message">Sending your message…</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message" data-i18n="home.thank-you-your-message-has">Thank you! Your message has been sent. We will reply soon.</div>
+                  <button type="submit" data-i18n="sms.request-a-demo"><i class="bi bi-send"></i> Request a demo</button>
+                  <button type="button" id="sendWhatsApp" class="btn-alt" data-i18n="home.send-on-whatsapp"><i class="bi bi-whatsapp"></i> Send on WhatsApp</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Demo request -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img src="assets/img/logo-mark.png" alt="" class="logo-mark" width="44" height="44">
+            <span class="sitename">Shams Technology Team</span>
+          </a>
+          <p data-i18n="common.a-kabul-based-team-building">A Kabul-based team building software, systems and AI for schools, universities, businesses and organisations, in Dari, Pashto and English.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="https://www.facebook.com/profile.php?id=61595708472138" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/shams_technology_team/" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/shams-technology-team" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://wa.me/93770621526" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4 data-i18n="common.useful-links">Useful Links</h4>
+          <ul>
+            <li><a href="index.html#hero" data-i18n="common.home">Home</a></li>
+            <li><a href="index.html#about" data-i18n="common.about-us">About us</a></li>
+            <li><a href="index.html#services" data-i18n="common.services">Services</a></li>
+            <li><a href="index.html#portfolio" data-i18n="common.portfolio">Portfolio</a></li>
+            <li><a href="index.html#team" data-i18n="common.team">Team</a></li>
+            <li><a href="index.html#contact" data-i18n="common.contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4 data-i18n="common.our-services">Our Services</h4>
+          <ul>
+            <li><a href="school-management-system.html" data-i18n="common.erp-school-systems">ERP &amp; school systems</a></li>
+            <li><a href="project-university-assistant.html" data-i18n="common.ai-chatbots">AI chatbots</a></li>
+            <li><a href="project-education-platform.html" data-i18n="common.e-learning-platforms">E-learning platforms</a></li>
+            <li><a href="project-marketplace.html" data-i18n="common.websites-e-commerce">Websites &amp; e-commerce</a></li>
+            <li><a href="project-student-messaging.html" data-i18n="common.automation">Automation</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4 data-i18n="common.contact-us">Contact Us</h4>
+          <p data-i18n="common.kabul-afghanistan">Kabul, Afghanistan</p>
+          <p data-i18n="common.open-24-7-hybrid">Open 24/7 · Hybrid</p>
+          <p class="mt-4"><strong data-i18n="common.phone-whatsapp">Phone / WhatsApp:</strong> <span><a href="tel:+93799781780">+93 799 781 780</a><br><a href="tel:+93770621526">+93 770 621 526</a></span></p>
+          <p><strong data-i18n="common.email">Email:</strong> <span><a href="mailto:shams.technology.team@gmail.com">shams.technology.team@gmail.com</a></span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>2026</span> <a href="index.html"><strong class="sitename" data-i18n="common.shams-technology-team">Shams Technology Team</strong></a>. <span data-i18n="common.all-rights-reserved">All Rights Reserved.</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+     
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Back to top" data-i18n-attr="aria-label:sms.back-to-top"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    /* Don't keep visitors waiting: hide the loading screen after 1.5 s even if some files are still loading */
+    setTimeout(function () { var p = document.getElementById('preloader'); if (p) p.remove(); }, 1500);
+  </script>
+  <script src="assets/js/contact.js"></script>
+
+</body>
+
+</html>

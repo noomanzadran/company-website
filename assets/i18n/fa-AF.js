@@ -257,4 +257,251 @@ window.SHAMS_I18N['fa-AF'] = {
 
   /* ---- home ---- */
   "home.20m": "۲۰ میلیون+",  // 20M+
+
+  /* ---- school-management-system.html ---- */
+  "sms.school-management-system-school-erp": "سیستم مدیریت مکتب (ERP مکتب) – تیم تکنالوژی شمس",  // School Management System (School ERP) – Shams Technology Team
+  "sms.shams-school-erp-one-system": "ERP مکتب تیم تکنالوژی شمس: یک سیستم برای شاگردان، حاضری، امتحانات و نتایج، فیس، کارمندان و والدین. ساخته‌شده برای مکاتب افغانستان، به دری، پشتو و انگلیسی، و بدون انترنت هم کار می‌کند.",  // Shams Technology Team School ERP: one system for students, attendance, exams and results, fees, staff and parents. Built for schools in Afghanistan, in Dari, Pashto and English, and it works without internet.
+  "sms.school-management-system-afghanistan-school": "سیستم مدیریت مکتب افغانستان، ERP مکتب کابل، نرم‌افزار مکتب به دری و پشتو، ERP مکتب تیم تکنالوژی شمس",  // school management system Afghanistan, school ERP Kabul, Dari Pashto school software, Shams Technology Team School ERP
+  "sms.school-management-system": "سیستم مدیریت مکتب",  // School Management System
+  "sms.one-system-to-run-your": "یک سیستم برای مدیریت کامل مکتب شما.",  // One system to run your whole school.
+  "sms.students-attendance-exams-and-results": "شاگردان، حاضری، امتحانات و نتایج، فیس، کارمندان و والدین، همه در یک جا. ساخته‌شده برای مکاتب افغانستان، به زبان‌های دری، پشتو و انگلیسی، و بدون انترنت هم به کار خود ادامه می‌دهد.",  // Students, attendance, exams and results, fees, staff and parents in one place. Built for schools in Afghanistan, in Dari, Pashto and English, and it keeps working without internet.
+  "sms.request-a-demo": "درخواست نمایش سیستم",  // Request a demo REVIEW: "Demo" = نمایش سیستم / د سیستم ښودنه – confirm.
+  "sms.contact-our-team": "تماس با تیم ما",  // Contact our team
+  "sms.explore-features": "امکانات را ببینید",  // Explore features
+  "sms.works-offline": "کار بدون انترنت",  // Works offline
+  "sms.dari-pashto-english": "دری · پشتو · انگلیسی",  // Dari · Pashto · English
+  "sms.solar-hijri-dates": "تاریخ هجری شمسی",  // Solar Hijri dates
+  "sms.ministry-format-results": "نتایج به فورمت وزارت معارف",  // Ministry-format results
+  "sms.shams-school-erp-dashboard-students": "داشبورد ERP مکتب تیم تکنالوژی شمس: شاگردان، حاضری امروز، فیس جمع‌آوری‌شده و رویدادهای پیش رو",  // Shams Technology Team School ERP dashboard: students, attendance today, fees collected and upcoming events
+  "sms.shams-school-erp-dashboard-in": "داشبورد ERP مکتب تیم تکنالوژی شمس در حالت تاریک",  // Shams Technology Team School ERP dashboard in dark mode
+  "sms.the-principals-dashboard-in-shams": "داشبورد مدیر مکتب در ERP مکتب تیم تکنالوژی شمس",  // The principal's dashboard in Shams Technology Team School ERP
+  "sms.why-schools-move-to-shams": "چرا مکاتب ERP مکتب تیم تکنالوژی شمس را انتخاب می‌کنند",  // Why schools move to Shams Technology Team School ERP
+  "sms.less-paperwork-for-staff-clear": "کاغذبازی کمتر برای کارمندان، معلومات روشن برای مالکان و والدین",  // Less paperwork for staff, clear information for owners and parents
+  "sms.less-paperwork": "کاغذبازی کمتر",  // Less paperwork
+  "sms.registers-mark-sheets-and-fee": "کتاب‌های حاضری، جدول نمرات و دفترهای فیس به یک سیستم منتقل می‌شوند. کارمندان معلومات را یک بار وارد می‌کنند و در همه جا از آن استفاده می‌کنند.",  // Registers, mark sheets and fee books move into one system. Staff enter information once and use it everywhere.
+  "sms.full-transparency": "شفافیت کامل",  // Full transparency
+  "sms.owners-and-principals-see-attendance": "مالکان و مدیران در هر لحظه حاضری، نتایج و فیس را می‌بینند و برای هر پرداخت رسید صادر می‌شود.",  // Owners and principals see attendance, results and fees at any moment, and every payment has a receipt.
+  "sms.faster-results": "نتایج سریع‌تر",  // Faster results
+  "sms.totals-percentages-and-result-sheets": "مجموع نمرات، فیصدی و شقه‌های نتایج به‌جای دست، به‌طور خودکار محاسبه می‌شوند.",  // Totals, percentages and result sheets are calculated automatically instead of by hand.
+  "sms.works-without-internet": "کار بدون انترنت",  // Works without internet
+  "sms.installed-on-a-server-inside": "روی سروری در داخل مکتب شما نصب می‌شود و هنگام قطع انترنت هم کار می‌کند. برای مکاتبی که چندین شعبه دارند، نسخهٔ کلاود هم موجود است.",  // Installed on a server inside your school, it keeps running when the internet is down. A cloud version is available for schools with many branches.
+  "sms.everything-a-school-needs": "هر آنچه یک مکتب نیاز دارد",  // Everything a school needs
+  "sms.twelve-connected-modules-grouped-by": "دوازده بخش به‌هم‌پیوسته، دسته‌بندی‌شده بر اساس نوع کار",  // Twelve connected modules, grouped by the work they support
+  "sms.academic": "تعلیمی",  // Academic
+  "sms.academic-management": "مدیریت تعلیمی",  // Academic management
+  "sms.exams-and-grading": "امتحانات و نمره‌دهی",  // Exams and grading
+  "sms.timetable-and-scheduling": "تقسیم اوقات و زمان‌بندی",  // Timetable and scheduling
+  "sms.library": "کتابخانه",  // Library
+  "sms.administration": "اداری",  // Administration
+  "sms.student-information": "معلومات شاگردان",  // Student information
+  "sms.attendance": "حاضری",  // Attendance
+  "sms.teachers-and-staff": "معلمان و کارمندان",  // Teachers and staff
+  "sms.transport": "ترانسپورت",  // Transport
+  "sms.finance": "مالی",  // Finance
+  "sms.fees-and-finance": "فیس و امور مالی",  // Fees and finance
+  "sms.reports-and-analytics": "گزارش‌ها و تحلیل",  // Reports and analytics
+  "sms.communication": "ارتباطات",  // Communication
+  "sms.parents-and-guardians": "والدین و سرپرستان",  // Parents and guardians
+  "sms.notifications-and-messages": "اطلاعیه‌ها و پیام‌ها",  // Notifications and messages
+  "sms.modules-in-detail": "معرفی بخش‌ها",  // Modules in detail
+  "sms.what-each-part-of-the": "هر بخش سیستم چه کاری برای مکتب شما انجام می‌دهد",  // What each part of the system does for your school
+  "sms.a-complete-digital-file-for": "یک دوسیهٔ دیجیتال کامل برای هر شاگرد، از شمولیت تا فراغت.",  // A complete digital file for every student, from admission to graduation.
+  "sms.registration-and-admission-with-student": "ثبت‌نام و شمولیت با نمبر شناسایی و نمبر ثبت شاگرد",  // Registration and admission with student ID and registration numbers
+  "sms.personal-and-guardian-information-documents": "معلومات شخصی و معلومات ولی، اسناد و عکس‌ها",  // Personal and guardian information, documents and photos
+  "sms.class-and-section-assignment-promotion": "تعیین صنف و شعبه، ارتقای صنف و تبدیلی",  // Class and section assignment, promotion and transfer
+  "sms.academic-history-and-student-status": "سابقهٔ تعلیمی و وضعیت شاگرد",  // Academic history and student status
+  "sms.bulk-registration-with-import-and": "ثبت‌نام گروهی با وارد کردن و خارج کردن معلومات",  // Bulk registration with import and export
+  "sms.set-up-the-school-year": "سال تعلیمی را یک بار تنظیم کنید و همهٔ بخش‌ها از آن پیروی می‌کنند.",  // Set up the school year once and every module follows it.
+  "sms.academic-years-terms-classes-sections": "سال‌های تعلیمی، دوره‌ها، صنف‌ها، شعبه‌ها و مضامین",  // Academic years, terms, classes, sections and subjects
+  "sms.curriculum-lessons-and-syllabus": "نصاب، درس‌ها و پلان درسی",  // Curriculum, lessons and syllabus
+  "sms.subject-and-teacher-assignment": "تعیین مضامین و معلمان",  // Subject and teacher assignment
+  "sms.academic-calendar-and-planning": "تقویم تعلیمی و پلان‌گذاری",  // Academic calendar and planning
+  "sms.tracking-of-academic-progress": "پیگیری پیشرفت تعلیمی",  // Tracking of academic progress
+  "sms.teachers-take-attendance-in-seconds": "معلمان در چند ثانیه حاضری می‌گیرند، روی کمپیوتر یا موبایل.",  // Teachers take attendance in seconds, on a computer or a phone.
+  "sms.daily-attendance-for-students-teachers": "حاضری روزانهٔ شاگردان، معلمان و کارمندان",  // Daily attendance for students, teachers and staff
+  "sms.present-absent-late-and-excused": "حاضر، غیرحاضر، ناوقت و رخصت",  // Present, absent, late and excused
+  "sms.attendance-by-class-and-section": "حاضری بر اساس صنف و شعبه، یا برای تمام صنف به‌یک‌باره",  // Attendance by class and section, or for a whole class at once
+  "sms.monthly-summaries-and-attendance-reports": "خلاصهٔ ماهانه و گزارش‌های حاضری",  // Monthly summaries and attendance reports
+  "sms.absence-notices-to-parents-and": "اطلاع غیرحاضری به والدین و سرپرستان",  // Absence notices to parents and guardians
+  "sms.from-exam-schedules-to-report": "از تقسیم اوقات امتحان تا اطلاع‌نامه، با همان قواعد نمره‌دهی که مکتب شما استفاده می‌کند.",  // From exam schedules to report cards, with the marking rules your school uses.
+  "sms.exam-schedules-and-subject-wise": "تقسیم اوقات امتحانات و درج نمرات هر مضمون",  // Exam schedules and subject-wise marks entry
+  "sms.automatic-totals-percentages-and-results": "محاسبهٔ خودکار مجموع، فیصدی و نتیجه",  // Automatic totals, percentages and results
+  "sms.passed-conditional-and-failed-results": "نتایج کامیاب، مشروط و ناکام",  // Passed, conditional and failed results
+  "sms.report-cards-and-class-result": "اطلاع‌نامه‌ها و شقه‌های نتایج صنف به فورمت وزارت معارف",  // Report cards and class result sheets in the Ministry format REVIEW: Class result sheet = شقه / شقې – confirm.
+  "sms.result-publication-and-performance-analysis": "اعلان نتایج و تحلیل کارکرد تعلیمی",  // Result publication and performance analysis
+  "sms.how-grading-works": "نمره‌دهی چطور کار می‌کند",  // How grading works
+  "sms.staff-records-assignments-and-leave": "سوابق کارمندان، وظایف و رخصتی‌ها در یک جا.",  // Staff records, assignments and leave in one place.
+  "sms.teacher-and-staff-profiles-with": "پروفایل معلمان و کارمندان با معلومات استخدام",  // Teacher and staff profiles with employment information
+  "sms.departments-and-positions": "دیپارتمنت‌ها و بست‌ها",  // Departments and positions
+  "sms.teacher-assignment-to-subjects-and": "تعیین معلمان برای مضامین و صنف‌ها",  // Teacher assignment to subjects and classes
+  "sms.staff-attendance-leave-requests-and": "حاضری کارمندان، درخواست رخصتی و منظوری",  // Staff attendance, leave requests and approvals
+  "sms.employee-records-documents-and-staff": "سوابق کارمندان، اسناد و گزارش‌های کارمندان",  // Employee records, documents and staff reports
+  "sms.build-weekly-timetables-without-double": "تقسیم اوقات هفته‌وار را بدون تداخل معلمان یا صنف‌ها بسازید.",  // Build weekly timetables without double-booking teachers or rooms.
+  "sms.class-and-teacher-timetables": "تقسیم اوقات صنف‌ها و معلمان",  // Class and teacher timetables
+  "sms.periods-subjects-and-classroom-allocation": "ساعات درسی، مضامین و تعیین اتاق درسی",  // Periods, subjects and classroom allocation
+  "sms.conflict-detection": "تشخیص تداخل",  // Conflict detection
+  "sms.daily-and-weekly-schedules": "برنامهٔ روزانه و هفته‌وار",  // Daily and weekly schedules
+  "sms.every-afghani-accounted-for-with": "حساب هر افغانی روشن است و برای هر پرداخت رسید چاپی داده می‌شود.",  // Every afghani accounted for, with a printed receipt for every payment.
+  "sms.admission-registration-monthly-and-annual": "فیس شمولیت، ثبت‌نام، ماهانه و سالانه بر اساس کتگوری",  // Admission, registration, monthly and annual fees by category
+  "sms.payment-entry-outstanding-balances-and": "ثبت پرداخت‌ها، باقی‌داری‌ها و سوابق فیس هر شاگرد",  // Payment entry, outstanding balances and student fee records
+  "sms.discounts-and-scholarships": "تخفیف‌ها و بورسیه‌ها",  // Discounts and scholarships REVIEW: Scholarships = بورسیه / بورس – confirm.
+  "sms.a4-receipts-income-and-expense": "رسیدهای A4، پیگیری عواید و مصارف",  // A4 receipts, income and expense tracking
+  "sms.financial-reports-for-the-owner": "گزارش‌های مالی برای مالک و ادارهٔ مکتب",  // Financial reports for the owner and management
+  "sms.parents-follow-their-children-without": "والدین بدون مراجعه به دفتر مکتب، وضعیت فرزندان خود را دنبال می‌کنند.",  // Parents follow their children without visiting the school office.
+  "sms.parent-profiles-linked-to-one": "پروفایل والدین که به یک یا چند شاگرد وصل است",  // Parent profiles linked to one or more students
+  "sms.academic-progress-attendance-and-fee": "پیشرفت تعلیمی، حاضری و معلومات فیس",  // Academic progress, attendance and fee information
+  "sms.announcements-and-messages-from-the": "اعلانات و پیام‌های مکتب",  // Announcements and messages from the school
+  "sms.know-where-every-book-is": "بدانید هر کتاب کجاست و نزد کیست.",  // Know where every book is and who has it.
+  "sms.book-catalogue-and-categories": "فهرست کتاب‌ها و کتگوری‌ها",  // Book catalogue and categories
+  "sms.issue-and-return-for-students": "امانت‌دادن و بازگرداندن کتاب برای شاگردان و معلمان",  // Issue and return for students and teachers
+  "sms.due-dates-overdue-books-and": "تاریخ بازگشت، کتاب‌های معطل‌شده و گزارش‌های کتابخانه",  // Due dates, overdue books and library reports
+  "sms.school-buses-routes-and-the": "سرویس‌های مکتب، مسیرها و شاگردانی که از آن‌ها استفاده می‌کنند.",  // School buses, routes and the students who use them.
+  "sms.vehicles-and-drivers": "وسایط و دریوران",  // Vehicles and drivers
+  "sms.routes-and-stops": "مسیرها و ایستگاه‌ها",  // Routes and stops
+  "sms.student-assignment-and-transport-fees": "تعیین شاگردان و فیس ترانسپورت",  // Student assignment and transport fees
+  "sms.the-right-message-to-the": "پیام درست، به افراد درست، در زمان درست.",  // The right message to the right people at the right time.
+  "sms.school-announcements-for-staff-and": "اعلانات مکتب برای کارمندان و والدین",  // School announcements for staff and parents
+  "sms.attendance-exam-and-result-notifications": "اطلاعیه‌های حاضری، امتحان و نتایج",  // Attendance, exam and result notifications
+  "sms.fee-reminders": "یادآوری فیس",  // Fee reminders
+  "sms.whatsapp-and-sms-where-available": "WhatsApp و SMS در صورت موجود بودن",  // WhatsApp and SMS where available
+  "sms.clear-numbers-for-decisions-ready": "ارقام روشن برای تصمیم‌گیری، آماده برای چاپ یا اشتراک.",  // Clear numbers for decisions, ready to print or share.
+  "sms.enrolment-attendance-and-student-statistics": "شمولیت، حاضری و احصائیهٔ شاگردان",  // Enrolment, attendance and student statistics
+  "sms.academic-performance-and-exam-analysis": "کارکرد تعلیمی و تحلیل امتحانات",  // Academic performance and exam analysis
+  "sms.financial-and-staff-reports": "گزارش‌های مالی و کارمندان",  // Financial and staff reports
+  "sms.dashboards-and-custom-reports": "داشبوردها و گزارش‌های دلخواه",  // Dashboards and custom reports
+  "sms.export-to-pdf-and-excel": "خروجی PDF و Excel",  // Export to PDF and Excel
+  "sms.a-dashboard-for-every-role": "یک داشبورد برای هر نقش",  // A dashboard for every role
+  "sms.each-person-sees-only-what": "هر کس فقط چیزی را می‌بیند که نیاز دارد و اجازهٔ دیدن آن را دارد",  // Each person sees only what they need, and only what they are allowed to see
+  "sms.super-administrator": "مدیر ارشد سیستم",  // Super administrator REVIEW: Super administrator = مدیر ارشد سیستم / د سیستم لوړ مدیر – confirm.
+  "sms.sets-up-the-school-users": "مکتب، کاربران، صلاحیت‌ها و تنظیمات سیستم را تنظیم می‌کند.",  // Sets up the school, users, permissions and system settings.
+  "sms.principal": "مدیر مکتب",  // Principal
+  "sms.a-daily-picture-of-attendance": "تصویر روزانه از حاضری، نتایج، کارمندان و فیس.",  // A daily picture of attendance, results, staff and fees.
+  "sms.school-manager": "مدیر اداری",  // School manager
+  "sms.admissions-classes-staff-and-day": "شمولیت، صنف‌ها، کارمندان و کارهای روزمرهٔ اداری.",  // Admissions, classes, staff and day-to-day administration.
+  "sms.academic-manager": "آمر تدریسی",  // Academic manager REVIEW: Academic manager = آمر تدریسی / تدریسي آمر – confirm.
+  "sms.subjects-timetables-exams-and-result": "مضامین، تقسیم اوقات، امتحانات و شقه‌های نتایج.",  // Subjects, timetables, exams and result sheets.
+  "sms.accountant": "محاسب",  // Accountant
+  "sms.fees-payments-receipts-expenses-and": "فیس، پرداخت‌ها، رسیدها، مصارف و گزارش‌های مالی.",  // Fees, payments, receipts, expenses and financial reports.
+  "sms.teacher": "معلم",  // Teacher
+  "sms.their-own-classes-attendance-marks": "صنف‌های خودش: حاضری، نمرات و تقسیم اوقات.",  // Their own classes: attendance, marks and timetable.
+  "sms.librarian": "کتابدار",  // Librarian
+  "sms.catalogue-book-loans-returns-and": "فهرست کتاب‌ها، امانت، بازگشت و کتاب‌های معطل‌شده.",  // Catalogue, book loans, returns and overdue books.
+  "sms.hr-officer": "مسئول منابع بشری",  // HR officer
+  "sms.staff-records-staff-attendance-leave": "سوابق کارمندان، حاضری کارمندان، رخصتی‌ها و اسناد.",  // Staff records, staff attendance, leave and documents.
+  "sms.parent-or-guardian": "والدین یا سرپرست",  // Parent or guardian
+  "sms.their-childrens-attendance-results-fees": "حاضری، نتایج، فیس و اخبار مکتب فرزندانشان.",  // Their children's attendance, results, fees and school news.
+  "sms.marks-results-and-report-cards": "نمرات، نتایج و اطلاع‌نامه‌ها، به‌طور خودکار محاسبه می‌شوند",  // Marks, results and report cards, calculated for you
+  "sms.the-system-follows-the-marking": "سیستم از ساختار نمره‌دهی مکتب شما پیروی می‌کند. تنظیم معیاری چنین است:",  // The system follows the marking structure your school uses. The standard set-up is:
+  "sms.mid-year-exam": "امتحان چهارونیم‌ماهه",  // Mid-year exam REVIEW: Mid-year exam = امتحان چهارونیم‌ماهه / څلورنیم میاشتنۍ ازموینه (Afghan school term) – confirm.
+  "sms.annual-exam": "امتحان سالانه",  // Annual exam
+  "sms.total": "مجموع",  // Total
+  "sms.pass-mark": "نمرهٔ کامیابی",  // Pass mark
+  "sms.results-passed-conditional-or-failed": "نتایج: کامیاب، مشروط یا ناکام",  // Results: passed, conditional or failed
+  "sms.totals-and-percentages-are-calculated": "مجموع و فیصدی به‌طور خودکار محاسبه می‌شوند",  // Totals and percentages are calculated automatically
+  "sms.authorised-administrators-can-change-marks": "مدیران مجاز می‌توانند نمرات، نمرهٔ کامیابی و قواعد نتیجه را تغییر دهند",  // Authorised administrators can change marks, pass mark and result rules
+  "sms.report-card": "اطلاع‌نامه",  // Report card REVIEW: Report card = اطلاع‌نامه (Dari) / د پایلو پاڼه (Pashto) – confirm the term your schools use.
+  "sms.grade-9-section-a-1405": "صنف نهم · شعبهٔ الف · ۱۴۰۵",  // Grade 9 · Section A · 1405
+  "sms.example-sample-data": "نمونه · معلومات آزمایشی",  // Example · sample data
+  "sms.subject": "مضمون",  // Subject
+  "sms.mid-year-40": "چهارونیم‌ماهه (۴۰)",  // Mid-year (40)
+  "sms.annual-60": "سالانه (۶۰)",  // Annual (60)
+  "sms.total-100": "مجموع (۱۰۰)",  // Total (100)
+  "sms.result": "نتیجه",  // Result
+  "sms.mathematics": "ریاضی",  // Mathematics
+  "sms.passed": "کامیاب",  // Passed
+  "sms.dari": "دری",  // Dari
+  "sms.pashto": "پشتو",  // Pashto
+  "sms.physics": "فزیک",  // Physics
+  "sms.below-40": "کمتر از ۴۰",  // Below 40
+  "sms.biology": "بیولوژی",  // Biology
+  "sms.percentage": "فیصدی",  // Percentage
+  "sms.final-result": "نتیجهٔ نهایی",  // Final result
+  "sms.conditional": "مشروط",  // Conditional
+  "sms.in-this-example-the-student": "در این نمونه، شاگرد در یک مضمون کمتر از نمرهٔ کامیابی گرفته است، بنابراین نتیجهٔ نهایی مشروط است. قواعد دقیق را مکتب شما تعیین می‌کند.",  // In this example the student is below the pass mark in one subject, so the final result is conditional. Your school decides the exact rules.
+  "sms.taking-todays-attendance-on-a": "گرفتن حاضری امروز روی موبایل به زبان دری: حاضر، غیرحاضر و رخصت",  // Taking today's attendance on a phone in Dari: present, absent and on leave
+  "sms.taking-attendance-on-a-phone": "گرفتن حاضری روی موبایل، حالت تاریک",  // Taking attendance on a phone, dark mode
+  "sms.taking-attendance-on-a-phone-2": "گرفتن حاضری روی موبایل، به زبان دری",  // Taking attendance on a phone, in Dari
+  "sms.attendance-and-parents": "حاضری و والدین",  // Attendance and parents
+  "sms.parents-know-the-same-day": "والدین همان روز باخبر می‌شوند",  // Parents know the same day
+  "sms.teachers-mark-attendance-class-by": "معلمان حاضری را صنف به صنف ثبت می‌کنند. دفتر مکتب فوراً مجموع را می‌بیند و هرگاه شاگردی غیرحاضر باشد، والدینش باخبر می‌شوند.",  // Teachers mark attendance class by class. The office sees the totals immediately, and parents are informed when their child is absent.
+  "sms.present": "حاضر",  // Present
+  "sms.absent": "غیرحاضر",  // Absent
+  "sms.late": "ناوقت",  // Late
+  "sms.excused": "رخصت",  // Excused
+  "sms.example-message": "نمونهٔ پیام",  // Example message
+  "sms.dear-parent-your-child-was": "والدین محترم، فرزند شما امروز غیرحاضر بود. اگر سوالی دارید، لطفاً با دفتر مکتب تماس بگیرید.",  // Dear parent, your child was absent today. Please contact the school office if you have any questions.
+  "sms.notices-about-absence-exams-results": "اطلاعیه دربارهٔ غیرحاضری، امتحانات، نتایج و فیس",  // Notices about absence, exams, results and fees
+  "sms.announcements-to-all-parents-or": "اعلان برای همهٔ والدین یا برای والدین یک صنف",  // Announcements to all parents or to one class
+  "sms.fees-in-afghanis-a-receipt": "فیس به افغانی، رسید برای هر پرداخت",  // Fees in afghanis, a receipt for every payment
+  "sms.accountants-record-a-payment-once": "محاسب هر پرداخت را یک بار ثبت می‌کند. باقی‌داری شاگرد، رسید و گزارش‌های مالی هم‌زمان به‌روز می‌شوند.",  // Accountants record a payment once. The student's balance, the receipt and the financial reports update together.
+  "sms.yearly-and-monthly-fees-discounts": "فیس سالانه و ماهانه، تخفیف‌ها و بورسیه‌ها",  // Yearly and monthly fees, discounts and scholarships
+  "sms.payment-history-and-outstanding-balance": "تاریخچهٔ پرداخت و باقی‌داری هر شاگرد",  // Payment history and outstanding balance for each student
+  "sms.printed-a4-receipts-and-income": "رسیدهای چاپی A4 و گزارش‌های عواید و مصارف",  // Printed A4 receipts and income and expense reports
+  "sms.fee-payment-screen-with-payment": "صفحهٔ پرداخت فیس با تاریخچهٔ پرداخت و رسید چاپی به افغانی",  // Fee payment screen with payment history and a printed receipt in afghanis
+  "sms.fee-payment-screen-dark-mode": "صفحهٔ پرداخت فیس، حالت تاریک",  // Fee payment screen, dark mode
+  "sms.fee-payment-and-receipt-in": "پرداخت فیس و رسید در ERP مکتب تیم تکنالوژی شمس",  // Fee payment and receipt in Shams Technology Team School ERP
+  "sms.three-languages-built-in": "سه زبان، از ابتدا در سیستم",  // Three languages, built in
+  "sms.every-screen-report-and-receipt": "هر صفحه، گزارش و رسید به زبان کارمندان شما کار می‌کند",  // Every screen, report and receipt works in the language of your staff
+  "sms.right-to-left-screens-and": "صفحه‌های راست به چپ و اصطلاحات مکتبی دری افغانستان.",  // Right-to-left screens and Afghan Dari school terms.
+  "sms.right-to-left-screens-and-2": "صفحه‌های راست به چپ و اصطلاحات مکتبی پشتوی افغانستان.",  // Right-to-left screens and Afghan Pashto school terms.
+  "sms.english": "انگلیسی",  // English
+  "sms.for-international-schools-and-english": "برای مکاتب بین‌المللی و کارمندان انگلیسی‌زبان.",  // For international schools and English-speaking staff.
+  "sms.right-to-left-and-left": "صفحه‌آرایی راست به چپ و چپ به راست",  // Right-to-left and left-to-right layouts
+  "sms.clear-fonts-for-dari-and": "فونت‌های خوانا برای دری و پشتو",  // Clear fonts for Dari and Pashto
+  "sms.each-user-chooses-their-own": "هر کاربر زبان خود را انتخاب می‌کند",  // Each user chooses their own language
+  "sms.your-data-stays-safe": "معلومات شما مصون می‌ماند",  // Your data stays safe
+  "sms.built-for-schools-that-cannot": "ساخته‌شده برای مکاتبی که نمی‌توانند سوابق خود را از دست بدهند",  // Built for schools that cannot afford to lose their records
+  "sms.role-based-access": "دسترسی بر اساس نقش",  // Role-based access
+  "sms.every-user-has-their-own": "هر کاربر حساب جداگانه دارد و فقط چیزی را می‌بیند که نقشش اجازه می‌دهد.",  // Every user has their own account and sees only what their role allows.
+  "sms.your-own-server": "سرور خودتان",  // Your own server
+  "sms.with-the-local-version-your": "با نسخهٔ محلی، معلومات شما در داخل مکتب خودتان می‌ماند.",  // With the local version, your data stays inside your school.
+  "sms.automatic-backups": "بکاپ خودکار",  // Automatic backups
+  "sms.backups-are-taken-automatically-including": "بکاپ به‌طور خودکار گرفته می‌شود، از جمله پیش از هر آپدیت، تا هیچ معلوماتی از بین نرود.",  // Backups are taken automatically, including before every update, so no data is lost.
+  "sms.safe-updates": "آپدیت مصون",  // Safe updates
+  "sms.new-versions-are-installed-with": "نسخه‌های جدید طوری نصب می‌شوند که سوابق فعلی شما حفظ شود.",  // New versions are installed with database migrations that keep your existing records.
+  "sms.why-shams-technology-team": "چرا تیم تکنالوژی شمس",  // Why Shams Technology Team
+  "sms.built-in-kabul-for-afghan": "ساخت کابل، برای مکاتب افغانستان",  // Built in Kabul, for Afghan schools
+  "sms.we-are-a-local-team": "ما یک تیم محلی هستیم. فورمت‌های وزارت معارف، تقویم هجری شمسی، فیس به افغانی و انترنت ناپایدار را می‌شناسیم، چون هر روز با آن‌ها کار می‌کنیم.",  // We are a local team. We know the Ministry formats, the Solar Hijri calendar, fees in afghanis and unreliable internet, because we work with them every day.
+  "sms.read-how-we-built-shams": "بخوانید که ERP مکتب تیم تکنالوژی شمس را چطور ساختیم",  // Read how we built Shams Technology Team School ERP
+  "sms.local-understanding": "شناخت محلی",  // Local understanding
+  "sms.designed-around-how-schools-in": "بر اساس شیوهٔ واقعی کار مکاتب افغانستان دیزاین شده است.",  // Designed around how schools in Afghanistan really work.
+  "sms.customisation": "قابل تنظیم برای شما",  // Customisation REVIEW: Customisation = قابل تنظیم برای شما / ستاسو لپاره برابرول – confirm.
+  "sms.we-adapt-fees-exams-reports": "فیس، امتحانات، گزارش‌ها و نقش‌ها را مطابق مکتب شما تنظیم می‌کنیم.",  // We adapt fees, exams, reports and roles to your school.
+  "sms.training": "آموزش",  // Training
+  "sms.we-set-up-the-system": "سیستم را راه‌اندازی می‌کنیم و کارمندان شما را برای استفاده از آن آموزش می‌دهیم.",  // We set up the system and train your staff to use it.
+  "sms.support": "پشتیبانی",  // Support
+  "sms.we-stay-with-you-after": "پس از راه‌اندازی هم از طریق تلفون، WhatsApp یا حضوری در کنار شما هستیم.",  // We stay with you after launch, by phone, WhatsApp or in person.
+  "sms.questions-from": "سوالات ",  // Questions from REVIEW: FAQ heading split across two styled words: Dari "سوالات | مکاتب", Pashto "د ښوونځیو | پوښتنې".
+  "sms.schools": "مکاتب",  // schools
+  "sms.if-your-question-is-not": "اگر پاسخ سوال خود را این‌جا نیافتید، با ما تماس بگیرید تا پاسخ دهیم.",  // If your question is not answered here, contact us and we will reply.
+  "sms.how-do-we-get-started": "چطور شروع کنیم؟",  // How do we get started?
+  "sms.we-show-you-a-demo": "سیستم را به شما نشان می‌دهیم، بر سر بخش‌هایی که نیاز دارید توافق می‌کنیم، سیستم را نصب می‌کنیم، معلومات مکتب شما را وارد می‌کنیم و کارمندان شما را آموزش می‌دهیم.",  // We show you a demo, agree on the modules you need, install the system, add your school's information and train your staff.
+  "sms.can-we-bring-our-existing": "آیا می‌توانیم معلومات فعلی خود را از Excel منتقل کنیم؟",  // Can we bring our existing data from Excel?
+  "sms.yes-students-and-other-records": "بلی. شاگردان و سایر سوابق را می‌توان به‌صورت گروهی وارد کرد، بنابراین لازم نیست دوباره تایپ شوند.",  // Yes. Students and other records can be imported in bulk, so you do not have to type them again.
+  "sms.do-you-train-our-staff": "آیا کارمندان ما را آموزش می‌دهید؟",  // Do you train our staff?
+  "sms.yes-we-train-administrators-teachers": "بلی. مدیران، معلمان و محاسبان را در بخش‌هایی از سیستم که استفاده می‌کنند آموزش می‌دهیم.",  // Yes. We train administrators, teachers and accountants on the parts of the system they use.
+  "sms.which-languages-does-it-support": "سیستم از کدام زبان‌ها پشتیبانی می‌کند؟",  // Which languages does it support?
+  "sms.dari-pashto-and-english-with": "دری، پشتو و انگلیسی، با صفحه‌های راست به چپ و تاریخ هجری شمسی. هر کاربر می‌تواند زبان خود را انتخاب کند.",  // Dari, Pashto and English, with right-to-left screens and Solar Hijri dates. Each user can choose their language.
+  "sms.does-it-work-without-internet": "آیا بدون انترنت کار می‌کند؟",  // Does it work without internet?
+  "sms.yes-the-local-version-runs": "بلی. نسخهٔ محلی روی سروری در داخل مکتب شما اجرا می‌شود و هنگام قطع انترنت هم کار می‌کند. مکاتبی که چندین شعبه دارند می‌توانند از نسخهٔ کلاود استفاده کنند.",  // Yes. The local version runs on a server inside your school and keeps working when the internet is down. Schools with several branches can use the cloud version.
+  "sms.can-it-be-adapted-to": "آیا می‌توان آن را مطابق مکتب ما تنظیم کرد؟",  // Can it be adapted to our school?
+  "sms.yes-fees-exam-rules-reports": "بلی. فیس، قواعد امتحان، گزارش‌ها، نقش‌های کاربران و بخش‌هایی که استفاده می‌کنید، مطابق مکتب شما تنظیم می‌شوند.",  // Yes. Fees, exam rules, reports, user roles and the modules you use can be adjusted to your school.
+  "sms.what-support-do-you-provide": "چه نوع پشتیبانی ارائه می‌کنید؟",  // What support do you provide?
+  "sms.we-provide-updates-backups-and": "آپدیت، بکاپ و کمک از طریق تلفون، WhatsApp یا حضوری ارائه می‌کنیم و مشکلات را به سرعت حل می‌کنیم.",  // We provide updates, backups and help by phone, WhatsApp or in person, and we fix problems quickly.
+  "sms.how-much-does-it-cost": "قیمت آن چقدر است؟",  // How much does it cost?
+  "sms.the-price-depends-on-the": "قیمت به تعداد شاگردان، بخش‌هایی که انتخاب می‌کنید و این‌که از نسخهٔ محلی یا کلاود استفاده می‌کنید بستگی دارد. برای دریافت قیمت با ما تماس بگیرید.",  // The price depends on the number of students, the modules you choose and whether you use the local or cloud version. Contact us for a quote.
+  "sms.see-it-working-at-your": "سیستم را در مکتب خود ببینید",  // See it working at your school
+  "sms.request-a-demo-ask-for": "نمایش سیستم را درخواست کنید، قیمت بپرسید یا نیازهای مکتب خود را با ما در میان بگذارید",  // Request a demo, ask for a quote or discuss what your school needs
+  "sms.talk-to-our-team": "با تیم ما صحبت کنید",  // Talk to our team
+  "sms.ask-us-anything-about-shams": "هر سوالی دربارهٔ ERP مکتب تیم تکنالوژی شمس دارید، از ما بپرسید.",  // Ask us anything about Shams Technology Team School ERP.
+  "sms.call": "تماس",  // Call
+  "sms.email": "ایمیل",  // Email
+  "sms.your-name": "نام شما",  // Your name
+  "sms.your-email": "ایمیل شما",  // Your email
+  "sms.school-name-city-number-of": "نام مکتب، شهر، تعداد شاگردان و بخش‌هایی که به آن علاقه دارید",  // School name, city, number of students and the modules you are interested in
+  "sms.back-to-top": "بازگشت به بالا",  // Back to top
+  "sms.breadcrumb": "مسیر صفحه",  // Breadcrumb
+  "sms.example-report-card-aria": "نمونهٔ اطلاع‌نامه با معلومات آزمایشی",  // Example report card with sample data
+  "sms.demo-request-form": "فورم درخواست نمایش سیستم",  // Demo request form
+  "sms.shams-technology-team-school-erp": "ERP مکتب تیم تکنالوژی شمس",  // Shams Technology Team School ERP REVIEW: Product name: ERP مکتب تیم تکنالوژی شمس / د شمس ټکنالوژۍ ټیم د ښوونځي ERP – confirm.
 };
