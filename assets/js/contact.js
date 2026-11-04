@@ -3,7 +3,7 @@
 (function () {
   var form = document.getElementById('contactForm');
   if (!form) return;
-  var PHONE = '93799781780';
+  var PHONE = '93770621526';
   var EMAIL = 'shams.technology.team@gmail.com';
   var loading = form.querySelector('.loading');
   var sent = form.querySelector('.sent-message');
