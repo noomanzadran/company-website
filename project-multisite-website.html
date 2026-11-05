@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Foundation Multisite Website – Shams Technology Team</title>
-  <meta name="description" content="A static website turned into a custom WordPress theme inside a network of six websites, with forms and email notifications.">
-  <meta name="keywords" content="school ERP Afghanistan, school management system Kabul, Shams Technology">
+  <title data-i18n="proj.foundation-multisite-website-shams-technology">Foundation Multisite Website – Shams Technology Team</title>
+  <meta name="description" content="A static website turned into a custom WordPress theme inside a network of six websites, with forms and email notifications." data-i18n-attr="content:proj.a-static-website-turned-into">
+  <meta name="keywords" content="school ERP Afghanistan, school management system Kabul, Shams Technology" data-i18n-attr="content:home.school-erp-afghanistan-school-management">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -26,9 +26,15 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/featured.css" rel="stylesheet">
+  <link href="assets/css/rtl.css" rel="stylesheet">
 
   <!-- Theme: must load before the page paints -->
   <script src="assets/js/theme-init.js"></script>
+
+  <!-- Language (English / Dari / Pashto): must load before the page paints -->
+  <script src="assets/i18n/fa-AF.js"></script>
+  <script src="assets/i18n/ps-AF.js"></script>
+  <script src="assets/js/i18n.js"></script>
 
   <!-- =======================================================
   * Template Name: Append
@@ -44,7 +50,7 @@
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0" aria-label="Shams Technology Team home">
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0" aria-label="Shams Technology Team home" data-i18n-attr="aria-label:common.shams-technology-team-home">
         <img src="assets/img/logo-mark.png" alt="" class="logo-mark" width="44" height="44">
         <span class="logo-text">
           <span class="sitename">Shams</span>
@@ -54,18 +60,28 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html#hero" >Home</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#services">Services</a></li>
-          <li><a href="index.html#portfolio" class="active">Portfolio</a></li>
-          <li><a href="index.html#team">Team</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="index.html#hero"  data-i18n="common.home">Home</a></li>
+          <li><a href="index.html#about" data-i18n="common.about">About</a></li>
+          <li><a href="index.html#services" data-i18n="common.services">Services</a></li>
+          <li><a href="index.html#portfolio" class="active" data-i18n="common.portfolio">Portfolio</a></li>
+          <li><a href="index.html#team" data-i18n="common.team">Team</a></li>
+          <li><a href="index.html#contact" data-i18n="common.contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
       <div class="actions">
-        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch light or dark mode">
+        <div class="dropdown lang-switch">
+          <button type="button" class="lang-toggle" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Change language" data-i18n-attr="aria-label:common.change-language">
+            <i class="bi bi-translate" aria-hidden="true"></i><span class="lang-current" translate="no">English</span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><button type="button" class="dropdown-item" data-lang="en" lang="en" dir="ltr" translate="no">English</button></li>
+            <li><button type="button" class="dropdown-item" data-lang="fa-AF" lang="fa-AF" dir="rtl" translate="no">دری</button></li>
+            <li><button type="button" class="dropdown-item" data-lang="ps-AF" lang="ps-AF" dir="rtl" translate="no">پښتو</button></li>
+          </ul>
+        </div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch light or dark mode" data-i18n-attr="aria-label:common.switch-light-or-dark-mode">
           <i class="bi bi-moon-stars-fill"></i>
           <i class="bi bi-sun-fill"></i>
         </button>
@@ -83,8 +99,8 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Foundation Multisite Website</h1>
-              <p class="mb-0">A static website turned into a custom WordPress theme inside a network of six websites, with forms and email notifications.</p>
+              <h1 data-i18n="home.foundation-multisite-website">Foundation Multisite Website</h1>
+              <p class="mb-0" data-i18n="proj.a-static-website-turned-into">A static website turned into a custom WordPress theme inside a network of six websites, with forms and email notifications.</p>
             </div>
           </div>
         </div>
@@ -92,9 +108,9 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#portfolio">Portfolio</a></li>
-            <li class="current">Foundation Multisite Website</li>
+            <li><a href="index.html" data-i18n="common.home">Home</a></li>
+            <li><a href="index.html#portfolio" data-i18n="common.portfolio">Portfolio</a></li>
+            <li class="current" data-i18n="home.foundation-multisite-website">Foundation Multisite Website</li>
           </ol>
         </div>
       </nav>
@@ -128,18 +144,18 @@
           <div class="swiper-wrapper align-items-center">
 
             <div class="swiper-slide">
-              <img class="img-light" src="assets/img/projects/multi-ui1-light.jpg" alt="Foundation Multisite Website">
-              <img class="img-dark" src="assets/img/projects/multi-ui1-dark.jpg" alt="Foundation Multisite Website">
+              <img class="img-light" src="assets/img/projects/multi-ui1-light.jpg" alt="Foundation Multisite Website" data-i18n-attr="alt:home.foundation-multisite-website">
+              <img class="img-dark" src="assets/img/projects/multi-ui1-dark.jpg" alt="Foundation Multisite Website" data-i18n-attr="alt:home.foundation-multisite-website">
             </div>
 
             <div class="swiper-slide">
-              <img class="img-light" src="assets/img/projects/multi-ui2-light.jpg" alt="Foundation Multisite Website">
-              <img class="img-dark" src="assets/img/projects/multi-ui2-dark.jpg" alt="Foundation Multisite Website">
+              <img class="img-light" src="assets/img/projects/multi-ui2-light.jpg" alt="Foundation Multisite Website" data-i18n-attr="alt:home.foundation-multisite-website">
+              <img class="img-dark" src="assets/img/projects/multi-ui2-dark.jpg" alt="Foundation Multisite Website" data-i18n-attr="alt:home.foundation-multisite-website">
             </div>
 
             <div class="swiper-slide">
-              <img class="img-light" src="assets/img/projects/multi-ui3-light.jpg" alt="Foundation Multisite Website">
-              <img class="img-dark" src="assets/img/projects/multi-ui3-dark.jpg" alt="Foundation Multisite Website">
+              <img class="img-light" src="assets/img/projects/multi-ui3-light.jpg" alt="Foundation Multisite Website" data-i18n-attr="alt:home.foundation-multisite-website">
+              <img class="img-dark" src="assets/img/projects/multi-ui3-dark.jpg" alt="Foundation Multisite Website" data-i18n-attr="alt:home.foundation-multisite-website">
             </div>
 
           </div>
@@ -152,47 +168,47 @@
 
           <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-              <h2>The challenge</h2>
-              <p>The foundation’s website was static, so every small change needed a developer, and it had to fit into a network of six related websites.</p>
+              <h2 data-i18n="proj.the-challenge">The challenge</h2>
+              <p data-i18n="proj.the-foundation-s-website-was">The foundation’s website was static, so every small change needed a developer, and it had to fit into a network of six related websites.</p>
 
-              <h2>What we built</h2>
-              <p>We turned the design into a custom WordPress theme and added it to a six-site WordPress network, with contact forms and email notifications.</p>
+              <h2 data-i18n="proj.what-we-built">What we built</h2>
+              <p data-i18n="proj.we-turned-the-design-into">We turned the design into a custom WordPress theme and added it to a six-site WordPress network, with contact forms and email notifications.</p>
 
-              <h2>How it works</h2>
+              <h2 data-i18n="proj.how-it-works">How it works</h2>
               <ul class="how-list">
-                <li><i class="bi bi-check2-circle"></i><div><strong>WordPress multisite</strong><span>Six websites run from one installation, so updates and security are managed in one place.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>Custom theme</strong><span>The original design was rebuilt as a WordPress theme, so the team can edit pages themselves.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>Forms and notifications</strong><span>Visitor messages go straight to the right person by email.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.wordpress-multisite">WordPress multisite</strong><span data-i18n="proj.six-websites-run-from-one">Six websites run from one installation, so updates and security are managed in one place.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.custom-theme">Custom theme</strong><span data-i18n="proj.the-original-design-was-rebuilt">The original design was rebuilt as a WordPress theme, so the team can edit pages themselves.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.forms-and-notifications">Forms and notifications</strong><span data-i18n="proj.visitor-messages-go-straight-to">Visitor messages go straight to the right person by email.</span></div></li>
               </ul>
 
-              <h2>Key features</h2>
+              <h2 data-i18n="proj.key-features">Key features</h2>
               <ul class="feature-grid">
-                <li><i class="bi bi-check2-circle"></i><div><strong>Custom theme</strong><span>The original design rebuilt as a WordPress theme.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>Six-site network</strong><span>All sites run from one installation with shared updates.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>Easy editing</strong><span>The team edits pages, news and stories without a developer.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>Contact forms</strong><span>Messages go straight to the right person by email.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>Mobile-friendly</strong><span>Every page works well on phones.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>Central security</strong><span>Updates and backups are managed in one place.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>Fast pages</strong><span>Optimised images and caching for quick loading.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>Search-friendly</strong><span>Clean structure that helps Google find the pages.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.custom-theme">Custom theme</strong><span data-i18n="proj.the-original-design-rebuilt-as">The original design rebuilt as a WordPress theme.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.six-site-network">Six-site network</strong><span data-i18n="proj.all-sites-run-from-one">All sites run from one installation with shared updates.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.easy-editing">Easy editing</strong><span data-i18n="proj.the-team-edits-pages-news">The team edits pages, news and stories without a developer.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.contact-forms">Contact forms</strong><span data-i18n="proj.messages-go-straight-to-the">Messages go straight to the right person by email.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.mobile-friendly-2">Mobile-friendly</strong><span data-i18n="proj.every-page-works-well-on">Every page works well on phones.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.central-security">Central security</strong><span data-i18n="proj.updates-and-backups-are-managed">Updates and backups are managed in one place.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.fast-pages">Fast pages</strong><span data-i18n="proj.optimised-images-and-caching-for">Optimised images and caching for quick loading.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.search-friendly">Search-friendly</strong><span data-i18n="proj.clean-structure-that-helps-google">Clean structure that helps Google find the pages.</span></div></li>
               </ul>
 
-              <h2>We can also add</h2>
-              <p class="muted-note">Options we can build on top of this system for a new client.</p>
-              <ul class="extend-list"><li><i class="bi bi-plus-circle"></i> Online donations</li><li><i class="bi bi-plus-circle"></i> Multilingual versions in Dari and Pashto</li><li><i class="bi bi-plus-circle"></i> Newsletter sign-up</li><li><i class="bi bi-plus-circle"></i> Volunteer and job applications portal</li><li><i class="bi bi-plus-circle"></i> Impact dashboard with programme numbers</li></ul>
+              <h2 data-i18n="proj.we-can-also-add">We can also add</h2>
+              <p class="muted-note" data-i18n="proj.options-we-can-build-on">Options we can build on top of this system for a new client.</p>
+              <ul class="extend-list"><li data-i18n="proj.online-donations"><i class="bi bi-plus-circle"></i> Online donations</li><li data-i18n="proj.multilingual-versions-in-dari-and"><i class="bi bi-plus-circle"></i> Multilingual versions in Dari and Pashto</li><li data-i18n="proj.newsletter-sign-up"><i class="bi bi-plus-circle"></i> Newsletter sign-up</li><li data-i18n="proj.volunteer-and-job-applications-portal"><i class="bi bi-plus-circle"></i> Volunteer and job applications portal</li><li data-i18n="proj.impact-dashboard-with-programme-numbers"><i class="bi bi-plus-circle"></i> Impact dashboard with programme numbers</li></ul>
             </div>
           </div>
 
           <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3 data-i18n="proj.project-information">Project information</h3>
               <ul>
-                <li><strong>Category</strong> Website</li>
-                <li><strong>Client</strong> Private client</li>
-                <li><strong>Platform</strong> Web</li>
-                <li><strong>Languages</strong> English</li>
-                <li><strong>Technologies</strong> <span class="tech-tags"><span>WordPress</span><span>Multisite</span><span>Custom theme</span></span></li>
-                <li><a href="index.html#contact" class="btn-visit align-self-start">Start a similar project</a></li>
+                <li data-i18n="proj.website"><strong data-i18n="proj.category">Category</strong> Website</li>
+                <li data-i18n="proj.private-client"><strong data-i18n="proj.client">Client</strong> Private client</li>
+                <li data-i18n="home.web"><strong data-i18n="proj.platform">Platform</strong> Web</li>
+                <li data-i18n="proj.english"><strong data-i18n="proj.languages">Languages</strong> English</li>
+                <li><strong data-i18n="proj.technologies">Technologies</strong> <span class="tech-tags"><span>WordPress</span><span data-i18n="proj.multisite">Multisite</span><span data-i18n="proj.custom-theme">Custom theme</span></span></li>
+                <li><a href="index.html#contact" class="btn-visit align-self-start" data-i18n="proj.start-a-similar-project">Start a similar project</a></li>
               </ul>
             </div>
           </div>
@@ -214,7 +230,7 @@
             <img src="assets/img/logo-mark.png" alt="" class="logo-mark" width="44" height="44">
             <span class="sitename">Shams Technology Team</span>
           </a>
-          <p>A Kabul-based team building software, systems and AI for schools, universities, businesses and organisations, in Dari, Pashto and English.</p>
+          <p data-i18n="common.a-kabul-based-team-building">A Kabul-based team building software, systems and AI for schools, universities, businesses and organisations, in Dari, Pashto and English.</p>
           <div class="social-links d-flex mt-4">
             <a href="https://www.facebook.com/profile.php?id=61595708472138" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
             <a href="https://www.instagram.com/shams_technology_team/" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
@@ -224,41 +240,41 @@
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
+          <h4 data-i18n="common.useful-links">Useful Links</h4>
           <ul>
-            <li><a href="index.html#hero">Home</a></li>
-            <li><a href="index.html#about">About us</a></li>
-            <li><a href="index.html#services">Services</a></li>
-            <li><a href="index.html#portfolio">Portfolio</a></li>
-            <li><a href="index.html#team">Team</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="index.html#hero" data-i18n="common.home">Home</a></li>
+            <li><a href="index.html#about" data-i18n="common.about-us">About us</a></li>
+            <li><a href="index.html#services" data-i18n="common.services">Services</a></li>
+            <li><a href="index.html#portfolio" data-i18n="common.portfolio">Portfolio</a></li>
+            <li><a href="index.html#team" data-i18n="common.team">Team</a></li>
+            <li><a href="index.html#contact" data-i18n="common.contact">Contact</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
+          <h4 data-i18n="common.our-services">Our Services</h4>
           <ul>
-            <li><a href="school-management-system.html">ERP &amp; school systems</a></li>
-            <li><a href="project-university-assistant.html">AI chatbots</a></li>
-            <li><a href="project-education-platform.html">E-learning platforms</a></li>
-            <li><a href="project-marketplace.html">Websites &amp; e-commerce</a></li>
-            <li><a href="project-student-messaging.html">Automation</a></li>
+            <li><a href="school-management-system.html" data-i18n="common.erp-school-systems">ERP &amp; school systems</a></li>
+            <li><a href="project-university-assistant.html" data-i18n="common.ai-chatbots">AI chatbots</a></li>
+            <li><a href="project-education-platform.html" data-i18n="common.e-learning-platforms">E-learning platforms</a></li>
+            <li><a href="project-marketplace.html" data-i18n="common.websites-e-commerce">Websites &amp; e-commerce</a></li>
+            <li><a href="project-student-messaging.html" data-i18n="common.automation">Automation</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contact Us</h4>
-          <p>Kabul, Afghanistan</p>
-          <p>Open 24/7 · Hybrid</p>
-          <p class="mt-4"><strong>Phone / WhatsApp:</strong> <span><a href="tel:+93799781780">+93 799 781 780</a><br><a href="tel:+93770621526">+93 770 621 526</a></span></p>
-          <p><strong>Email:</strong> <span><a href="mailto:shams.technology.team@gmail.com">shams.technology.team@gmail.com</a></span></p>
+          <h4 data-i18n="common.contact-us">Contact Us</h4>
+          <p data-i18n="common.kabul-afghanistan">Kabul, Afghanistan</p>
+          <p data-i18n="common.open-24-7-hybrid">Open 24/7 · Hybrid</p>
+          <p class="mt-4"><strong data-i18n="common.phone-whatsapp">Phone / WhatsApp:</strong> <span><a href="tel:+93799781780">+93 799 781 780</a><br><a href="tel:+93770621526">+93 770 621 526</a></span></p>
+          <p><strong data-i18n="common.email">Email:</strong> <span><a href="mailto:shams.technology.team@gmail.com">shams.technology.team@gmail.com</a></span></p>
         </div>
 
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>2026</span> <a href="index.html"><strong class="sitename">Shams Technology Team</strong></a>. <span>All Rights Reserved.</span></p>
+      <p>© <span>2026</span> <a href="index.html"><strong class="sitename" data-i18n="common.shams-technology-team">Shams Technology Team</strong></a>. <span data-i18n="common.all-rights-reserved">All Rights Reserved.</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
