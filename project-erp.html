@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Shams School ERP – Shams Technology Team</title>
-  <meta name="description" content="One system for the whole school: students, attendance, exams and results, fees, HR and payroll. It works in three languages and keeps running without internet.">
-  <meta name="keywords" content="school ERP Afghanistan, school management system Kabul, Shams Technology">
+  <title data-i18n="proj.shams-technology-team-school-erp">Shams Technology Team School ERP</title>
+  <meta name="description" content="One system for the whole school: students, attendance, exams and results, fees, HR and payroll. It works in three languages and keeps running without internet." data-i18n-attr="content:proj.one-system-for-the-whole">
+  <meta name="keywords" content="school ERP Afghanistan, school management system Kabul, Shams Technology" data-i18n-attr="content:home.school-erp-afghanistan-school-management">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -26,9 +26,15 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/featured.css" rel="stylesheet">
+  <link href="assets/css/rtl.css" rel="stylesheet">
 
   <!-- Theme: must load before the page paints -->
   <script src="assets/js/theme-init.js"></script>
+
+  <!-- Language (English / Dari / Pashto): must load before the page paints -->
+  <script src="assets/i18n/fa-AF.js"></script>
+  <script src="assets/i18n/ps-AF.js"></script>
+  <script src="assets/js/i18n.js"></script>
 
   <!-- =======================================================
   * Template Name: Append
@@ -44,7 +50,7 @@
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0" aria-label="Shams Technology Team home">
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0" aria-label="Shams Technology Team home" data-i18n-attr="aria-label:common.shams-technology-team-home">
         <img src="assets/img/logo-mark.png" alt="" class="logo-mark" width="44" height="44">
         <span class="logo-text">
           <span class="sitename">Shams</span>
@@ -54,18 +60,28 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html#hero" >Home</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#services">Services</a></li>
-          <li><a href="index.html#portfolio" class="active">Portfolio</a></li>
-          <li><a href="index.html#team">Team</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="index.html#hero"  data-i18n="common.home">Home</a></li>
+          <li><a href="index.html#about" data-i18n="common.about">About</a></li>
+          <li><a href="index.html#services" data-i18n="common.services">Services</a></li>
+          <li><a href="index.html#portfolio" class="active" data-i18n="common.portfolio">Portfolio</a></li>
+          <li><a href="index.html#team" data-i18n="common.team">Team</a></li>
+          <li><a href="index.html#contact" data-i18n="common.contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
       <div class="actions">
-        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch light or dark mode">
+        <div class="dropdown lang-switch">
+          <button type="button" class="lang-toggle" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Change language" data-i18n-attr="aria-label:common.change-language">
+            <i class="bi bi-translate" aria-hidden="true"></i><span class="lang-current" translate="no">English</span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><button type="button" class="dropdown-item" data-lang="en" lang="en" dir="ltr" translate="no">English</button></li>
+            <li><button type="button" class="dropdown-item" data-lang="fa-AF" lang="fa-AF" dir="rtl" translate="no">دری</button></li>
+            <li><button type="button" class="dropdown-item" data-lang="ps-AF" lang="ps-AF" dir="rtl" translate="no">پښتو</button></li>
+          </ul>
+        </div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch light or dark mode" data-i18n-attr="aria-label:common.switch-light-or-dark-mode">
           <i class="bi bi-moon-stars-fill"></i>
           <i class="bi bi-sun-fill"></i>
         </button>
@@ -83,8 +99,8 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Shams School ERP</h1>
-              <p class="mb-0">One system for the whole school: students, attendance, exams and results, fees, HR and payroll. It works in three languages and keeps running without internet.</p>
+              <h1 data-i18n="proj.shams-technology-team-school-erp">Shams Technology Team School ERP</h1>
+              <p class="mb-0" data-i18n="proj.one-system-for-the-whole">One system for the whole school: students, attendance, exams and results, fees, HR and payroll. It works in three languages and keeps running without internet.</p>
             </div>
           </div>
         </div>
@@ -92,9 +108,9 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#portfolio">Portfolio</a></li>
-            <li class="current">Shams School ERP</li>
+            <li><a href="index.html" data-i18n="common.home">Home</a></li>
+            <li><a href="index.html#portfolio" data-i18n="common.portfolio">Portfolio</a></li>
+            <li class="current" data-i18n="proj.shams-technology-team-school-erp">Shams Technology Team School ERP</li>
           </ol>
         </div>
       </nav>
@@ -128,18 +144,18 @@
           <div class="swiper-wrapper align-items-center">
 
             <div class="swiper-slide">
-              <img class="img-light" src="assets/img/projects/erp-ui1-light.jpg" alt="Shams School ERP">
-              <img class="img-dark" src="assets/img/projects/erp-ui1-dark.jpg" alt="Shams School ERP">
+              <img class="img-light" src="assets/img/projects/erp-ui1-light.jpg" alt="Shams Technology Team School ERP" data-i18n-attr="alt:proj.shams-technology-team-school-erp">
+              <img class="img-dark" src="assets/img/projects/erp-ui1-dark.jpg" alt="Shams Technology Team School ERP" data-i18n-attr="alt:proj.shams-technology-team-school-erp">
             </div>
 
             <div class="swiper-slide">
-              <img class="img-light" src="assets/img/projects/erp-ui2-light.jpg" alt="Shams School ERP">
-              <img class="img-dark" src="assets/img/projects/erp-ui2-dark.jpg" alt="Shams School ERP">
+              <img class="img-light" src="assets/img/projects/erp-ui2-light.jpg" alt="Shams Technology Team School ERP" data-i18n-attr="alt:proj.shams-technology-team-school-erp">
+              <img class="img-dark" src="assets/img/projects/erp-ui2-dark.jpg" alt="Shams Technology Team School ERP" data-i18n-attr="alt:proj.shams-technology-team-school-erp">
             </div>
 
             <div class="swiper-slide">
-              <img class="img-light" src="assets/img/projects/erp-ui3-light.jpg" alt="Shams School ERP">
-              <img class="img-dark" src="assets/img/projects/erp-ui3-dark.jpg" alt="Shams School ERP">
+              <img class="img-light" src="assets/img/projects/erp-ui3-light.jpg" alt="Shams Technology Team School ERP" data-i18n-attr="alt:proj.shams-technology-team-school-erp">
+              <img class="img-dark" src="assets/img/projects/erp-ui3-dark.jpg" alt="Shams Technology Team School ERP" data-i18n-attr="alt:proj.shams-technology-team-school-erp">
             </div>
 
           </div>
@@ -152,49 +168,50 @@
 
           <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-              <h2>The challenge</h2>
-              <p>Many schools still run on paper registers and spreadsheets. Fees are hard to track, results take days to prepare in the Ministry format, and most software on the market does not support Dari, Pashto or Solar Hijri dates. The internet is also not reliable enough for a system that the whole school depends on every day.</p>
+              <h2 data-i18n="proj.the-challenge">The challenge</h2>
+              <p data-i18n="proj.many-schools-still-run-on">Many schools still run on paper registers and spreadsheets. Fees are hard to track, results take days to prepare in the Ministry format, and most software on the market does not support Dari, Pashto or Solar Hijri dates. The internet is also not reliable enough for a system that the whole school depends on every day.</p>
 
-              <h2>What we built</h2>
-              <p>We built a complete school ERP with separate panels for the owner, admin, HR, finance, teachers and students. Each role sees only what it needs, from daily attendance to the monthly fee report.</p>
+              <h2 data-i18n="proj.what-we-built">What we built</h2>
+              <p data-i18n="proj.we-built-a-complete-school">We built a complete school ERP with separate panels for the owner, admin, HR, finance, teachers and students. Each role sees only what it needs, from daily attendance to the monthly fee report.</p>
 
-              <h2>How it works</h2>
+              <h2 data-i18n="proj.how-it-works">How it works</h2>
               <ul class="how-list">
-                <li><i class="bi bi-check2-circle"></i><div><strong>Runs on the school network</strong><span>The system is installed on a local server inside the school, so teachers and staff use it in the browser on any computer, even when the internet is down.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>Built with PHP and MySQL</strong><span>A proven, light stack that runs well on ordinary school computers and is easy to maintain.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>Three languages, right-to-left</strong><span>Every screen works in Dari, Pashto and English, with right-to-left layouts and Solar Hijri dates.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>Safe updates</strong><span>New versions are applied with database migrations, and the system takes an automatic backup first, so no data is lost.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.runs-on-the-school-network">Runs on the school network</strong><span data-i18n="proj.the-system-is-installed-on">The system is installed on a local server inside the school, so teachers and staff use it in the browser on any computer, even when the internet is down.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.built-with-php-and-mysql">Built with PHP and MySQL</strong><span data-i18n="proj.a-proven-light-stack-that">A proven, light stack that runs well on ordinary school computers and is easy to maintain.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.three-languages-right-to-left">Three languages, right-to-left</strong><span data-i18n="proj.every-screen-works-in-dari">Every screen works in Dari, Pashto and English, with right-to-left layouts and Solar Hijri dates.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.safe-updates">Safe updates</strong><span data-i18n="proj.new-versions-are-applied-with">New versions are applied with database migrations, and the system takes an automatic backup first, so no data is lost.</span></div></li>
               </ul>
 
-              <h2>Key features</h2>
+              <h2 data-i18n="proj.key-features">Key features</h2>
               <ul class="feature-grid">
-                <li><i class="bi bi-check2-circle"></i><div><strong>Students &amp; classes</strong><span>Admissions, profiles, classes, sections and transfers in one place.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>Daily attendance</strong><span>Teachers mark attendance in seconds; parents can be informed of absences.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>Exams &amp; results</strong><span>Marks entry, automatic totals and result sheets in the Ministry format.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>Fees &amp; receipts</strong><span>Fees in AFN with discounts, balances and printed A4 receipts.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>HR &amp; payroll</strong><span>Staff records, attendance, leave and monthly salary sheets.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>Reports</strong><span>Ready reports for the owner, finance and management, printable or exportable.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>Three languages</strong><span>Dari, Pashto and English with Solar Hijri dates.</span></div></li>
-                <li><i class="bi bi-check2-circle"></i><div><strong>Safe by design</strong><span>Role-based access, light and dark mode, automatic backups.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.students-classes">Students &amp; classes</strong><span data-i18n="proj.admissions-profiles-classes-sections-and">Admissions, profiles, classes, sections and transfers in one place.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.daily-attendance">Daily attendance</strong><span data-i18n="proj.teachers-mark-attendance-class-by">Teachers mark attendance class by class, or students and staff scan their ID cards at the gate.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.exams-results">Exams &amp; results</strong><span data-i18n="proj.marks-entry-automatic-totals-and">Marks entry, automatic totals and result sheets in the Ministry format.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.fees-receipts">Fees &amp; receipts</strong><span data-i18n="proj.fees-in-afn-with-discounts">Fees in AFN with discounts, balances and printed A4 receipts.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.hr-payroll">HR &amp; payroll</strong><span data-i18n="proj.staff-records-attendance-leave-and">Staff records, attendance, leave and monthly salary sheets.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.reports">Reports</strong><span data-i18n="proj.ready-reports-for-the-owner">Ready reports for the owner, finance and management, printable or exportable.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.three-languages">Three languages</strong><span data-i18n="proj.dari-pashto-and-english-with">Dari, Pashto and English with Solar Hijri dates.</span></div></li>
+                <li><i class="bi bi-check2-circle"></i><div><strong data-i18n="proj.safe-by-design">Safe by design</strong><span data-i18n="proj.role-based-access-light-and">Role-based access, light and dark mode, automatic backups.</span></div></li>
               </ul>
 
-              <h2>We can also add</h2>
-              <p class="muted-note">Options we can build on top of this system for a new client.</p>
-              <ul class="extend-list"><li><i class="bi bi-plus-circle"></i> Parent mobile app with notifications</li><li><i class="bi bi-plus-circle"></i> SMS and WhatsApp alerts for absences and fees</li><li><i class="bi bi-plus-circle"></i> Online fee payment</li><li><i class="bi bi-plus-circle"></i> Timetable and library modules</li><li><i class="bi bi-plus-circle"></i> Cloud version for schools with many branches</li><li><i class="bi bi-plus-circle"></i> AI assistant for staff questions</li></ul>
+              <h2 data-i18n="proj.we-can-also-add">We can also add</h2>
+              <p class="muted-note" data-i18n="proj.options-we-can-build-on">Options we can build on top of this system for a new client.</p>
+              <ul class="extend-list"><li data-i18n="proj.parent-mobile-app-with-notifications"><i class="bi bi-plus-circle"></i> Parent mobile app with notifications</li><li data-i18n="proj.sms-and-whatsapp-alerts-for"><i class="bi bi-plus-circle"></i> SMS and WhatsApp alerts for absences and fees</li><li data-i18n="proj.online-fee-payment"><i class="bi bi-plus-circle"></i> Online fee payment</li><li data-i18n="proj.cloud-version-for-schools-with"><i class="bi bi-plus-circle"></i> Cloud version for schools with many branches</li><li data-i18n="proj.ai-assistant-for-staff-questions"><i class="bi bi-plus-circle"></i> AI assistant for staff questions</li></ul>
             </div>
           </div>
 
           <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3 data-i18n="proj.project-information">Project information</h3>
               <ul>
-                <li><strong>Category</strong> School management system</li>
-                <li><strong>Client</strong> Our own product</li>
-                <li><strong>Platform</strong> Web app, local network</li>
-                <li><strong>Languages</strong> Dari, Pashto, English</li>
-                <li><strong>Technologies</strong> <span class="tech-tags"><span>PHP</span><span>MySQL</span><span>JavaScript</span><span>Bootstrap</span></span></li>
-                <li><a href="school-management-system.html" class="btn-visit align-self-start">See all features</a></li>
-                <li><a href="index.html#contact" class="btn-visit align-self-start">Start a similar project</a></li>
+                <li data-i18n="proj.school-management-system"><strong data-i18n="proj.category">Category</strong> School management system</li>
+                <li data-i18n="proj.our-own-product"><strong data-i18n="proj.client">Client</strong> Our own product</li>
+                <li data-i18n="proj.tanin-private-school"><strong data-i18n="proj.in-use-at">In use at</strong> Tanin Private School</li>
+                <li data-i18n="proj.web-app-local-network"><strong data-i18n="proj.platform">Platform</strong> Web app, local network</li>
+                <li data-i18n="proj.dari-pashto-english"><strong data-i18n="proj.languages">Languages</strong> Dari, Pashto, English</li>
+                <li><strong data-i18n="proj.technologies">Technologies</strong> <span class="tech-tags"><span>PHP</span><span>MySQL</span><span>JavaScript</span><span>Bootstrap</span></span></li>
+                <li><a href="school-management-system.html" class="btn-visit align-self-start" data-i18n="proj.see-all-features">See all features</a></li>
+                <li><a href="index.html#contact" class="btn-visit align-self-start" data-i18n="proj.start-a-similar-project">Start a similar project</a></li>
               </ul>
             </div>
           </div>
@@ -216,7 +233,7 @@
             <img src="assets/img/logo-mark.png" alt="" class="logo-mark" width="44" height="44">
             <span class="sitename">Shams Technology Team</span>
           </a>
-          <p>A Kabul-based team building software, systems and AI for schools, universities, businesses and organisations, in Dari, Pashto and English.</p>
+          <p data-i18n="common.a-kabul-based-team-building">A Kabul-based team building software, systems and AI for schools, universities, businesses and organisations, in Dari, Pashto and English.</p>
           <div class="social-links d-flex mt-4">
             <a href="https://www.facebook.com/profile.php?id=61595708472138" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
             <a href="https://www.instagram.com/shams_technology_team/" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
@@ -226,41 +243,41 @@
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
+          <h4 data-i18n="common.useful-links">Useful Links</h4>
           <ul>
-            <li><a href="index.html#hero">Home</a></li>
-            <li><a href="index.html#about">About us</a></li>
-            <li><a href="index.html#services">Services</a></li>
-            <li><a href="index.html#portfolio">Portfolio</a></li>
-            <li><a href="index.html#team">Team</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="index.html#hero" data-i18n="common.home">Home</a></li>
+            <li><a href="index.html#about" data-i18n="common.about-us">About us</a></li>
+            <li><a href="index.html#services" data-i18n="common.services">Services</a></li>
+            <li><a href="index.html#portfolio" data-i18n="common.portfolio">Portfolio</a></li>
+            <li><a href="index.html#team" data-i18n="common.team">Team</a></li>
+            <li><a href="index.html#contact" data-i18n="common.contact">Contact</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
+          <h4 data-i18n="common.our-services">Our Services</h4>
           <ul>
-            <li><a href="school-management-system.html">ERP &amp; school systems</a></li>
-            <li><a href="project-university-assistant.html">AI chatbots</a></li>
-            <li><a href="project-education-platform.html">E-learning platforms</a></li>
-            <li><a href="project-marketplace.html">Websites &amp; e-commerce</a></li>
-            <li><a href="project-student-messaging.html">Automation</a></li>
+            <li><a href="school-management-system.html" data-i18n="common.erp-school-systems">ERP &amp; school systems</a></li>
+            <li><a href="project-university-assistant.html" data-i18n="common.ai-chatbots">AI chatbots</a></li>
+            <li><a href="project-education-platform.html" data-i18n="common.e-learning-platforms">E-learning platforms</a></li>
+            <li><a href="project-marketplace.html" data-i18n="common.websites-e-commerce">Websites &amp; e-commerce</a></li>
+            <li><a href="project-student-messaging.html" data-i18n="common.automation">Automation</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contact Us</h4>
-          <p>Kabul, Afghanistan</p>
-          <p>Open 24/7 · Hybrid</p>
-          <p class="mt-4"><strong>Phone / WhatsApp:</strong> <span><a href="tel:+93799781780">+93 799 781 780</a><br><a href="tel:+93770621526">+93 770 621 526</a></span></p>
-          <p><strong>Email:</strong> <span><a href="mailto:shams.technology.team@gmail.com">shams.technology.team@gmail.com</a></span></p>
+          <h4 data-i18n="common.contact-us">Contact Us</h4>
+          <p data-i18n="common.kabul-afghanistan">Kabul, Afghanistan</p>
+          <p data-i18n="common.open-24-7-hybrid">Open 24/7 · Hybrid</p>
+          <p class="mt-4"><strong data-i18n="common.phone-whatsapp">Phone / WhatsApp:</strong> <span><a href="tel:+93799781780">+93 799 781 780</a><br><a href="tel:+93770621526">+93 770 621 526</a></span></p>
+          <p><strong data-i18n="common.email">Email:</strong> <span><a href="mailto:shams.technology.team@gmail.com">shams.technology.team@gmail.com</a></span></p>
         </div>
 
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>2026</span> <a href="index.html"><strong class="sitename">Shams Technology Team</strong></a>. <span>All Rights Reserved.</span></p>
+      <p>© <span>2026</span> <a href="index.html"><strong class="sitename" data-i18n="common.shams-technology-team">Shams Technology Team</strong></a>. <span data-i18n="common.all-rights-reserved">All Rights Reserved.</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
