@@ -195,7 +195,7 @@ window.SHAMS_I18N['ps-AF'] = {
   "home.m-sc-it-in-network": "په شبکې امنیت کې د معلوماتي ټکنالوژۍ ماسټري او د کمپیوټر انجنیري لیسانس (د ګجرات پوهنتون، هند). د شبکې انجنیر چې د IT ملاتړ او امنیت تجربه لري؛ زموږ د وېبپاڼو او سیستمونو د کاروونکو مخونه جوړوي.",  // M.Sc. IT in Network Security and Bachelor's in Computer Engineering (Gujarat University, India). Network Engineer with a background in IT support and security; builds the interfaces of our websites and systems.
   "home.maryam-salihy": "مریم صالحي",  // Maryam Salihy REVIEW: confirm spelling with Maryam.
   "home.marketing-technical-support": "بازارموندنه او تخنیکي ملاتړ",  // Marketing & Technical Support
-  "home.maryam-salihy-bio": "(په هرات کې د شرکت سیمه‌ییزه استازې) نوموړې د ځوانانو او پراختیا په برخو کې مسلکي تجربه لري او په څېړنه، ښوونه او روزنه، اړیکو او بشري مرستو کې له پنځو کلونو زیاته کاري تجربه لري. د تخصص او کاري تمرکز برخې یې اقلیمي بدلون، دوامداره پراختیا، د ځوانانو ګډون، کمپیوټر ساینس، مصنوعي ځیرکتیا او چاپېریالي مطالعات دي. همدارنګه د شرکت د بازارموندنې، محصولاتو د معرفۍ، تخنیکي ملاتړ او ساتنې په چارو کې ونډه لري.",  // (Herat Regional Representative) A youth and development professional...
+  "home.maryam-salihy-bio": "(د شرکت سیمه‌ییزه استازې) نوموړې د ځوانانو او پراختیا په برخو کې مسلکي تجربه لري او په څېړنه، ښوونه او روزنه، اړیکو او بشري مرستو کې له پنځو کلونو زیاته کاري تجربه لري. د تخصص او کاري تمرکز برخې یې اقلیمي بدلون، دوامداره پراختیا، د ځوانانو ګډون، کمپیوټر ساینس، مصنوعي ځیرکتیا او چاپېریالي مطالعات دي. همدارنګه د شرکت د بازارموندنې، محصولاتو د معرفۍ، تخنیکي ملاتړ او ساتنې په چارو کې ونډه لري.",  // (Regional Representative) A youth and development professional...
   "home.ismail-farhang": "اسماعیل فرهنګ",  // Ismail Farhang REVIEW: confirm spelling with Ismail.
   "home.it-support-engineer-content-specialist": "د معلوماتي ټکنالوژۍ د ملاتړ انجنیر او د ډیجیټلي محتوا متخصص",  // IT Support Engineer & Content Specialist
   "home.3-years-of-experience-in-digital": "نوموړی د ډیجیټلي محتوا، وېب۳ (Web3)، ښوونیزې ټکنالوژۍ (EdTech) او مالي ټکنالوژۍ (FinTech) په برخو کې له درېیو کلونو څخه زیاته کاري تجربه لري. هغه د اغېزمنو اړیکو او کیسه‌ویلو له لارې پېچلي تخنیکي مفاهیم په ساده، روښانه او د پوهېدو وړ ژبه تشریح کوي، څو په زړه‌پورې محتوا تولید کړي، د بازارموندنې له فعالیتونو ملاتړ وکړي او د ډیجیټلي محصولاتو په وده کې اغېزمنه ونډه واخلي.",  // 3+ years of experience in digital content, Web3, EdTech and FinTech...
@@ -514,7 +514,11 @@ window.SHAMS_I18N['ps-AF'] = {
 
   /* ---- home: team (Samiullah Mohammadi) ---- */
   "home.samiullah-mohammadi": "سمیع الله محمدي",  // Samiullah Mohammadi REVIEW: Name spelling in Dari/Pashto – please confirm.
-  "home.samiullah-mohammadi-kunduz": "سمیع الله محمدي (کندز)",  // Samiullah Mohammadi (Kunduz)
+  "home.loc-kunduz": "(کندز)",  // (Kunduz)
+  "home.loc-germany": "(جرمني)",  // (Germany)
+  "home.loc-russia": "(روسیه)",  // (Russia)
+  "home.loc-logar": "(لوګر)",  // (Logar)
+  "home.loc-herat": "(هرات)",  // (Herat)
   "home.web-developer": "ویب پروګرامر",  // Web Developer REVIEW: Role title assumed "Web Developer" – please confirm.
   "home.samiullah-mohammadi-bio": "د کمپیوټر ساینس محصل، ویب پروګرامر او له ټکنالوژۍ سره مینه وال، چې له شرکتونو او نادولتي موسسو (NGO) سره یې د کار تجربه لري. هغه په ویب پروګرامۍ، ډیجیټلي حللارو او تعلیمي ټکنالوژۍ کې مهارت لري، او د ډیجیټلي پلېټفارمونو په جوړولو، د ټکنالوژۍ پروژو په مدیریت او داسې سیستمونو په جوړولو کې یې ونډه اخیستې چې د ادارو اغېزمنتیا لوړوي. برېښنالیک: samimohammadi@aol.com",  // A Computer Science student, web developer and technology enthusiast with experience working with companies and non-governmental organisations (NGOs). He specialises in web development, digital solutions and educational technology, and has contributed to developing digital platforms, managing technology projects and building systems that improve organisational efficiency. Email: samimohammadi@aol.com
 
@@ -847,4 +851,14 @@ window.SHAMS_I18N['ps-AF'] = {
   "sms.shams-school-erp-one-system": "د شمس ټکنالوژۍ ټیم د ښوونځي ERP: د زده‌کوونکو، حاضرۍ، ازموینو او پایلو، فیس، کارکوونکو او والدینو لپاره یو سیستم. د افغانستان د ښوونځیو لپاره جوړ شوی، په دري، پښتو او انګلیسي، او له انټرنېټ پرته هم کار کوي.",  // Shams Technology Team School ERP: one system for students, attendance, exams and results, fees, staff and parents. Built for schools in Afghanistan, in Dari, Pashto and English, and it works without internet.
   "sms.school-management-system-afghanistan-school": "د افغانستان د ښوونځي د مدیریت سیستم، په کابل کې د ښوونځي ERP، په دري او پښتو د ښوونځي سافټویر، د شمس ټکنالوژۍ ټیم د ښوونځي ERP",  // school management system Afghanistan, school ERP Kabul, Dari Pashto school software, Shams Technology Team School ERP
   "sms.back-to-top": "پورته ته ورتلل",  // Back to top
+
+  /* ---- update 3: team locations, madrasa project ---- */
+  "sms.schools-and-madrasas-that-have": "هغه ښوونځي او مدرسې چې خپل مدیریت یې د شمس ټکنالوژۍ ټیم د ښوونځي ERP ته لېږدولی دی",  // Schools and madrasas that have moved their management to Shams Technology Team School ERP
+  "sms.tanin-private-school-logo": "د طنین خصوصي ښوونځي لوګو",  // Tanin Private School logo
+  "sms.fazl-ul-madaris-muhammadia-logo": "د فضل المدارس محمدیه مدرسې لوګو",  // Fazl-ul-Madaris Muhammadia logo
+  "sms.system-installation": "د سیستم نصب",  // System installation
+  "sms.fazl-ul-madaris-muhammadia": "فضل المدارس محمدیه مدرسه",  // Fazl-ul-Madaris Muhammadia REVIEW: English spelling "Fazl-ul-Madaris Muhammadia" assumed from the logo (فضل المدارس محمدیه) – please confirm.
+  "sms.we-successfully-installed-shams-technology": "موږ د شمس ټکنالوژۍ ټیم د ښوونځي ERP د فضل المدارس محمدیه په مدرسه کې په بریالیتوب سره نصب کړ، او د هغې د زده‌کوونکو، ټولګیو، حاضرۍ او فیس لپاره مو یو واحد سیستم برابر کړ.",  // We successfully installed Shams Technology Team School ERP at the Fazl-ul-Madaris Muhammadia madrasa, giving it one system for its students, classes, attendance and fees.
+  "sms.installed-and-running": "نصب شوی او فعال",  // Installed and running
+  "proj.tanin-private-school-and-fazl": "د طنین خصوصي ښوونځی؛ فضل المدارس محمدیه مدرسه",  // Tanin Private School; Fazl-ul-Madaris Muhammadia
 };

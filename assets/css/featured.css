@@ -458,3 +458,9 @@
 #team .org .member.ceo .overlay h4 { font-size: 21px; }
 #team .org .member .overlay span { font-size: 10.5px; padding: 4px 11px; }
 #team .org .member .member-img::after { background: linear-gradient(180deg, transparent 58%, rgba(3, 18, 48, .95) 100%); }
+
+/* Leadership: name and role centred on the portrait */
+#team .org .member .overlay { text-align: center; }
+
+/* Team: city or country on its own line under the name */
+#team .member .member-info h4 .member-loc { display: block; margin: 0; font: inherit; color: inherit; letter-spacing: inherit; }

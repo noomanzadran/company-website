@@ -195,7 +195,7 @@ window.SHAMS_I18N['fa-AF'] = {
   "home.m-sc-it-in-network": "ماستری تکنالوژی معلوماتی در امنیت شبکه و لیسانس انجنیری کمپیوتر (پوهنتون گجرات، هند). انجنیر شبکه با سابقهٔ کار در پشتیبانی IT و امنیت؛ صفحه‌های کاربری ویب‌سایت‌ها و سیستم‌های ما را می‌سازد.",  // M.Sc. IT in Network Security and Bachelor's in Computer Engineering (Gujarat University, India). Network Engineer with a background in IT support and security; builds the interfaces of our websites and systems.
   "home.maryam-salihy": "مریم صالحی",  // Maryam Salihy REVIEW: confirm spelling with Maryam.
   "home.marketing-technical-support": "بازاریابی و پشتیبانی تخنیکی",  // Marketing & Technical Support
-  "home.maryam-salihy-bio": "(نماینده منطقه‌ای شرکت در هرات) متخصص امور جوانان و توسعه با بیش از پنج سال تجربه در زمینه‌های تحقیق، آموزش، ارتباطات و فعالیت‌های بشردوستانه است. زمینه‌های تخصص و تمرکز کاری او شامل اقدامات اقلیمی، توسعه پایدار، مشارکت جوانان، علوم کمپیوتر، هوش مصنوعی و مطالعات محیط زیست می‌باشد. همچنان در بخش‌های بازاریابی، معرفی محصولات، پشتیبانی تخنیکی و نگهداری شرکت سهم دارد.",  // (Herat Regional Representative) A youth and development professional...
+  "home.maryam-salihy-bio": "(نمایندهٔ منطقه‌ای شرکت) متخصص امور جوانان و توسعه با بیش از پنج سال تجربه در زمینه‌های تحقیق، آموزش، ارتباطات و فعالیت‌های بشردوستانه است. زمینه‌های تخصص و تمرکز کاری او شامل اقدامات اقلیمی، توسعه پایدار، مشارکت جوانان، علوم کمپیوتر، هوش مصنوعی و مطالعات محیط زیست می‌باشد. همچنان در بخش‌های بازاریابی، معرفی محصولات، پشتیبانی تخنیکی و نگهداری شرکت سهم دارد.",  // (Regional Representative) A youth and development professional...
   "home.ismail-farhang": "اسماعیل فرهنگ",  // Ismail Farhang REVIEW: confirm spelling with Ismail.
   "home.it-support-engineer-content-specialist": "انجنیر پشتیبانی تکنالوژی معلوماتی و متخصص تولید محتوای دیجیتلی",  // IT Support Engineer & Content Specialist
   "home.3-years-of-experience-in-digital": "بیش از سه سال تجربه کاری در زمینه‌های محتوای دیجیتلی، ویب۳ (Web3)، تکنالوژی آموزشی (EdTech) و تکنالوژی مالی (FinTech) دارد. او از طریق برقراری ارتباط مؤثر و داستان‌گویی، مفاهیم پیچیده تخنیکی را به زبانی ساده و روشن توضیح می‌دهد تا در تولید محتوای جذاب، حمایت از فعالیت‌های بازاریابی و رشد محصولات دیجیتلی نقش مؤثری داشته باشد.",  // 3+ years of experience in digital content, Web3, EdTech and FinTech...
@@ -514,7 +514,11 @@ window.SHAMS_I18N['fa-AF'] = {
 
   /* ---- home: team (Samiullah Mohammadi) ---- */
   "home.samiullah-mohammadi": "سمیع‌الله محمدی",  // Samiullah Mohammadi REVIEW: Name spelling in Dari/Pashto – please confirm.
-  "home.samiullah-mohammadi-kunduz": "سمیع‌الله محمدی (کندز)",  // Samiullah Mohammadi (Kunduz)
+  "home.loc-kunduz": "(کندز)",  // (Kunduz)
+  "home.loc-germany": "(آلمان)",  // (Germany)
+  "home.loc-russia": "(روسیه)",  // (Russia)
+  "home.loc-logar": "(لوگر)",  // (Logar)
+  "home.loc-herat": "(هرات)",  // (Herat)
   "home.web-developer": "برنامه‌نویس ویب",  // Web Developer REVIEW: Role title assumed "Web Developer" – please confirm.
   "home.samiullah-mohammadi-bio": "محصل رشتهٔ کمپیوتر ساینس، برنامه‌نویس ویب و علاقه‌مند به تکنالوژی، با تجربهٔ کار با شرکت‌ها و مؤسسات غیردولتی (NGO). او در برنامه‌نویسی ویب، راه‌حل‌های دیجیتال و تکنالوژی آموزشی تخصص دارد و در ایجاد پلتفورم‌های دیجیتال، مدیریت پروژه‌های تکنالوژی و ساخت سیستم‌هایی که کارایی ادارات را بلند می‌برند، سهم گرفته است. ایمیل: samimohammadi@aol.com",  // A Computer Science student, web developer and technology enthusiast with experience working with companies and non-governmental organisations (NGOs). He specialises in web development, digital solutions and educational technology, and has contributed to developing digital platforms, managing technology projects and building systems that improve organisational efficiency. Email: samimohammadi@aol.com
 
@@ -847,4 +851,14 @@ window.SHAMS_I18N['fa-AF'] = {
   "sms.shams-school-erp-one-system": "ERP مکتب تیم تکنالوژی شمس: یک سیستم برای شاگردان، حاضری، امتحانات و نتایج، فیس، کارمندان و والدین. ساخته‌شده برای مکاتب افغانستان، به دری، پشتو و انگلیسی، و بدون انترنت هم کار می‌کند.",  // Shams Technology Team School ERP: one system for students, attendance, exams and results, fees, staff and parents. Built for schools in Afghanistan, in Dari, Pashto and English, and it works without internet.
   "sms.school-management-system-afghanistan-school": "سیستم مدیریت مکتب افغانستان، ERP مکتب کابل، نرم‌افزار مکتب به دری و پشتو، ERP مکتب تیم تکنالوژی شمس",  // school management system Afghanistan, school ERP Kabul, Dari Pashto school software, Shams Technology Team School ERP
   "sms.back-to-top": "بازگشت به بالا",  // Back to top
+
+  /* ---- update 3: team locations, madrasa project ---- */
+  "sms.schools-and-madrasas-that-have": "مکاتب و مدارسی که مدیریت خود را به ERP مکتب تیم تکنالوژی شمس منتقل کرده‌اند",  // Schools and madrasas that have moved their management to Shams Technology Team School ERP
+  "sms.tanin-private-school-logo": "لوگوی مکتب خصوصی طنین",  // Tanin Private School logo
+  "sms.fazl-ul-madaris-muhammadia-logo": "لوگوی مدرسهٔ فضل المدارس محمدیه",  // Fazl-ul-Madaris Muhammadia logo
+  "sms.system-installation": "نصب سیستم",  // System installation
+  "sms.fazl-ul-madaris-muhammadia": "مدرسهٔ فضل المدارس محمدیه",  // Fazl-ul-Madaris Muhammadia REVIEW: English spelling "Fazl-ul-Madaris Muhammadia" assumed from the logo (فضل المدارس محمدیه) – please confirm.
+  "sms.we-successfully-installed-shams-technology": "ما ERP مکتب تیم تکنالوژی شمس را در مدرسهٔ فضل المدارس محمدیه با موفقیت نصب کردیم و برای شاگردان، صنف‌ها، حاضری و فیس آن یک سیستم واحد فراهم ساختیم.",  // We successfully installed Shams Technology Team School ERP at the Fazl-ul-Madaris Muhammadia madrasa, giving it one system for its students, classes, attendance and fees.
+  "sms.installed-and-running": "نصب‌شده و فعال",  // Installed and running
+  "proj.tanin-private-school-and-fazl": "مکتب خصوصی طنین؛ مدرسهٔ فضل المدارس محمدیه",  // Tanin Private School; Fazl-ul-Madaris Muhammadia
 };
