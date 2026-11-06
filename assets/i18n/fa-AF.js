@@ -861,4 +861,48 @@ window.SHAMS_I18N['fa-AF'] = {
   "sms.we-successfully-installed-shams-technology": "ما ERP مکتب تیم تکنالوژی شمس را در مدرسهٔ فضل المدارس محمدیه با موفقیت نصب کردیم و برای شاگردان، صنف‌ها، حاضری و فیس آن یک سیستم واحد فراهم ساختیم.",  // We successfully installed Shams Technology Team School ERP at the Fazl-ul-Madaris Muhammadia madrasa, giving it one system for its students, classes, attendance and fees.
   "sms.installed-and-running": "نصب‌شده و فعال",  // Installed and running
   "proj.tanin-private-school-and-fazl": "مکتب خصوصی طنین؛ مدرسهٔ فضل المدارس محمدیه",  // Tanin Private School; Fazl-ul-Madaris Muhammadia
+
+  /* ---- update 4: plans and pricing ---- */
+  "sms.plans-and-pricing": "پلان‌ها و قیمت‌ها",  // Plans and pricing
+  "sms.included-in-every-plan": "در همهٔ پلان‌ها شامل است",  // Included in every plan
+  "sms.all-modules": "همهٔ بخش‌های سیستم",  // All modules
+  "sms.updates-and-backups": "آپدیت و بکاپ",  // Updates and backups
+  "sms.your-data-stays-yours": "معلومات شما از خود شماست",  // Your data stays yours
+  "sms.basic": "پایه",  // Basic REVIEW: Plan names: پایه / استندرد / ممتاز / سازمانی (Dari), بنسټیز / معیاري / ځانګړی / سازماني (Pashto) – confirm.
+  "sms.small-schools-and-madrasas": "مکاتب و مدارس کوچک",  // Small schools and madrasas
+  "sms.afn-per-year": "افغانی / سالانه",  // AFN / year
+  "sms.choose-this-plan": "انتخاب این پلان",  // Choose this plan
+  "sms.2-online-training-sessions": "۲ جلسهٔ آموزش آنلاین",  // 2 online training sessions
+  "sms.whatsapp-support-in-working-hours": "پشتیبانی WhatsApp در ساعات کاری",  // WhatsApp support in working hours
+  "sms.most-popular": "پرطرفدارترین",  // Most popular
+  "sms.standard": "استندرد",  // Standard
+  "sms.most-private-schools": "بیشتر مکاتب خصوصی",  // Most private schools
+  "sms.on-site-installation": "نصب حضوری در مکتب",  // On-site installation
+  "sms.1-on-site-and-2-online": "۱ جلسهٔ آموزش حضوری و ۲ جلسهٔ آنلاین",  // 1 on-site and 2 online training sessions
+  "sms.we-import-your-student-and": "فهرست شاگردان و کارمندان شما را از Excel وارد سیستم می‌کنیم",  // We import your student and staff lists from Excel
+  "sms.same-day-whatsapp-support": "پشتیبانی WhatsApp در همان روز",  // Same-day WhatsApp support
+  "sms.premium": "ممتاز",  // Premium
+  "sms.large-schools-one-campus": "مکاتب بزرگ با یک ساحه",  // Large schools with one campus
+  "sms.2-on-site-training-sessions-and": "۲ جلسهٔ آموزش حضوری و آموزش آنلاین در صورت نیاز",  // 2 on-site training sessions and online training when needed
+  "sms.fingerprint-and-face-device-set": "تنظیم دستگاه‌های انگشت‌نگاری و تشخیص چهره",  // Fingerprint and face device set-up
+  "sms.priority-support-and-a-check": "پشتیبانی با اولویت و بررسی سیستم در هر سمستر",  // Priority support and a check-up every term REVIEW: School term = سمستر – confirm (or دوره).
+  "sms.enterprise": "سازمانی",  // Enterprise
+  "sms.schools-with-several-branches": "مکاتبی که چندین شعبه دارند",  // Schools with several branches
+  "sms.custom-price": "قیمت توافقی",  // Custom price
+  "sms.contact-us": "با ما تماس بگیرید",  // Contact us
+  "sms.installation-at-every-branch": "نصب در هر شعبه",  // Installation at every branch
+  "sms.training-plan-for-each-branch": "پلان آموزشی برای هر شعبه",  // Training plan for each branch
+  "sms.reports-across-all-branches-on": "گزارش‌های مشترک همهٔ شعبه‌ها در صورت درخواست",  // Reports across all branches on request
+  "sms.a-dedicated-contact-person": "یک شخص مسئول مخصوص برای ارتباط",  // A dedicated contact person
+  "sms.pay-for-the-year-or": "پول را یک‌جا برای یک سال، یا در دو قسط (یک قسط در هر سمستر) بپردازید.",  // Pay for the year, or in two instalments, one each school term.
+  "sms.madrasas-and-charity-schools-get": "مدارس و مکاتب خیریه ۲۰٪ تخفیف می‌گیرند.",  // Madrasas and charity schools get a 20% discount.
+  "sms.on-site-work-is-in": "کارهای حضوری در کابل انجام می‌شود؛ برای ولایات دیگر، هزینهٔ سفر از قبل توافق می‌شود.",  // On-site work is in Kabul; for other provinces, travel costs are agreed in advance.
+  "sms.extra-training-id-card-scanners": "آموزش اضافی، سکنرهای کارت شناسایی و امکانات بخش «در صورت درخواست» جداگانه قیمت‌گذاری می‌شوند.",  // Extra training, ID-card scanners and the features under "Available on request" are quoted separately.
+  "sms.see-our-plans": "پلان‌های ما را ببینید",  // See our plans
+
+  /* ---- update 4: pricing changes ---- */
+  "sms.system-customisation-to-your-school": "تنظیم و تغییر سیستم مطابق نیاز مکتب شما، در صورت درخواست",  // System customisation to your school's needs, on request
+  "sms.launch-offer-free-installation-for-10": "پیشنهاد آغاز کار: نصب رایگان برای ۱۰ مکتب اول. تا حال برای ۲ مکتب نصب شده و ۸ جای دیگر باقی مانده است.",  // Launch offer: free installation for the first 10 schools. 2 are already installed, 8 places left.
+  "sms.simple-yearly-plans-every-plan-2": "پلان‌های سالانهٔ ساده. هر پلان همهٔ بخش‌های سیستم را دارد؛ شما فقط مقدار کمکی را که نیاز دارید انتخاب می‌کنید.",  // Simple yearly plans. Every plan includes every module: you only choose how much help you need.
+  "sms.plans-start-at-10-000-2": "قیمت پلان‌ها از ۱۰٬۰۰۰ افغانی در سال شروع می‌شود و به مقدار آموزش و پشتیبانی مورد نیاز شما بستگی دارد. همهٔ بخش‌های سیستم در هر پلان شامل است.",  // Plans start at 10,000 AFN a year, depending on the training and support you need. Every plan includes all modules.
 };
