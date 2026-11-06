@@ -249,3 +249,42 @@ html[dir="rtl"] .sms-page .sms-rule b { line-height: 1.4; }
 .sms-page .sms-projects-cta { text-align: center; margin: 26px 0 0; color: var(--muted); }
 .sms-page .sms-projects-cta a { font-weight: 600; }
 @media (max-width: 575px) { .sms-page .sms-project { flex-direction: column; padding: 22px; } }
+
+/* ---------- plans and pricing ---------- */
+.sms-page .sms-plans-all {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 14px; margin: 0 0 34px;
+}
+.sms-page .sms-plans-all-label { font-weight: 700; color: var(--heading-color); }
+.sms-page .sms-plan {
+  position: relative; width: 100%; display: flex; flex-direction: column; padding: 30px 24px 26px;
+  border-radius: 16px; background: var(--surface-color); border: 1px solid var(--line);
+  transition: transform .25s, border-color .25s;
+}
+.sms-page .sms-plan:hover { transform: translateY(-4px); border-color: var(--accent-color); }
+.sms-page .sms-plan-featured { border: 2px solid var(--accent-color); box-shadow: 0 24px 50px -30px rgba(3, 43, 105, .45); }
+.sms-page .sms-plan-badge {
+  position: absolute; top: -13px; inset-inline-start: 50%; transform: translateX(-50%);
+  padding: 4px 14px; border-radius: 999px; font-size: 12px; font-weight: 700; letter-spacing: .06em; white-space: nowrap;
+  background: var(--sun); color: #1b1300;
+}
+html[dir="rtl"] .sms-page .sms-plan-badge { transform: translateX(50%); }
+.sms-page .sms-plan h3 { font-size: 22px; font-weight: 800; margin: 0 0 4px; }
+.sms-page .sms-plan-for { color: var(--muted); font-size: 14.5px; margin: 0 0 14px; }
+.sms-page .sms-plan-size { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 14.5px; margin: 0 0 16px; }
+.sms-page .sms-plan-size .bi { color: var(--accent-color); }
+.sms-page .sms-plan-price { margin: 0 0 20px; min-height: 48px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px; }
+.sms-page .sms-plan-amount { font-family: var(--heading-font); font-size: 34px; font-weight: 800; line-height: 1.1; color: var(--heading-color); }
+.sms-page .sms-plan-custom { font-size: 26px; }
+.sms-page .sms-plan-unit { color: var(--muted); font-size: 14.5px; font-weight: 600; }
+.sms-page .sms-plan .sms-btn { margin-bottom: 22px; }
+.sms-page .sms-plan-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; font-size: 14.5px; }
+.sms-page .sms-plan-list li { display: flex; gap: 9px; align-items: flex-start; }
+.sms-page .sms-plan-list .bi { color: var(--accent-color); font-size: 17px; line-height: 1.35; flex-shrink: 0; }
+.sms-page .sms-plan-notes { max-width: 860px; margin: 34px auto 0; font-size: 14.5px; color: var(--muted); }
+.sms-page .sms-plan-offer {
+  display: flex; align-items: center; justify-content: center; gap: 10px; margin: 0 0 16px; padding: 12px 18px;
+  border-radius: 12px; background: var(--sun-soft); color: var(--heading-color); font-weight: 600; text-align: center;
+}
+.sms-page .sms-plan-offer .bi { color: #B86E00; font-size: 18px; }
+:root[data-theme="dark"] .sms-page .sms-plan-offer .bi { color: var(--sun); }
+.sms-page .sms-plan-notes ul { margin: 0; padding-inline-start: 20px; display: grid; gap: 6px; }
