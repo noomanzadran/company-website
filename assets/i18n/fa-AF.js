@@ -6,7 +6,7 @@ window.SHAMS_I18N = window.SHAMS_I18N || {};
 window.SHAMS_I18N['fa-AF'] = {
 
   /* ---- home ---- */
-  "home.shams-technology-team-software-digital": "تیم تکنالوژی شمس – نرم‌افزار و راه‌حل‌های دیجیتال",  // Shams Technology Team – Software & Digital Solutions
+  "home.shams-technology-team-software-digital": "تیم تکنالوژی شمس – نرم‌افزار و راه‌حل‌های دیجیتل",  // Shams Technology Team – Software & Digital Solutions
   "home.shams-technology-team-builds-school": "تیم تکنالوژی شمس نرم‌افزار مدیریت مکتب را برای افغانستان می‌سازد: به زبان‌های دری، پشتو و انگلیسی، با تاریخ هجری شمسی و قابلیت کار بدون انترنت.",  // Shams Technology Team builds school management software for Afghanistan: English, Dari and Pashto, Solar Hijri dates, and it works offline.
   "home.school-erp-afghanistan-school-management": "سیستم مدیریت مکتب، ERP مکتب افغانستان، نرم‌افزار مکتب کابل، تیم تکنالوژی شمس",  // school ERP Afghanistan, school management system Kabul, Shams Technology
 
@@ -24,7 +24,7 @@ window.SHAMS_I18N['fa-AF'] = {
   /* ---- home ---- */
   "home.shams-technology-team": "تیم تکنالوژی شمس",  // Shams Technology Team REVIEW: Company name in Dari/Pashto: تیم تکنالوژی شمس / د شمس ټکنالوژۍ ټیم – confirm official form.
   "home.build-innovate-and-make-an": "می‌سازیم، نوآوری می‌کنیم و تغییر می‌آوریم.",  // Build, innovate and make an impact.
-  "home.we-design-and-build-software": "ما برای مکاتب، شرکت‌ها و ادارات در سراسر افغانستان نرم‌افزار، سیستم و راه‌حل‌های دیجیتال دیزاین می‌کنیم و می‌سازیم.",  // We design and build software, systems and digital solutions for schools, businesses and organisations across Afghanistan.
+  "home.we-design-and-build-software": "ما برای مکاتب، شرکت‌ها و ادارات در سراسر افغانستان نرم‌افزار، سیستم و راه‌حل‌های دیجیتل دیزاین می‌کنیم و می‌سازیم.",  // We design and build software, systems and digital solutions for schools, businesses and organisations across Afghanistan.
   "home.explore-our-projects": "پروژه‌های ما را ببینید",  // Explore our projects
   "home.technologies-we-build-with": "تکنالوژی‌هایی که با آن‌ها کار می‌کنیم",  // Technologies we build with
   "home.about-us": "درباره ما",  // About Us
@@ -35,7 +35,7 @@ window.SHAMS_I18N['fa-AF'] = {
   "home.ai-chatbots": "هوش مصنوعی و چت‌بات",  // AI & Chatbots REVIEW: AI = هوش مصنوعی (Dari) / مصنوعي ځیرکتیا (Pashto); chatbot = چت‌بات / چټ بوټ – confirm.
   "home.multilingual-ai-assistants-on-web": "دستیارهای چندزبانهٔ هوش مصنوعی در ویب، WhatsApp و Telegram که بر اساس اسناد واقعی ساخته می‌شوند تا پاسخ‌های دقیق بدهند.",  // Multilingual AI assistants on web, WhatsApp and Telegram, built on real documents for accurate answers.
   "home.erp-management-systems": "سیستم‌های ERP و مدیریتی",  // ERP & Management Systems
-  "home.school-erps-hr-and-leave": "سیستم‌های ERP مکتب، منابع بشری و رخصتی که کاغذبازی را با داشبوردهای روشن و مطابق نقش هر کاربر جایگزین می‌کنند.",  // School ERPs, HR and leave systems that replace paperwork with clear, role-based dashboards.
+  "home.school-erps-hr-and-leave": "سیستم‌های ERP مکتب، منابع بشری و رخصتی که کارهای کاغذی را با داشبوردهای روشن و مطابق نقش هر کاربر جایگزین می‌کنند.",  // School ERPs, HR and leave systems that replace paperwork with clear, role-based dashboards.
   "home.web-e-commerce-e-learning": "ویب، تجارت الکترونیکی و آموزش آنلاین",  // Web, E-commerce & E-learning
   "home.marketplaces-learning-platforms-and-websites": "بازارهای آنلاین، پلتفورم‌های آموزشی و ویب‌سایت‌ها؛ کاملاً سه‌زبانه و با پشتیبانی از نوشتار راست به چپ.",  // Marketplaces, learning platforms and websites, fully trilingual with right-to-left support.
   "home.cloud-automation-security": "کلاود، خودکارسازی و امنیت",  // Cloud, Automation & Security REVIEW: Cloud kept as loanword کلاود / کلاوډ – confirm (alternative: ابری).
@@ -53,19 +53,19 @@ window.SHAMS_I18N['fa-AF'] = {
   "home.ai-chatbots-assistants": "چت‌بات‌ها و دستیارهای هوش مصنوعی",  // AI Chatbots & Assistants
   "home.multilingual-ai-assistants-in-dari": "دستیارهای چندزبانهٔ هوش مصنوعی به دری، پشتو و انگلیسی روی ویب‌سایت، WhatsApp و Telegram شما که با اسناد خودتان آموزش می‌بینند تا پاسخ‌ها دقیق باشند.",  // Multilingual AI assistants in Dari, Pashto and English on your website, WhatsApp and Telegram, trained on your own documents so the answers are accurate.
   "home.e-learning-platforms": "پلتفورم‌های آموزش آنلاین",  // E-learning Platforms
-  "home.learning-management-systems-exam-preparation": "سیستم‌های مدیریت آموزش، آمادگی امتحان و درس‌های دیجیتال که حتی با انترنت ضعیف به شاگردان در سراسر کشور می‌رسند.",  // Learning management systems, exam preparation and digital lessons that reach students across the country, even on slow connections.
+  "home.learning-management-systems-exam-preparation": "سیستم‌های مدیریت آموزش، آمادگی امتحان و درس‌های دیجیتل که حتی با انترنت ضعیف به شاگردان در سراسر کشور می‌رسند.",  // Learning management systems, exam preparation and digital lessons that reach students across the country, even on slow connections.
   "home.e-commerce-marketplaces": "تجارت الکترونیکی و بازارهای آنلاین",  // E-commerce & Marketplaces
   "home.online-stores-and-multi-vendor": "دوکان‌های آنلاین و بازارهای چندفروشنده با پنل فروشنده، پرداخت هنگام تحویل، پرداخت امن و پشتیبانی کامل از نوشتار راست به چپ.",  // Online stores and multi-vendor marketplaces with seller portals, cash on delivery, secure payments and full right-to-left support.
   "home.websites-web-applications": "ویب‌سایت‌ها و اپلیکیشن‌های ویب",  // Websites & Web Applications
-  "home.company-websites-wordpress-sites-and": "ویب‌سایت‌های شرکتی، سایت‌های WordPress و اپلیکیشن‌های ویب سفارشی: سریع، اول برای موبایل و آسان برای مدیریت توسط تیم شما.",  // Company websites, WordPress sites and custom web apps: fast, mobile-first and easy for your team to manage.
+  "home.company-websites-wordpress-sites-and": "ویب‌سایت‌های شرکتی، سایت‌های WordPress و اپلیکیشن‌های ویب اختصاصی: سریع، اول برای موبایل و آسان برای مدیریت توسط تیم شما.",  // Company websites, WordPress sites and custom web apps: fast, mobile-first and easy for your team to manage.
   "home.automation-integrations": "خودکارسازی و یکپارچه‌سازی",  // Automation & Integrations
-  "home.whatsapp-business-messaging-automated-forms": "پیام‌رسانی با WhatsApp Business، فورم‌های خودکار، منظوری‌ها و گزارش‌هایی که جای کاغذبازی را می‌گیرند و هر هفته ساعت‌ها در وقت کارمندان شما صرفه‌جویی می‌کنند.",  // WhatsApp Business messaging, automated forms, approvals and reports that replace paperwork and save your staff hours every week.
+  "home.whatsapp-business-messaging-automated-forms": "پیام‌رسانی با WhatsApp Business، فورم‌های خودکار، منظوری‌ها و گزارش‌هایی که جای کارهای کاغذی را می‌گیرند و هر هفته ساعت‌ها در وقت کارمندان شما صرفه‌جویی می‌کنند.",  // WhatsApp Business messaging, automated forms, approvals and reports that replace paperwork and save your staff hours every week.
   "home.cloud-network-security": "کلاود، شبکه و امنیت",  // Cloud, Network & Security
   "home.secure-servers-and-cloud-deployments": "سرورهای امن و راه‌اندازی در کلاود، شبکه‌ها، بکاپ و بررسی‌های امنیتی که سیستم‌های شما را فعال و معلومات شما را مصون نگه می‌دارند.",  // Secure servers and cloud deployments, networks, backups and security reviews that keep your systems running and your data safe.
   "home.featured-work": "کارهای برجسته",  // Featured Work
   "home.real-systems-we-built-and": "سیستم‌های واقعی که ساخته‌ایم و هر روز اداره می‌کنیم",  // Real systems we built and run every day
   "home.ai-tutor-chatbot": "چت‌بات معلم هوش مصنوعی",  // AI Tutor Chatbot
-  "home.one-of-the-first-ai": "یکی از نخستین معلمان هوش مصنوعی که برای شاگردان افغان ساخته شده است. این سیستم به سوالات شاگردان به دری، پشتو و انگلیسی در WhatsApp، Telegram و ویب پاسخ می‌دهد. ما چت‌بات، تجربهٔ کاربری شاگردان و داشبورد تحلیلی زندهٔ پشت آن را ساخته‌ایم.",  // One of the first AI tutors built for Afghan students. It answers students' questions in Dari, Pashto and English on WhatsApp, Telegram and the web. We built the chatbot, the student experience and the live analytics dashboard behind it.
+  "home.one-of-the-first-ai": "یکی از اولین معلمان هوش مصنوعی که برای شاگردان افغان ساخته شده است. این سیستم به سوالات شاگردان به دری، پشتو و انگلیسی در WhatsApp، Telegram و ویب پاسخ می‌دهد. ما چت‌بات، تجربهٔ کاربری شاگردان و داشبورد تحلیلی زندهٔ پشت آن را ساخته‌ایم.",  // One of the first AI tutors built for Afghan students. It answers students' questions in Dari, Pashto and English on WhatsApp, Telegram and the web. We built the chatbot, the student experience and the live analytics dashboard behind it.
   "home.students": "شاگرد",  // Students
   "home.messages-answered": "پیام پاسخ‌داده‌شده",  // Messages answered
   "home.3-sec": "حدود ۳ ثانیه",  // ~3 sec
@@ -84,7 +84,7 @@ window.SHAMS_I18N['fa-AF'] = {
   "home.last-month": "ماه گذشته",  // Last month
   "home.users-by-channel": "کاربران بر اساس کانال",  // Users by channel
   "home.web": "ویب",  // Web
-  "home.top-regions": "مناطق برتر",  // Top regions
+  "home.top-regions": "مناطق با بیشترین کاربر",  // Top regions
   "home.afghanistan": "افغانستان",  // Afghanistan
   "home.pakistan": "پاکستان",  // Pakistan
   "home.healthy": "سالم",  // Healthy
@@ -140,7 +140,7 @@ window.SHAMS_I18N['fa-AF'] = {
   "home.ai-tutor-for-students-and": "معلم هوش مصنوعی برای شاگردان و دستیار معلوماتی برای کارمندان",  // AI tutor for students and a data assistant for staff
   "home.entrance-exam-preparation": "آمادگی امتحان کانکور",  // Entrance Exam Preparation
   "home.entrance-exam-preparation-dark-mode": "آمادگی امتحان کانکور، حالت تاریک",  // Entrance Exam Preparation, dark mode
-  "home.digital-lessons-and-practice-tests": "درس‌های دیجیتال و امتحانات آزمایشی برای امتحان کانکور",  // Digital lessons and practice tests for the university entrance exam
+  "home.digital-lessons-and-practice-tests": "درس‌های دیجیتل و امتحانات آزمایشی برای امتحان کانکور",  // Digital lessons and practice tests for the university entrance exam
   "home.national-education-platform": "پلتفورم ملی آموزش",  // National Education Platform
   "home.national-education-platform-dark-mode": "پلتفورم ملی آموزش، حالت تاریک",  // National Education Platform, dark mode
   "home.nationwide-video-lessons-for-students": "درس‌های ویدیویی در سطح کشور برای شاگردان و معلمان",  // Nationwide video lessons for students and teachers
@@ -152,12 +152,12 @@ window.SHAMS_I18N['fa-AF'] = {
   "home.whatsapp-broadcasts-and-an-automated": "پیام‌های گروهی WhatsApp و روند خودکار ثبت‌نام",  // WhatsApp broadcasts and an automated registration pipeline
   "home.foundation-multisite-website": "ویب‌سایت چندسایتی یک بنیاد",  // Foundation Multisite Website
   "home.foundation-multisite-website-dark-mode": "ویب‌سایت چندسایتی یک بنیاد، حالت تاریک",  // Foundation Multisite Website, dark mode
-  "home.custom-wordpress-theme-for-a": "قالب سفارشی WordPress برای شبکه‌ای از شش سایت",  // Custom WordPress theme for a six-site network
+  "home.custom-wordpress-theme-for-a": "قالب اختصاصی WordPress برای شبکه‌ای از شش سایت",  // Custom WordPress theme for a six-site network
   "home.frequently-asked": "سوالات ",  // Frequently Asked REVIEW: FAQ heading split across two styled words: Dari "سوالات | متداول", Pashto "ډېرې پوښتل شوې | پوښتنې".
   "home.questions": "متداول",  // Questions
   "home.answers-to-the-questions-we": "پاسخ سوالاتی که بیشتر از همه از ما می‌پرسند. اگر سوال شما این‌جا نیست، برای ما پیام بفرستید تا پاسخ بدهیم.",  // Answers to the questions we hear most often. If yours is not here, send us a message and we will reply.
   "home.what-kind-of-projects-do": "چه نوع پروژه‌هایی را انجام می‌دهید؟",  // What kind of projects do you take on?
-  "home.websites-school-and-business-systems": "ویب‌سایت‌ها، سیستم‌های مکتب و شرکت‌ها (ERP)، چت‌بات‌های هوش مصنوعی و خودکارسازی. ما پروژه را از نخستین ایده تا راه‌اندازی پیش می‌بریم و پس از آن هم به پشتیبانی آن ادامه می‌دهیم.",  // Websites, school and business systems (ERP), AI chatbots and automation. We take a project from the first idea to launch, and we keep supporting it after that.
+  "home.websites-school-and-business-systems": "ویب‌سایت‌ها، سیستم‌های مکتب و شرکت‌ها (ERP)، چت‌بات‌های هوش مصنوعی و خودکارسازی. ما پروژه را از اولین ایده تا راه‌اندازی پیش می‌بریم و پس از آن هم به پشتیبانی آن ادامه می‌دهیم.",  // Websites, school and business systems (ERP), AI chatbots and automation. We take a project from the first idea to launch, and we keep supporting it after that.
   "home.do-your-systems-support-dari": "آیا سیستم‌های شما از دری و پشتو پشتیبانی می‌کنند؟",  // Do your systems support Dari and Pashto?
   "home.yes-our-systems-work-in": "بلی. سیستم‌های ما به دری، پشتو و انگلیسی کار می‌کنند و هر جا که لازم باشد، صفحه‌آرایی راست به چپ و تاریخ هجری شمسی دارند.",  // Yes. Our systems work in Dari, Pashto and English, with right-to-left layouts and Solar Hijri dates where they are needed.
   "home.can-the-system-keep-working": "آیا سیستم در زمان قطع انترنت هم کار می‌کند؟",  // Can the system keep working when the internet is down?
@@ -195,7 +195,7 @@ window.SHAMS_I18N['fa-AF'] = {
   "home.m-sc-it-in-network": "ماستری تکنالوژی معلوماتی در امنیت شبکه و لیسانس انجنیری کمپیوتر (پوهنتون گجرات، هند). انجنیر شبکه با سابقهٔ کار در پشتیبانی IT و امنیت؛ صفحه‌های کاربری ویب‌سایت‌ها و سیستم‌های ما را می‌سازد.",  // M.Sc. IT in Network Security and Bachelor's in Computer Engineering (Gujarat University, India). Network Engineer with a background in IT support and security; builds the interfaces of our websites and systems.
   "home.maryam-salihy": "مریم صالحی",  // Maryam Salihy REVIEW: confirm spelling with Maryam.
   "home.marketing-technical-support": "بازاریابی و پشتیبانی تخنیکی",  // Marketing & Technical Support
-  "home.maryam-salihy-bio": "(نمایندهٔ منطقه‌ای شرکت) متخصص امور جوانان و توسعه با بیش از پنج سال تجربه در زمینه‌های تحقیق، آموزش، ارتباطات و فعالیت‌های بشردوستانه است. زمینه‌های تخصص و تمرکز کاری او شامل اقدامات اقلیمی، توسعه پایدار، مشارکت جوانان، علوم کمپیوتر، هوش مصنوعی و مطالعات محیط زیست می‌باشد. همچنان در بخش‌های بازاریابی، معرفی محصولات، پشتیبانی تخنیکی و نگهداری شرکت سهم دارد.",  // (Regional Representative) A youth and development professional...
+  "home.maryam-salihy-bio": "(نمایندهٔ منطقه‌ای شرکت) متخصص امور جوانان و انکشاف با بیش از پنج سال تجربه در زمینه‌های تحقیق، آموزش، ارتباطات و فعالیت‌های بشردوستانه است. زمینه‌های تخصص و تمرکز کاری او شامل اقدامات اقلیمی، انکشاف پایدار، مشارکت جوانان، علوم کمپیوتر، هوش مصنوعی و مطالعات محیط زیست می‌باشد. همچنان در بخش‌های بازاریابی، معرفی محصولات، پشتیبانی تخنیکی و نگهداری شرکت سهم دارد.",  // (Regional Representative) A youth and development professional...
   "home.ismail-farhang": "اسماعیل فرهنگ",  // Ismail Farhang REVIEW: confirm spelling with Ismail.
   "home.it-support-engineer-content-specialist": "انجنیر پشتیبانی تکنالوژی معلوماتی و متخصص تولید محتوای دیجیتلی",  // IT Support Engineer & Content Specialist
   "home.3-years-of-experience-in-digital": "بیش از سه سال تجربه کاری در زمینه‌های محتوای دیجیتلی، ویب۳ (Web3)، تکنالوژی آموزشی (EdTech) و تکنالوژی مالی (FinTech) دارد. او از طریق برقراری ارتباط مؤثر و داستان‌گویی، مفاهیم پیچیده تخنیکی را به زبانی ساده و روشن توضیح می‌دهد تا در تولید محتوای جذاب، حمایت از فعالیت‌های بازاریابی و رشد محصولات دیجیتلی نقش مؤثری داشته باشد.",  // 3+ years of experience in digital content, Web3, EdTech and FinTech...
@@ -239,7 +239,7 @@ window.SHAMS_I18N['fa-AF'] = {
   "common.contact-us": "تماس با ما",  // Contact Us
   "common.kabul-afghanistan": "کابل، افغانستان",  // Kabul, Afghanistan
   "common.open-24-7-hybrid": "۲۴ ساعت، ۷ روز هفته · حضوری و از راه دور",  // Open 24/7 · Hybrid REVIEW: "Hybrid (office and remote)" rendered as "in office and remote" – OK?
-  "common.phone-whatsapp": "تلفون / WhatsApp:",  // Phone / WhatsApp:
+  "common.phone-whatsapp": "تیلفون / WhatsApp:",  // Phone / WhatsApp:
   "common.email": "ایمیل:",  // Email: REVIEW: Pashto "برېښنالیک" (official) vs "ایمیل" (common) – choose one.
   "common.shams-technology-team": "تیم تکنالوژی شمس",  // Shams Technology Team
   "common.all-rights-reserved": "تمام حقوق محفوظ است.",  // All Rights Reserved.
@@ -274,8 +274,8 @@ window.SHAMS_I18N['fa-AF'] = {
   "sms.shams-school-erp-dashboard-in": "داشبورد ERP مکتب تیم تکنالوژی شمس در حالت تاریک",  // Shams Technology Team School ERP dashboard in dark mode
   "sms.the-principals-dashboard-in-shams": "داشبورد مدیر مکتب در ERP مکتب تیم تکنالوژی شمس",  // The principal's dashboard in Shams Technology Team School ERP
   "sms.why-schools-move-to-shams": "چرا مکاتب ERP مکتب تیم تکنالوژی شمس را انتخاب می‌کنند",  // Why schools move to Shams Technology Team School ERP
-  "sms.less-paperwork-for-staff-clear": "کاغذبازی کمتر برای کارمندان، معلومات روشن برای مالکان و والدین",  // Less paperwork for staff, clear information for owners and parents
-  "sms.less-paperwork": "کاغذبازی کمتر",  // Less paperwork
+  "sms.less-paperwork-for-staff-clear": "کارهای کاغذی کمتر برای کارمندان، معلومات روشن برای مالکان و والدین",  // Less paperwork for staff, clear information for owners and parents
+  "sms.less-paperwork": "کارهای کاغذی کمتر",  // Less paperwork
   "sms.registers-mark-sheets-and-fee": "کتاب‌های حاضری، جدول نمرات و دفترهای فیس به یک سیستم منتقل می‌شوند. کارمندان معلومات را یک بار وارد می‌کنند و در همه جا از آن استفاده می‌کنند.",  // Registers, mark sheets and fee books move into one system. Staff enter information once and use it everywhere.
   "sms.full-transparency": "شفافیت کامل",  // Full transparency
   "sms.every-amount-is-saved-with": "هر مبلغ با تاریخ و نام کسی که آن را ثبت کرده، ذخیره می‌شود. اشتباهات با ذکر دلیل باطل می‌شوند و هرگز حذف نمی‌شوند.",  // Every amount is saved with the date and the person who entered it. Mistakes are voided with a reason, never deleted.
@@ -292,7 +292,7 @@ window.SHAMS_I18N['fa-AF'] = {
   "sms.administration": "اداری",  // Administration
   "sms.students-and-admissions": "شاگردان و شمولیت",  // Students and admissions
   "sms.attendance": "حاضری",  // Attendance
-  "sms.scan-station-and-devices": "ایستگاه اسکن و دستگاه‌ها",  // Scan station and devices
+  "sms.scan-station-and-devices": "محل اسکن و دستگاه‌ها",  // Scan station and devices
   "sms.transport-and-courses": "ترانسپورت و کورس‌ها",  // Transport and courses
   "sms.staff": "کارمندان",  // Staff
   "sms.hr-and-staff": "منابع بشری و کارمندان",  // HR and staff
@@ -303,8 +303,8 @@ window.SHAMS_I18N['fa-AF'] = {
   "sms.expenses-income-and-payroll": "مصارف، عواید و معاشات",  // Expenses, income and payroll
   "sms.modules-in-detail": "معرفی بخش‌ها",  // Modules in detail
   "sms.what-each-part-of-the": "هر بخش سیستم چه کاری برای مکتب شما انجام می‌دهد",  // What each part of the system does for your school
-  "sms.a-complete-digital-file-for-2": "یک دوسیهٔ دیجیتال کامل برای هر شاگرد، از درخواست شمولیت تا فراغت.",  // A complete digital file for every student, from application to graduation.
-  "sms.add-students-with-photo-each": "ثبت شاگردان همراه با عکس؛ هر شاگرد نمبر شناسایی و رمز عبور اولیه می‌گیرد",  // Add students with photo; each student gets a Student ID and a first password
+  "sms.a-complete-digital-file-for-2": "یک دوسیهٔ دیجیتل کامل برای هر شاگرد، از درخواست شمولیت تا فراغت.",  // A complete digital file for every student, from application to graduation.
+  "sms.add-students-with-photo-each": "ثبت شاگردان همراه با عکس؛ هر شاگرد نمبر شناسایی و رمز اولیه می‌گیرد",  // Add students with photo; each student gets a Student ID and a first password
   "sms.find-students-by-class-section": "جستجوی شاگردان بر اساس صنف، شعبه و سال، و خروجی گرفتن آن‌ها به Excel",  // Find students by class, section and year, and export them to Excel
   "sms.admission-applications-accept-or-reject": "درخواست‌های شمولیت: پذیرفتن یا رد کردن، و چاپ فهرست",  // Admission applications: accept or reject, and print the list
   "sms.student-notes-for-praise-complaints": "یادداشت‌های شاگردان برای تقدیر، شکایت و انضباط، و تعیین نمایندهٔ صنف",  // Student notes for praise, complaints and discipline, and class monitors
@@ -335,8 +335,8 @@ window.SHAMS_I18N['fa-AF'] = {
   "sms.lesson-plans-sent-for-review": "پلان‌های درسی که برای بررسی فرستاده می‌شوند و منظور یا با یادداشت برگردانده می‌شوند",  // Lesson plans sent for review, then approved or returned with a note
   "sms.progress-notes-about-each-student": "یادداشت‌های پیشرفت هر شاگرد، مثلاً در درس یا رفتار",  // Progress notes about each student, for example academic or behaviour
   "sms.their-classs-fees-read-only": "فیس صنف خودشان، فقط برای دیدن",  // Their class's fees, read only
-  "sms.everyone-who-works-at-the": "همهٔ کسانی که در مکتب کار می‌کنند: معلمان، کارمندان دفتر، محافظان، دریوران و دیگران.",  // Everyone who works at the school: teachers, office staff, guards, drivers and others.
-  "sms.staff-profiles-with-staff-codes": "پروفایل کارمندان با کود کارمند، و وارد کردن از قالب CSV یا Excel",  // Staff profiles with staff codes, and import from a CSV or Excel template
+  "sms.everyone-who-works-at-the": "همهٔ کسانی که در مکتب کار می‌کنند: معلمان، کارمندان دفتر، محافظین، دریوران و دیگران.",  // Everyone who works at the school: teachers, office staff, guards, drivers and others.
+  "sms.staff-profiles-with-staff-codes": "پروفایل کارمندان با کود کارمند، و وارد کردن از فایل CSV یا Excel",  // Staff profiles with staff codes, and import from a CSV or Excel template
   "sms.employee-documents-such-as-tazkira": "اسناد کارمندان مانند تذکره و اسناد تحصیلی، با تاریخ انقضا و فهرست اسناد ناقص",  // Employee documents such as tazkira and degrees, with expiry dates and a list of what is missing
   "sms.contracts-permanent-fixed-term-part": "قراردادها: دایمی، معین‌مدت، نیمه‌وقت و آزمایشی",  // Contracts: permanent, fixed term, part time and probation
   "sms.leave-balances-and-requests-nobody": "باقی‌ماندهٔ رخصتی و درخواست‌ها؛ هیچ کس رخصتی خودش را منظور نمی‌کند",  // Leave balances and requests; nobody approves their own leave
@@ -420,7 +420,7 @@ window.SHAMS_I18N['fa-AF'] = {
   "sms.sick": "مریض",  // Sick
   "sms.leave": "رخصت",  // Leave
   "sms.late": "ناوقت",  // Late
-  "sms.scan-station-with-qr-id": "ایستگاه اسکن با کارت‌های شناسایی QR، سکنر USB یا کمره",  // Scan station with QR ID cards, a USB scanner or the camera
+  "sms.scan-station-with-qr-id": "محل اسکن با کارت‌های شناسایی QR، سکنر USB یا کمره",  // Scan station with QR ID cards, a USB scanner or the camera
   "sms.import-from-fingerprint-face-or": "وارد کردن حاضری از دستگاه‌های انگشت‌نگاری، تشخیص چهره یا کارت",  // Import from fingerprint, face or card devices
   "sms.a-printed-list-of-the": "فهرست چاپی روز: تمام صنف، یا فقط غیرحاضر، مریض، رخصت و ناوقت",  // A printed list of the day: the full class, or only absent, sick, leave and late
   "sms.attendance-shown-on-the-parent": "نمایش حاضری در اطلاع‌نامهٔ والدین و در پنل شاگرد",  // Attendance shown on the parent report card and in the student's panel
@@ -463,7 +463,7 @@ window.SHAMS_I18N['fa-AF'] = {
   "sms.ai-assistant-for-staff-questions": "دستیار هوش مصنوعی برای سوالات کارمندان",  // AI assistant for staff questions
   "sms.why-shams-technology-team": "چرا تیم تکنالوژی شمس",  // Why Shams Technology Team
   "sms.built-in-kabul-for-afghan": "ساخت کابل، برای مکاتب افغانستان",  // Built in Kabul, for Afghan schools
-  "sms.we-are-a-local-team": "ما یک تیم محلی هستیم. فورمت‌های وزارت معارف، تقویم هجری شمسی، فیس به افغانی و انترنت ناپایدار را می‌شناسیم، چون هر روز با آن‌ها کار می‌کنیم.",  // We are a local team. We know the Ministry formats, the Solar Hijri calendar, fees in afghanis and unreliable internet, because we work with them every day.
+  "sms.we-are-a-local-team": "ما یک تیم محلی هستیم. فورم‌های رسمی وزارت معارف، جنتری هجری شمسی، فیس به افغانی و انترنت ناپایدار را به‌خوبی می‌شناسیم، چون هر روز با آن‌ها سروکار داریم.",  // We are a local team. We know the Ministry formats, the Solar Hijri calendar, fees in afghanis and unreliable internet, because we work with them every day.
   "sms.read-how-we-built-shams": "بخوانید که ERP مکتب تیم تکنالوژی شمس را چطور ساختیم",  // Read how we built Shams Technology Team School ERP
   "sms.local-understanding": "شناخت محلی",  // Local understanding
   "sms.designed-around-how-schools-in": "بر اساس شیوهٔ واقعی کار مکاتب افغانستان دیزاین شده است.",  // Designed around how schools in Afghanistan really work.
@@ -472,26 +472,25 @@ window.SHAMS_I18N['fa-AF'] = {
   "sms.training": "آموزش",  // Training
   "sms.we-set-up-the-system": "سیستم را راه‌اندازی می‌کنیم و کارمندان شما را برای استفاده از آن آموزش می‌دهیم.",  // We set up the system and train your staff to use it.
   "sms.support": "پشتیبانی",  // Support
-  "sms.we-stay-with-you-after": "پس از راه‌اندازی هم از طریق تلفون، WhatsApp یا حضوری در کنار شما هستیم.",  // We stay with you after launch, by phone, WhatsApp or in person.
-  "sms.our-school-projects": "پروژه‌های مکتبی ما",  // Our school projects
-  "sms.schools-that-have-moved-their": "مکاتبی که مدیریت خود را به ERP مکتب تیم تکنالوژی شمس منتقل کرده‌اند",  // Schools that have moved their management to Shams Technology Team School ERP
+  "sms.we-stay-with-you-after": "پس از راه‌اندازی هم از طریق تیلفون، WhatsApp یا حضوری در کنار شما هستیم.",  // We stay with you after launch, by phone, WhatsApp or in person.
+  "sms.our-school-projects": "پروژه‌های ما در مکاتب",  // Our school projects
   "sms.school-management-digitalisation": "دیجیتلی‌سازی مدیریت مکتب",  // School management digitalisation
   "sms.tanin-private-school": "مکتب خصوصی طنین",  // Tanin Private School REVIEW: School name spelling: طنین – please confirm with Tanin Private School.
   "sms.we-digitalised-the-school-management": "ما مدیریت مکتب خصوصی طنین را با ERP مکتب تیم تکنالوژی شمس دیجیتلی ساختیم و کارهای اداری روزمرهٔ آن را از کتاب‌های کاغذی و جدول‌های Excel به یک سیستم واحد منتقل کردیم.",  // We digitalised the school management of Tanin Private School with Shams Technology Team School ERP, moving its daily administration from paper registers and spreadsheets to one system. REVIEW: Tanin project description – please confirm the details are accurate.
   "sms.students-attendance-exams-and-fees": "شاگردان، حاضری، امتحانات و فیس در یک جا",  // Students, attendance, exams and fees in one place
   "sms.dari-pashto-and-english": "دری، پشتو و انگلیسی",  // Dari, Pashto and English
-  "sms.would-you-like-your-school": "می‌خواهید مکتب شما نفر بعدی باشد؟",  // Would you like your school to be next?
+  "sms.would-you-like-your-school": "می‌خواهید مکتب شما هم به این جمع بپیوندد؟",  // Would you like your school to be next?
   "sms.questions-from": "سوالات ",  // Questions from REVIEW: FAQ heading split across two styled words: Dari "سوالات | مکاتب", Pashto "د ښوونځیو | پوښتنې".
   "sms.schools": "مکاتب",  // schools
   "sms.if-your-question-is-not": "اگر پاسخ سوال خود را این‌جا نیافتید، با ما تماس بگیرید تا پاسخ دهیم.",  // If your question is not answered here, contact us and we will reply.
   "sms.how-do-we-get-started": "چطور شروع کنیم؟",  // How do we get started?
   "sms.we-show-you-a-demo-2": "ابتدا سیستم را به شما نشان می‌دهیم و بر سر نیازهای مکتب شما توافق می‌کنیم. سپس سیستم را روی کمپیوتر اصلی مکتب نصب و فعال می‌کنیم، صنف‌های شما را تنظیم می‌کنیم و کارمندان شما را آموزش می‌دهیم.",  // We show you a demo and agree on what your school needs. Then we install the system on your school's main computer, activate it for your school, set up your classes and train your staff.
   "sms.does-it-need-internet": "آیا به انترنت نیاز دارد؟",  // Does it need internet?
-  "sms.no-it-runs-on-one": "خیر. روی یک کمپیوتر اصلی در مکتب شما اجرا می‌شود و کمپیوترهای دیگر از طریق شبکهٔ مکتب آن را در براوزر باز می‌کنند.",  // No. It runs on one main computer in your school, and the other computers open it in the browser over the school network.
+  "sms.no-it-runs-on-one": "نخیر. روی یک کمپیوتر اصلی در مکتب شما اجرا می‌شود و کمپیوترهای دیگر از طریق شبکهٔ مکتب آن را در براوزر باز می‌کنند.",  // No. It runs on one main computer in your school, and the other computers open it in the browser over the school network.
   "sms.can-we-bring-our-existing": "آیا می‌توانیم معلومات فعلی خود را از Excel منتقل کنیم؟",  // Can we bring our existing data from Excel?
-  "sms.yes-staff-can-be-imported": "بلی. معلومات کارمندان از قالب CSV یا Excel وارد می‌شود و فهرست شاگردان به Excel خروجی گرفته می‌شود. هنگام نصب سیستم، در انتقال سوابق فعلی شما کمک می‌کنیم.",  // Yes. Staff can be imported from a CSV or Excel template, and student lists can be exported to Excel. We help you move your existing records when we set up the system.
+  "sms.yes-staff-can-be-imported-2": "بلی. سیستم می‌تواند معلومات کارمندان را از فایل CSV یا Excel وارد کند و فهرست شاگردان را به Excel انتقال دهد.",  // Yes. The system can import staff from a CSV or Excel template, and export student lists to Excel.
   "sms.can-students-and-staff-use": "آیا شاگردان و کارمندان می‌توانند برای حاضری از کارت شناسایی استفاده کنند؟",  // Can students and staff use ID cards for attendance?
-  "sms.yes-the-system-prints-id": "بلی. سیستم کارت‌های شناسایی با کود QR چاپ می‌کند. در ایستگاه اسکن، سکنر USB یا کمره کارت را می‌خواند و شخص حاضر ثبت می‌شود. حاضری را می‌توان از دستگاه‌های انگشت‌نگاری، تشخیص چهره یا کارت نیز وارد کرد.",  // Yes. The system prints ID cards with a QR code. At the scan station a USB scanner or the camera reads the card and marks the person present. Attendance can also be imported from fingerprint, face or card devices.
+  "sms.yes-the-system-prints-id": "بلی. سیستم کارت‌های شناسایی با کود QR چاپ می‌کند. در محل اسکن، سکنر USB یا کمره کارت را می‌خواند و شخص حاضر ثبت می‌شود. حاضری را می‌توان از دستگاه‌های انگشت‌نگاری، تشخیص چهره یا کارت نیز وارد کرد.",  // Yes. The system prints ID cards with a QR code. At the scan station a USB scanner or the camera reads the card and marks the person present. Attendance can also be imported from fingerprint, face or card devices.
   "sms.which-languages-does-it-support": "سیستم از کدام زبان‌ها پشتیبانی می‌کند؟",  // Which languages does it support?
   "sms.dari-pashto-and-english-with": "دری، پشتو و انگلیسی، با صفحه‌های راست به چپ و تاریخ هجری شمسی. هر کاربر می‌تواند زبان خود را انتخاب کند.",  // Dari, Pashto and English, with right-to-left screens and Solar Hijri dates. Each user can choose their language.
   "sms.what-happens-if-the-computer": "اگر کمپیوتر خراب شود چه می‌شود؟",  // What happens if the computer breaks?
@@ -499,7 +498,6 @@ window.SHAMS_I18N['fa-AF'] = {
   "sms.can-it-be-adapted-to": "آیا می‌توان آن را مطابق مکتب ما تنظیم کرد؟",  // Can it be adapted to our school?
   "sms.yes-fees-exam-rules-reports": "بلی. فیس، قواعد امتحان، گزارش‌ها، نقش‌های کاربران و بخش‌هایی که استفاده می‌کنید، مطابق مکتب شما تنظیم می‌شوند.",  // Yes. Fees, exam rules, reports, user roles and the modules you use can be adjusted to your school.
   "sms.how-much-does-it-cost": "قیمت آن چقدر است؟",  // How much does it cost?
-  "sms.the-price-depends-on-the-2": "قیمت به تعداد شاگردان و بخش‌هایی که انتخاب می‌کنید بستگی دارد. برای دریافت قیمت با ما تماس بگیرید.",  // The price depends on the number of students and the modules you choose. Contact us for a quote.
   "sms.see-it-working-at-your": "سیستم را در مکتب خود ببینید",  // See it working at your school
   "sms.request-a-demo-ask-for": "نمایش سیستم را درخواست کنید، قیمت بپرسید یا نیازهای مکتب خود را با ما در میان بگذارید",  // Request a demo, ask for a quote or discuss what your school needs
   "sms.talk-to-our-team": "با تیم ما صحبت کنید",  // Talk to our team
@@ -520,7 +518,7 @@ window.SHAMS_I18N['fa-AF'] = {
   "home.loc-logar": "(لوگر)",  // (Logar)
   "home.loc-herat": "(هرات)",  // (Herat)
   "home.web-developer": "برنامه‌نویس ویب",  // Web Developer REVIEW: Role title assumed "Web Developer" – please confirm.
-  "home.samiullah-mohammadi-bio": "محصل رشتهٔ کمپیوتر ساینس، برنامه‌نویس ویب و علاقه‌مند به تکنالوژی، با تجربهٔ کار با شرکت‌ها و مؤسسات غیردولتی (NGO). او در برنامه‌نویسی ویب، راه‌حل‌های دیجیتال و تکنالوژی آموزشی تخصص دارد و در ایجاد پلتفورم‌های دیجیتال، مدیریت پروژه‌های تکنالوژی و ساخت سیستم‌هایی که کارایی ادارات را بلند می‌برند، سهم گرفته است. ایمیل: samimohammadi@aol.com",  // A Computer Science student, web developer and technology enthusiast with experience working with companies and non-governmental organisations (NGOs). He specialises in web development, digital solutions and educational technology, and has contributed to developing digital platforms, managing technology projects and building systems that improve organisational efficiency. Email: samimohammadi@aol.com
+  "home.samiullah-mohammadi-bio": "محصل رشتهٔ کمپیوتر ساینس، برنامه‌نویس ویب و علاقه‌مند به تکنالوژی، با تجربهٔ کار با شرکت‌ها و مؤسسات غیردولتی (NGO). او در برنامه‌نویسی ویب، راه‌حل‌های دیجیتل و تکنالوژی آموزشی تخصص دارد و در ایجاد پلتفورم‌های دیجیتل، مدیریت پروژه‌های تکنالوژی و ساخت سیستم‌هایی که کارایی ادارات را بلند می‌برند، سهم گرفته است. ایمیل: samimohammadi@aol.com",  // A Computer Science student, web developer and technology enthusiast with experience working with companies and non-governmental organisations (NGOs). He specialises in web development, digital solutions and educational technology, and has contributed to developing digital platforms, managing technology projects and building systems that improve organisational efficiency. Email: samimohammadi@aol.com
 
   /* ---- project pages (project-*.html) ---- */
   "proj.ai-engine-for-an-education": "موتور هوش مصنوعی برای ERP آموزشی – تیم تکنالوژی شمس",  // AI Engine for an Education ERP – Shams Technology Team
@@ -587,8 +585,8 @@ window.SHAMS_I18N['fa-AF'] = {
   "proj.our-team-uploads-organises-and": "تیم ما درس‌ها را آپلود، تنظیم و به‌روز می‌کند.",  // Our team uploads, organises and updates the lessons.
   "proj.video-lessons": "درس‌های ویدیویی",  // Video lessons
   "proj.lessons-by-grade-and-subject": "درس‌ها بر اساس صنف و مضمون، با پخش‌کننده و فهرست پخش واضح.",  // Lessons by grade and subject, with a clear player and playlist.
-  "proj.worksheets-and-quizzes": "ورق‌های کاری و آزمونک‌ها",  // Worksheets and quizzes
-  "proj.every-lesson-can-include-downloadable": "هر درس می‌تواند مواد قابل دانلود و یک آزمونک داشته باشد.",  // Every lesson can include downloadable material and a quiz.
+  "proj.worksheets-and-quizzes": "ورق‌های کاری و امتحانات کوتاه",  // Worksheets and quizzes
+  "proj.every-lesson-can-include-downloadable": "هر درس می‌تواند مواد قابل دانلود و یک امتحان کوتاه داشته باشد.",  // Every lesson can include downloadable material and a quiz.
   "proj.admin-panel": "پنل مدیریت",  // Admin panel
   "proj.upload-review-and-publish-lessons": "آپلود، بررسی و نشر درس‌ها در یک روند ساده.",  // Upload, review and publish lessons in a simple workflow.
   "proj.built-for-scale": "ساخته‌شده برای استفادهٔ گسترده",  // Built for scale
@@ -644,11 +642,10 @@ window.SHAMS_I18N['fa-AF'] = {
   "proj.school-management-system": "سیستم مدیریت مکتب",  // School management system
   "proj.our-own-product": "محصول خود ما",  // Our own product
   "proj.in-use-at": "در حال استفاده در",  // In use at REVIEW: New line: "In use at: Tanin Private School" – confirm.
-  "proj.tanin-private-school": "مکتب خصوصی طنین",  // Tanin Private School
   "proj.web-app-local-network": "اپلیکیشن ویب، شبکهٔ محلی",  // Web app, local network
   "proj.see-all-features": "دیدن همهٔ ویژگی‌ها",  // See all features
   "proj.entrance-exam-preparation-shams-technology": "آمادگی کانکور – تیم تکنالوژی شمس",  // Entrance Exam Preparation – Shams Technology Team
-  "proj.digital-lessons-practice-tests-and": "درس‌های دیجیتال، امتحانات آزمایشی و منابع آموزشی که به شاگردان کمک می‌کند برای امتحان سراسری کانکور آماده شوند.",  // Digital lessons, practice tests and learning resources that help students prepare for the national university entrance exam.
+  "proj.digital-lessons-practice-tests-and": "درس‌های دیجیتل، امتحانات آزمایشی و منابع آموزشی که به شاگردان کمک می‌کند برای امتحان سراسری کانکور آماده شوند.",  // Digital lessons, practice tests and learning resources that help students prepare for the national university entrance exam.
   "proj.students-preparing-for-the-entrance": "شاگردانی که برای کانکور آماده می‌شدند، به مواد تمرینی خوب و راهی برای آزمودن خود در شرایط واقعی امتحان نیاز داشتند.",  // Students preparing for the entrance exam needed good practice material and a way to test themselves in real exam conditions.
   "proj.we-built-a-learning-platform": "ما یک پلتفورم آموزشی با درس‌ها، امتحانات آزمایشی زمان‌دار و نتایج ساختیم تا شاگردان پیشرفت خود را ببینند و روی مضامین ضعیف تمرکز کنند.",  // We built a learning platform with lessons, timed practice tests and results, so students can see their progress and focus on weak subjects.
   "proj.learning-management-system": "سیستم مدیریت آموزش",  // Learning management system
@@ -672,7 +669,7 @@ window.SHAMS_I18N['fa-AF'] = {
   "proj.learn-and-practise-on-any": "روی هر موبایلی درس بخوانید و تمرین کنید.",  // Learn and practise on any phone.
   "proj.offline-mode-for-low-connectivity": "حالت آفلاین برای جاهایی با انترنت ضعیف",  // Offline mode for low connectivity
   "proj.video-explanations-for-every-answer": "توضیح ویدیویی برای هر پاسخ",  // Video explanations for every answer
-  "proj.leaderboards-and-challenges": "جدول برترین‌ها و رقابت‌ها",  // Leaderboards and challenges
+  "proj.leaderboards-and-challenges": "جدول بهترین‌ها و مسابقات",  // Leaderboards and challenges
   "proj.teacher-dashboard-for-class-groups": "داشبورد معلم برای گروه‌های صنفی",  // Teacher dashboard for class groups
   "proj.ai-tutor-for-difficult-questions": "استاد هوش مصنوعی برای سوالات دشوار",  // AI tutor for difficult questions
   "proj.cms": "CMS",  // CMS
@@ -697,14 +694,14 @@ window.SHAMS_I18N['fa-AF'] = {
   "proj.leave-balances": "باقی‌ماندهٔ رخصتی",  // Leave balances
   "proj.everyone-sees-how-many-days": "همه می‌بینند که چند روز رخصتی برایشان باقی مانده است.",  // Everyone sees how many days they have left.
   "proj.each-step-notifies-the-next": "هر مرحله به‌طور خودکار به شخص بعدی اطلاع می‌دهد.",  // Each step notifies the next person automatically.
-  "proj.team-calendar": "تقویم تیم",  // Team calendar
+  "proj.team-calendar": "جنتری تیم",  // Team calendar
   "proj.managers-see-who-is-away": "مدیران می‌بینند که در هر روز چه کسی غایب است.",  // Managers see who is away on any day.
   "proj.different-views-for-employees-managers": "نماهای جداگانه برای کارمندان، مدیران و منابع بشری.",  // Different views for employees, managers and HR.
   "proj.leave-history-and-summaries-for": "سوابق رخصتی و خلاصه‌ها برای منابع بشری.",  // Leave history and summaries for HR.
   "proj.attendance-and-timesheets": "حاضری و جدول ساعات کاری",  // Attendance and timesheets
   "proj.mobile-app-with-push-notifications": "اپلیکیشن موبایل با اطلاعیه‌های فوری",  // Mobile app with push notifications
   "proj.payroll-integration": "اتصال با سیستم معاشات",  // Payroll integration
-  "proj.public-holiday-calendar-per-office": "تقویم رخصتی‌های رسمی برای هر دفتر",  // Public holiday calendar per office
+  "proj.public-holiday-calendar-per-office": "جنتری رخصتی‌های رسمی برای هر دفتر",  // Public holiday calendar per office
   "proj.single-sign-on-with-company": "ورود یک‌باره با حساب‌های شرکت",  // Single sign-on with company accounts
   "proj.hr-system": "سیستم منابع بشری",  // HR system
   "proj.english": "انگلیسی",  // English
@@ -713,24 +710,24 @@ window.SHAMS_I18N['fa-AF'] = {
   "proj.small-sellers-had-no-simple": "فروشندگان کوچک راه ساده‌ای برای رسیدن به خریداران بیرون از شهر خود نداشتند و خریداران به یک روش امن پرداخت نیاز داشتند. بسیاری از مشتریان نیز ترجیح می‌دهند نقد پرداخت کنند یا اول بر سر قیمت توافق کنند.",  // Small sellers had no simple way to reach buyers outside their city, and buyers needed a safe way to pay. Many customers also prefer to pay in cash or to agree on a price first.
   "proj.we-built-a-marketplace-with": "ما یک بازار آنلاین با پورتال فروشندگان، فهرست محصولات، سیستم چانه‌زنی که خریداران در آن پیشنهاد قیمت می‌دهند، و پرداخت نقد هنگام تحویل یا امانت (escrow) برای پرداخت‌های آنلاین ساختیم.",  // We built a marketplace with a seller portal, product listings, a bargaining system where buyers can make offers, and checkout with cash on delivery or escrow for online payments.
   "proj.fastapi-backend": "بک‌اند FastAPI",  // FastAPI backend
-  "proj.a-fast-python-api-handles": "یک API سریع Python محصولات، سفارش‌ها، پیشنهادها و پرداخت‌ها را مدیریت می‌کند.",  // A fast Python API handles products, orders, offers and payments.
+  "proj.a-fast-python-api-handles": "یک API سریع Python محصولات، فرمایش‌ها، پیشنهادها و پرداخت‌ها را مدیریت می‌کند.",  // A fast Python API handles products, orders, offers and payments.
   "proj.postgresql-database": "دیتابیس PostgreSQL",  // PostgreSQL database
-  "proj.all-products-sellers-and-orders": "تمام محصولات، فروشندگان و سفارش‌ها به‌طور امن در یک دیتابیس رابطه‌ای ذخیره می‌شوند.",  // All products, sellers and orders are stored safely in a relational database.
+  "proj.all-products-sellers-and-orders": "تمام محصولات، فروشندگان و فرمایش‌ها به‌طور امن در یک دیتابیس رابطه‌ای ذخیره می‌شوند.",  // All products, sellers and orders are stored safely in a relational database.
   "proj.react-front-end": "فرانت‌اند React",  // React front end
   "proj.a-quick-modern-interface-that": "یک رابط کاربری سریع و مدرن که روی موبایل به‌خوبی کار می‌کند و میان سه زبان تغییر می‌کند.",  // A quick, modern interface that works well on phones and switches between three languages.
   "proj.escrow-flow": "روند امانت (escrow)",  // Escrow flow REVIEW: Escrow = امانت (escrow) – confirm.
-  "proj.for-online-payments-the-money": "در پرداخت‌های آنلاین، پول تا زمانی که خریدار سفارش را تأیید کند نگه داشته می‌شود و سپس به فروشنده داده می‌شود.",  // For online payments, the money is held until the buyer confirms the order, then released to the seller.
+  "proj.for-online-payments-the-money": "در پرداخت‌های آنلاین، پول تا زمانی که خریدار فرمایش را تأیید کند نگه داشته می‌شود و سپس به فروشنده داده می‌شود.",  // For online payments, the money is held until the buyer confirms the order, then released to the seller.
   "proj.seller-portal": "پورتال فروشندگان",  // Seller portal
-  "proj.sellers-add-products-manage-stock": "فروشندگان محصولات اضافه می‌کنند، موجودی را مدیریت می‌کنند و سفارش‌های خود را پیگیری می‌کنند.",  // Sellers add products, manage stock and follow their orders.
+  "proj.sellers-add-products-manage-stock": "فروشندگان محصولات اضافه می‌کنند، موجودی را مدیریت می‌کنند و فرمایش‌های خود را پیگیری می‌کنند.",  // Sellers add products, manage stock and follow their orders.
   "proj.make-an-offer": "پیشنهاد قیمت",  // Make an offer
   "proj.buyers-bargain-sellers-accept-decline": "خریداران چانه می‌زنند؛ فروشندگان می‌پذیرند، رد می‌کنند یا قیمت دیگری پیشنهاد می‌دهند.",  // Buyers bargain; sellers accept, decline or counter.
   "proj.escrow-payments": "پرداخت امانتی (escrow)",  // Escrow payments
   "proj.money-is-held-safely-until": "پول تا زمانی که خریدار تحویل را تأیید کند، به‌طور امن نگه داشته می‌شود.",  // Money is held safely until the buyer confirms delivery.
   "proj.cash-on-delivery": "پرداخت نقد هنگام تحویل",  // Cash on delivery
-  "proj.for-customers-who-prefer-to": "برای مشتریانی که ترجیح می‌دهند هنگام رسیدن سفارش پرداخت کنند.",  // For customers who prefer to pay when the order arrives.
+  "proj.for-customers-who-prefer-to": "برای مشتریانی که ترجیح می‌دهند هنگام رسیدن فرمایش پرداخت کنند.",  // For customers who prefer to pay when the order arrives.
   "proj.the-whole-store-works-in": "تمام فروشگاه به دری، پشتو و انگلیسی کار می‌کند.",  // The whole store works in Dari, Pashto and English.
-  "proj.order-tracking": "پیگیری سفارش",  // Order tracking
-  "proj.clear-status-for-every-order": "وضعیت روشن برای هر سفارش، از بسته‌بندی تا تحویل.",  // Clear status for every order, from packing to delivery.
+  "proj.order-tracking": "پیگیری فرمایش",  // Order tracking
+  "proj.clear-status-for-every-order": "وضعیت روشن برای هر فرمایش، از بسته‌بندی تا تحویل.",  // Clear status for every order, from packing to delivery.
   "proj.admin-dashboard": "داشبورد مدیریت",  // Admin dashboard
   "proj.approve-sellers-manage-categories-and": "تأیید فروشندگان، مدیریت کتگوری‌ها و نظارت بر فروش.",  // Approve sellers, manage categories and watch sales.
   "proj.mobile-first": "اول برای موبایل",  // Mobile-first
@@ -812,9 +809,9 @@ window.SHAMS_I18N['fa-AF'] = {
   "proj.power-automate": "Power Automate",  // Power Automate
   "proj.university-ai-assistant-shams-technology": "دستیار هوش مصنوعی پوهنتون – تیم تکنالوژی شمس",  // University AI Assistant – Shams Technology Team
   "proj.an-ai-assistant-that-answers": "یک دستیار هوش مصنوعی که در هر ساعت روز به سوالات محصلان دربارهٔ مضامین، فیس، ثبت‌نام و امتحانات پاسخ می‌دهد.",  // An AI assistant that answers students’ questions about courses, fees, registration and exams, at any time of day.
-  "proj.the-student-office-received-the": "دفتر امور محصلان همان سوالات را بارها از طریق تلفون و به‌صورت حضوری دریافت می‌کرد، به‌ویژه در دوره‌های ثبت‌نام و امتحانات.",  // The student office received the same questions again and again, by phone and in person, especially during registration and exam periods.
+  "proj.the-student-office-received-the": "دفتر امور محصلان همان سوالات را بارها از طریق تیلفون و به‌صورت حضوری دریافت می‌کرد، به‌ویژه در دوره‌های ثبت‌نام و امتحانات.",  // The student office received the same questions again and again, by phone and in person, especially during registration and exam periods.
   "proj.we-built-an-ai-assistant": "ما یک دستیار هوش مصنوعی ساختیم که از اسناد و معلومات خود پوهنتون، به زبان محصل، در ویب‌سایت، WhatsApp و Telegram پاسخ می‌دهد.",  // We built an AI assistant that answers from the university’s own documents and information, in the student’s language, on the website, WhatsApp and Telegram.
-  "proj.retrieval-augmented-generation-rag": "تولید پاسخ بر پایهٔ بازیابی اسناد (RAG)",  // Retrieval-augmented generation (RAG) REVIEW: RAG explained in words – confirm.
+  "proj.retrieval-augmented-generation-rag": "تولید پاسخ بر اساس بازیابی اسناد (RAG)",  // Retrieval-augmented generation (RAG) REVIEW: RAG explained in words – confirm.
   "proj.the-university-s-documents-are": "اسناد پوهنتون به بخش‌های کوچک تقسیم و فهرست‌بندی می‌شوند. برای هر سوال، دستیار ابتدا بخش‌های درست را پیدا می‌کند و سپس پاسخ را از روی آن‌ها می‌نویسد، پس پاسخ دقیق می‌ماند.",  // The university’s documents are split into small pieces and indexed. For each question, the assistant first finds the right pieces, then writes the answer from them, so it stays accurate.
   "proj.gemini-language-model": "مدل زبانی Gemini",  // Gemini language model
   "proj.writes-clear-natural-answers-in": "پاسخ‌های روشن و طبیعی به دری، پشتو و انگلیسی می‌نویسد.",  // Writes clear, natural answers in Dari, Pashto and English.
@@ -868,20 +865,18 @@ window.SHAMS_I18N['fa-AF'] = {
   "sms.all-modules": "همهٔ بخش‌های سیستم",  // All modules
   "sms.updates-and-backups": "آپدیت و بکاپ",  // Updates and backups
   "sms.your-data-stays-yours": "معلومات شما از خود شماست",  // Your data stays yours
-  "sms.basic": "پایه",  // Basic REVIEW: Plan names: پایه / استندرد / ممتاز / سازمانی (Dari), بنسټیز / معیاري / ځانګړی / سازماني (Pashto) – confirm.
+  "sms.basic": "ابتدایی",  // Basic REVIEW: Plan names: پایه / استندرد / ممتاز / سازمانی (Dari), بنسټیز / معیاري / ځانګړی / سازماني (Pashto) – confirm.
   "sms.small-schools-and-madrasas": "مکاتب و مدارس کوچک",  // Small schools and madrasas
-  "sms.afn-per-year": "افغانی / سالانه",  // AFN / year
   "sms.choose-this-plan": "انتخاب این پلان",  // Choose this plan
   "sms.2-online-training-sessions": "۲ جلسهٔ آموزش آنلاین",  // 2 online training sessions
   "sms.whatsapp-support-in-working-hours": "پشتیبانی WhatsApp در ساعات کاری",  // WhatsApp support in working hours
-  "sms.most-popular": "پرطرفدارترین",  // Most popular
-  "sms.standard": "استندرد",  // Standard
+  "sms.most-popular": "محبوب‌ترین",  // Most popular
+  "sms.standard": "معیاری",  // Standard
   "sms.most-private-schools": "بیشتر مکاتب خصوصی",  // Most private schools
   "sms.on-site-installation": "نصب حضوری در مکتب",  // On-site installation
   "sms.1-on-site-and-2-online": "۱ جلسهٔ آموزش حضوری و ۲ جلسهٔ آنلاین",  // 1 on-site and 2 online training sessions
-  "sms.we-import-your-student-and": "فهرست شاگردان و کارمندان شما را از Excel وارد سیستم می‌کنیم",  // We import your student and staff lists from Excel
   "sms.same-day-whatsapp-support": "پشتیبانی WhatsApp در همان روز",  // Same-day WhatsApp support
-  "sms.premium": "ممتاز",  // Premium
+  "sms.premium": "پیشرفته",  // Premium
   "sms.large-schools-one-campus": "مکاتب بزرگ با یک ساحه",  // Large schools with one campus
   "sms.2-on-site-training-sessions-and": "۲ جلسهٔ آموزش حضوری و آموزش آنلاین در صورت نیاز",  // 2 on-site training sessions and online training when needed
   "sms.fingerprint-and-face-device-set": "تنظیم دستگاه‌های انگشت‌نگاری و تشخیص چهره",  // Fingerprint and face device set-up
@@ -894,15 +889,24 @@ window.SHAMS_I18N['fa-AF'] = {
   "sms.training-plan-for-each-branch": "پلان آموزشی برای هر شعبه",  // Training plan for each branch
   "sms.reports-across-all-branches-on": "گزارش‌های مشترک همهٔ شعبه‌ها در صورت درخواست",  // Reports across all branches on request
   "sms.a-dedicated-contact-person": "یک شخص مسئول مخصوص برای ارتباط",  // A dedicated contact person
-  "sms.pay-for-the-year-or": "پول را یک‌جا برای یک سال، یا در دو قسط (یک قسط در هر سمستر) بپردازید.",  // Pay for the year, or in two instalments, one each school term.
   "sms.madrasas-and-charity-schools-get": "مدارس و مکاتب خیریه ۲۰٪ تخفیف می‌گیرند.",  // Madrasas and charity schools get a 20% discount.
-  "sms.on-site-work-is-in": "کارهای حضوری در کابل انجام می‌شود؛ برای ولایات دیگر، هزینهٔ سفر از قبل توافق می‌شود.",  // On-site work is in Kabul; for other provinces, travel costs are agreed in advance.
+  "sms.on-site-work-is-in": "کارهای حضوری در کابل انجام می‌شود؛ برای ولایات دیگر، مصارف سفر از قبل توافق می‌شود.",  // On-site work is in Kabul; for other provinces, travel costs are agreed in advance.
   "sms.extra-training-id-card-scanners": "آموزش اضافی، سکنرهای کارت شناسایی و امکانات بخش «در صورت درخواست» جداگانه قیمت‌گذاری می‌شوند.",  // Extra training, ID-card scanners and the features under "Available on request" are quoted separately.
   "sms.see-our-plans": "پلان‌های ما را ببینید",  // See our plans
 
   /* ---- update 4: pricing changes ---- */
   "sms.system-customisation-to-your-school": "تنظیم و تغییر سیستم مطابق نیاز مکتب شما، در صورت درخواست",  // System customisation to your school's needs, on request
-  "sms.launch-offer-free-installation-for-10": "پیشنهاد آغاز کار: نصب رایگان برای ۱۰ مکتب اول. تا حال برای ۲ مکتب نصب شده و ۸ جای دیگر باقی مانده است.",  // Launch offer: free installation for the first 10 schools. 2 are already installed, 8 places left.
-  "sms.simple-yearly-plans-every-plan-2": "پلان‌های سالانهٔ ساده. هر پلان همهٔ بخش‌های سیستم را دارد؛ شما فقط مقدار کمکی را که نیاز دارید انتخاب می‌کنید.",  // Simple yearly plans. Every plan includes every module: you only choose how much help you need.
-  "sms.plans-start-at-10-000-2": "قیمت پلان‌ها از ۱۰٬۰۰۰ افغانی در سال شروع می‌شود و به مقدار آموزش و پشتیبانی مورد نیاز شما بستگی دارد. همهٔ بخش‌های سیستم در هر پلان شامل است.",  // Plans start at 10,000 AFN a year, depending on the training and support you need. Every plan includes all modules.
+
+  /* ---- update 5: pricing in dollars and installation fee ---- */
+  "sms.a-one-time-installation-fee-and": "یک بار فیس نصب و یک اشتراک سالانهٔ مناسب. هر پلان همهٔ بخش‌های سیستم را دارد؛ شما فقط اندازهٔ آموزش و پشتیبانی مورد نیاز خود را انتخاب می‌کنید.",  // A one-time installation fee and a small yearly subscription. Every plan includes every module: you only choose how much help you need.
+  "sms.usd-49": "۴۹ دالر",  // $49
+  "sms.per-year": "در سال",  // / year
+  "sms.one-time-installation-9-950": "فیس نصب (فقط یک بار): ۹٬۹۵۰ افغانی",  // One-time installation: 9,950 AFN
+  "sms.usd-99": "۹۹ دالر",  // $99
+  "sms.one-time-installation-14-950": "فیس نصب (فقط یک بار): ۱۴٬۹۵۰ افغانی",  // One-time installation: 14,950 AFN
+  "sms.one-time-installation-19-950": "فیس نصب (فقط یک بار): ۱۹٬۹۵۰ افغانی",  // One-time installation: 19,950 AFN
+  "sms.installation-priced-per-branch": "فیس نصب برای هر شعبه جداگانه تعیین می‌شود",  // Installation priced per branch
+  "sms.launch-offer-50-discount-on-installation": "پیشنهاد ویژهٔ آغاز کار: ۵۰٪ تخفیف در فیس نصب برای ۱۰ مکتب اول. تا حال سیستم در ۲ مکتب نصب شده و تنها ۸ فرصت دیگر باقی مانده است.",  // Launch offer: 50% discount on installation for the first 10 schools. 2 are already installed, 8 places left.
+  "sms.the-installation-fee-is-paid-once": "فیس نصب فقط یک بار، در آغاز کار، پرداخت می‌شود. فیس اشتراک سالانه در آغاز هر سال پرداخت می‌شود.",  // The installation fee is paid only once, the first time. The yearly subscription is paid at the start of each year.
+  "sms.plans-start-at-49-a-year": "قیمت پلان‌ها از ۴۹ دالر در سال شروع می‌شود، به‌علاوهٔ فیس نصب که فقط یک بار پرداخت می‌شود و از ۹٬۹۵۰ افغانی آغاز می‌گردد. همهٔ بخش‌های سیستم در هر پلان شامل است.",  // Plans start at $49 a year, plus a one-time installation fee from 9,950 AFN. Every plan includes all modules.
 };
