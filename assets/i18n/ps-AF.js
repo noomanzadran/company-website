@@ -84,7 +84,7 @@ window.SHAMS_I18N['ps-AF'] = {
   "home.last-month": "تېره میاشت",  // Last month
   "home.users-by-channel": "کاروونکي د چینل له مخې",  // Users by channel
   "home.web": "وېب",  // Web
-  "home.top-regions": "مخکښې سیمې",  // Top regions
+  "home.top-regions": "ډېر کاروونکي لرونکې سیمې",  // Top regions
   "home.afghanistan": "افغانستان",  // Afghanistan
   "home.pakistan": "پاکستان",  // Pakistan
   "home.healthy": "روغ",  // Healthy
@@ -172,13 +172,13 @@ window.SHAMS_I18N['ps-AF'] = {
   "home.the-people-behind-shams-technology": "هغه کسان چې د شمس ټکنالوژۍ ټیم تر شا ولاړ دي",  // The people behind Shams Technology Team
   "home.leadership": "مشرتابه",  // Leadership
   "home.shams-haqyar": "شمس حقیار",  // Shams Haqyar REVIEW: All team names: please have each person confirm the spelling of their own name.
-  "home.co-founder-ceo": "همبنسټګر او اجرايي رئیس",  // Co-Founder & CEO
+  "home.co-founder-ceo": "مؤسس او اجرايي رئیس",  // Co-Founder & CEO
   "home.software-engineer-and-ai-specialist": "د سافټویر انجنیر او د مصنوعي ځیرکتیا متخصص چې په سافټویر، د مصنوعي ځیرکتیا سیستمونو، تعلیمي ټکنالوژۍ او د بشري سرچینو په ټکنالوژۍ کې له ۷ کلونو زیاته تجربه لري. هغه د ټیم د سیستمونو، ERP ګانو او د مصنوعي ځیرکتیا د حل لارو مشري کوي.",  // Software engineer and AI specialist with more than 7 years of experience in software, AI systems, EdTech and HR technology. He leads the team's systems, ERPs and AI solutions.
   "home.nooman-zadran": "نعمان ځدران",  // Nooman Zadran (spelling ځدران confirmed by the team)
-  "home.co-founder-cto": "همبنسټګر او د ټکنالوژۍ رئیس",  // Co-Founder & CTO
+  "home.co-founder-cto": "مؤسس او د ټکنالوژۍ رئیس",  // Co-Founder & CTO
   "home.m-sc-in-network-security": "په شبکې امنیت کې ماسټري او په کمپیوټر ساینس کې لیسانس (د ګجرات پوهنتون، هند). د TOPS Technologies په شرکت کې د وېب پراختیا تجربه، او د Shaip.AI په شرکت کې د مصنوعي ځیرکتیا د معلوماتو، OCR او ماشیني زده‌کړې تجربه لري. هغه زموږ د ټکنالوژۍ او امنیت مشري کوي.",  // M.Sc. in Network Security and B.Sc. in Computer Science (Gujarat University, India). Experience in web development at TOPS Technologies and in AI data, OCR and machine learning at Shaip.AI. He leads our technology and security. REVIEW: Company names TOPS Technologies and Shaip.AI kept in English.
   "home.habibullah-farahmand": "حبیب الله فرهمند",  // Habibullah Farahmand
-  "home.co-founder-coo": "همبنسټګر او د عملیاتو رئیس",  // Co-Founder & COO
+  "home.co-founder-coo": "مؤسس او د عملیاتو رئیس",  // Co-Founder & COO
   "home.bachelors-in-computer-science-government": "په لاهور کې د Government College University څخه په کمپیوټر ساینس کې لیسانس. د معلوماتو په مدیریت، اتوماسیون، وېب پراختیا او د مصنوعي ځیرکتیا پر بنسټ حل لارو کې کار کوي، او د ټیم پروژې او عملیات پر مخ وړي.",  // Bachelor's in Computer Science (Government College University, Lahore). Works in data management, automation, web development and AI-powered solutions, and runs the team's projects and operations. REVIEW: University name kept in English (Government College University) – confirm.
   "home.team": "د ټیم غړي",  // Team
   "home.nasib-alizada": "نصیب علیزاده",  // Nasib Alizada REVIEW: "Alizada" spelled علیزاده – confirm (or علی‌زاده).
@@ -436,8 +436,8 @@ window.SHAMS_I18N['ps-AF'] = {
   "sms.fee-payment-and-receipt-in": "د شمس ټکنالوژۍ ټیم د ښوونځي ERP کې د فیس تادیه او رسید",  // Fee payment and receipt in Shams Technology Team School ERP
   "sms.three-languages-built-in": "درې ژبې، له پیله په سیستم کې",  // Three languages, built in
   "sms.every-screen-report-and-receipt": "هره پاڼه، راپور او رسید ستاسو د کارکوونکو په ژبه کار کوي",  // Every screen, report and receipt works in the language of your staff
-  "sms.right-to-left-screens-and": "له ښي څخه کیڼ لور ته پاڼې او د افغانستان د دري ښوونځیز اصطلاحات.",  // Right-to-left screens and Afghan Dari school terms.
-  "sms.right-to-left-screens-and-2": "له ښي څخه کیڼ لور ته پاڼې او د افغانستان د پښتو ښوونځیز اصطلاحات.",  // Right-to-left screens and Afghan Pashto school terms.
+  "sms.right-to-left-screens-and": "له ښي څخه کیڼ لور ته پاڼې، د افغانستان د ښوونځیو د دري اصطلاحاتو سره.",  // Right-to-left screens and Afghan Dari school terms.
+  "sms.right-to-left-screens-and-2": "له ښي څخه کیڼ لور ته پاڼې، د افغانستان د ښوونځیو د پښتو اصطلاحاتو سره.",  // Right-to-left screens and Afghan Pashto school terms.
   "sms.english": "انګلیسي",  // English
   "sms.for-international-schools-and-english": "د نړیوالو ښوونځیو او انګلیسي ژبو کارکوونکو لپاره.",  // For international schools and English-speaking staff.
   "sms.hijri-shamsi-dates-with-a": "لمریزه هجري نېټه، د هرې نېټې د خانې لاندې د نېټې له لارښود سره",  // Hijri Shamsi dates, with a date helper under every date box
@@ -473,14 +473,13 @@ window.SHAMS_I18N['ps-AF'] = {
   "sms.we-set-up-the-system": "سیستم نصبوو او ستاسو کارکوونکي یې د کارولو لپاره روزو.",  // We set up the system and train your staff to use it.
   "sms.support": "ملاتړ",  // Support
   "sms.we-stay-with-you-after": "له پیل وروسته هم د تلیفون، WhatsApp یا حضوري له لارې درسره یو.",  // We stay with you after launch, by phone, WhatsApp or in person.
-  "sms.our-school-projects": "زموږ ښوونځیز پروژې",  // Our school projects
-  "sms.schools-that-have-moved-their": "هغه ښوونځي چې خپل مدیریت یې د شمس ټکنالوژۍ ټیم د ښوونځي ERP ته لېږدولی دی",  // Schools that have moved their management to Shams Technology Team School ERP
+  "sms.our-school-projects": "په ښوونځیو کې زموږ پروژې",  // Our school projects
   "sms.school-management-digitalisation": "د ښوونځي د مدیریت ډیجیټلي کول",  // School management digitalisation
   "sms.tanin-private-school": "د طنین خصوصي ښوونځی",  // Tanin Private School REVIEW: School name spelling: طنین – please confirm with Tanin Private School.
   "sms.we-digitalised-the-school-management": "موږ د طنین خصوصي ښوونځي مدیریت د شمس ټکنالوژۍ ټیم د ښوونځي ERP په مرسته ډیجیټلي کړ، او د هغه ورځني اداري کارونه مو له کاغذي کتابونو او Excel جدولونو څخه یوه واحد سیستم ته ولېږدول.",  // We digitalised the school management of Tanin Private School with Shams Technology Team School ERP, moving its daily administration from paper registers and spreadsheets to one system. REVIEW: Tanin project description – please confirm the details are accurate.
   "sms.students-attendance-exams-and-fees": "زده‌کوونکي، حاضري، ازموینې او فیس په یوه ځای کې",  // Students, attendance, exams and fees in one place
   "sms.dari-pashto-and-english": "دري، پښتو او انګلیسي",  // Dari, Pashto and English
-  "sms.would-you-like-your-school": "غواړئ ستاسو ښوونځی بل وي؟",  // Would you like your school to be next?
+  "sms.would-you-like-your-school": "غواړئ ستاسو ښوونځی هم له دې ډلې سره یوځای شي؟",  // Would you like your school to be next?
   "sms.questions-from": "د ښوونځیو ",  // Questions from REVIEW: FAQ heading split across two styled words: Dari "سوالات | مکاتب", Pashto "د ښوونځیو | پوښتنې".
   "sms.schools": "پوښتنې",  // schools
   "sms.if-your-question-is-not": "که د خپلې پوښتنې ځواب مو دلته ونه موند، له موږ سره اړیکه ونیسئ، ځواب به یې درکړو.",  // If your question is not answered here, contact us and we will reply.
@@ -489,7 +488,7 @@ window.SHAMS_I18N['ps-AF'] = {
   "sms.does-it-need-internet": "ایا انټرنېټ ته اړتیا لري؟",  // Does it need internet?
   "sms.no-it-runs-on-one": "نه. ستاسو په ښوونځي کې پر یوه اصلي کمپیوټر چلېږي، او نور کمپیوټرونه یې د ښوونځي د شبکې له لارې په براوزر کې پرانیزي.",  // No. It runs on one main computer in your school, and the other computers open it in the browser over the school network.
   "sms.can-we-bring-our-existing": "ایا کولای شو خپل اوسني معلومات له Excel څخه راولېږدوو؟",  // Can we bring our existing data from Excel?
-  "sms.yes-staff-can-be-imported": "هو. د کارکوونکو معلومات د CSV یا Excel له نمونې څخه راوړل کېږي، او د زده‌کوونکو لېست Excel ته ایستل کېږي. د سیستم د نصب پر مهال ستاسو د اوسنیو سوابقو په لېږد کې مرسته کوو.",  // Yes. Staff can be imported from a CSV or Excel template, and student lists can be exported to Excel. We help you move your existing records when we set up the system.
+  "sms.yes-staff-can-be-imported-2": "هو. سیستم کولای شي د کارکوونکو معلومات د CSV یا Excel له فایل څخه راوړي، او د زده‌کوونکو لېست Excel ته انتقال کړي.",  // Yes. The system can import staff from a CSV or Excel template, and export student lists to Excel.
   "sms.can-students-and-staff-use": "ایا زده‌کوونکي او کارکوونکي د حاضرۍ لپاره د پېژندنې کارت کارولای شي؟",  // Can students and staff use ID cards for attendance?
   "sms.yes-the-system-prints-id": "هو. سیستم د QR کوډ لرونکي د پېژندنې کارتونه چاپوي. د سکن په ځای کې USB سکنر یا کمره کارت لولي او کس حاضر ثبتېږي. حاضري د ګوتو د نښې، د مخ د پېژندنې یا کارت له وسایلو څخه هم راوړل کېدای شي.",  // Yes. The system prints ID cards with a QR code. At the scan station a USB scanner or the camera reads the card and marks the person present. Attendance can also be imported from fingerprint, face or card devices.
   "sms.which-languages-does-it-support": "سیستم کومې ژبې ملاتړ کوي؟",  // Which languages does it support?
@@ -499,7 +498,6 @@ window.SHAMS_I18N['ps-AF'] = {
   "sms.can-it-be-adapted-to": "ایا زموږ د ښوونځي سره سم برابرېدای شي؟",  // Can it be adapted to our school?
   "sms.yes-fees-exam-rules-reports": "هو. فیس، د ازموینو قواعد، راپورونه، د کاروونکو رولونه او هغه برخې چې کاروئ یې، ستاسو د ښوونځي سره سم برابرېږي.",  // Yes. Fees, exam rules, reports, user roles and the modules you use can be adjusted to your school.
   "sms.how-much-does-it-cost": "بیه یې څومره ده؟",  // How much does it cost?
-  "sms.the-price-depends-on-the-2": "بیه د زده‌کوونکو په شمېر او هغو برخو پورې اړه لري چې ټاکئ یې. د بیې لپاره له موږ سره اړیکه ونیسئ.",  // The price depends on the number of students and the modules you choose. Contact us for a quote.
   "sms.see-it-working-at-your": "سیستم په خپل ښوونځي کې وګورئ",  // See it working at your school
   "sms.request-a-demo-ask-for": "د سیستم ښودنه وغواړئ، بیه وپوښتئ یا د خپل ښوونځي اړتیاوې له موږ سره شریکې کړئ",  // Request a demo, ask for a quote or discuss what your school needs
   "sms.talk-to-our-team": "زموږ له ټیم سره خبرې وکړئ",  // Talk to our team
@@ -644,7 +642,6 @@ window.SHAMS_I18N['ps-AF'] = {
   "proj.school-management-system": "د ښوونځي د مدیریت سیستم",  // School management system
   "proj.our-own-product": "زموږ خپل محصول",  // Our own product
   "proj.in-use-at": "کارول کېږي په",  // In use at REVIEW: New line: "In use at: Tanin Private School" – confirm.
-  "proj.tanin-private-school": "د طنین خصوصي ښوونځی",  // Tanin Private School
   "proj.web-app-local-network": "ویب اپلیکیشن، محلي شبکه",  // Web app, local network
   "proj.see-all-features": "ټولې ځانګړنې وګورئ",  // See all features
   "proj.entrance-exam-preparation-shams-technology": "د کانکور چمتووالی – د شمس ټکنالوژۍ ټیم",  // Entrance Exam Preparation – Shams Technology Team
@@ -868,41 +865,48 @@ window.SHAMS_I18N['ps-AF'] = {
   "sms.all-modules": "د سیستم ټولې برخې",  // All modules
   "sms.updates-and-backups": "اپډېټ او بیک اپ",  // Updates and backups
   "sms.your-data-stays-yours": "ستاسو معلومات ستاسو خپل دي",  // Your data stays yours
-  "sms.basic": "بنسټیز",  // Basic REVIEW: Plan names: پایه / استندرد / ممتاز / سازمانی (Dari), بنسټیز / معیاري / ځانګړی / سازماني (Pashto) – confirm.
+  "sms.basic": "لومړنی",  // Basic REVIEW: Plan names: پایه / استندرد / ممتاز / سازمانی (Dari), بنسټیز / معیاري / ځانګړی / سازماني (Pashto) – confirm.
   "sms.small-schools-and-madrasas": "کوچني ښوونځي او مدرسې",  // Small schools and madrasas
-  "sms.afn-per-year": "افغانۍ / کلنۍ",  // AFN / year
   "sms.choose-this-plan": "دا پلان وټاکئ",  // Choose this plan
   "sms.2-online-training-sessions": "۲ آنلاین روزنیزې غونډې",  // 2 online training sessions
   "sms.whatsapp-support-in-working-hours": "په کاري ساعتونو کې د WhatsApp ملاتړ",  // WhatsApp support in working hours
-  "sms.most-popular": "تر ټولو غوره شوی",  // Most popular
+  "sms.most-popular": "تر ټولو محبوب",  // Most popular
   "sms.standard": "معیاري",  // Standard
   "sms.most-private-schools": "ډېری خصوصي ښوونځي",  // Most private schools
   "sms.on-site-installation": "په ښوونځي کې حضوري نصب",  // On-site installation
   "sms.1-on-site-and-2-online": "۱ حضوري او ۲ آنلاین روزنیزې غونډې",  // 1 on-site and 2 online training sessions
-  "sms.we-import-your-student-and": "ستاسو د زده‌کوونکو او کارکوونکو لېستونه له Excel څخه سیستم ته ور داخلوو",  // We import your student and staff lists from Excel
   "sms.same-day-whatsapp-support": "په همغه ورځ د WhatsApp ملاتړ",  // Same-day WhatsApp support
-  "sms.premium": "ځانګړی",  // Premium
+  "sms.premium": "پرمختللی",  // Premium
   "sms.large-schools-one-campus": "لوی ښوونځي له یوې څانګې سره",  // Large schools with one campus
   "sms.2-on-site-training-sessions-and": "۲ حضوري روزنیزې غونډې او د اړتیا پر مهال آنلاین روزنه",  // 2 on-site training sessions and online training when needed
   "sms.fingerprint-and-face-device-set": "د ګوتو د نښې او د مخ د پېژندنې د وسایلو تنظیم",  // Fingerprint and face device set-up
   "sms.priority-support-and-a-check": "د لومړیتوب ملاتړ او په هر سمستر کې د سیستم کتنه",  // Priority support and a check-up every term REVIEW: School term = سمستر – confirm (or دوره).
   "sms.enterprise": "سازماني",  // Enterprise
   "sms.schools-with-several-branches": "هغه ښوونځي چې ګڼې څانګې لري",  // Schools with several branches
-  "sms.custom-price": "جوړجاړي بیه",  // Custom price
+  "sms.custom-price": "توافقي بیه",  // Custom price
   "sms.contact-us": "له موږ سره اړیکه ونیسئ",  // Contact us
   "sms.installation-at-every-branch": "په هره څانګه کې نصب",  // Installation at every branch
   "sms.training-plan-for-each-branch": "د هرې څانګې لپاره د روزنې پلان",  // Training plan for each branch
   "sms.reports-across-all-branches-on": "د غوښتنې پر بنسټ د ټولو څانګو ګډ راپورونه",  // Reports across all branches on request
   "sms.a-dedicated-contact-person": "د اړیکې لپاره یو ځانګړی مسؤل کس",  // A dedicated contact person
-  "sms.pay-for-the-year-or": "پیسې د یوه کال لپاره یو ځای، یا په دوو قسطونو (په هر سمستر کې یو قسط) ورکړئ.",  // Pay for the year, or in two instalments, one each school term.
   "sms.madrasas-and-charity-schools-get": "مدرسې او خیریه ښوونځي ۲۰٪ تخفیف ترلاسه کوي.",  // Madrasas and charity schools get a 20% discount.
-  "sms.on-site-work-is-in": "حضوري کارونه په کابل کې کېږي؛ د نورو ولایتونو لپاره د سفر لګښت مخکې له مخکې جوړېږي.",  // On-site work is in Kabul; for other provinces, travel costs are agreed in advance.
+  "sms.on-site-work-is-in": "حضوري کارونه په کابل کې ترسره کېږي؛ د نورو ولایتونو لپاره د سفر لګښت له مخکې سره جوړېږي.",  // On-site work is in Kabul; for other provinces, travel costs are agreed in advance.
   "sms.extra-training-id-card-scanners": "اضافي روزنه، د پېژندنې کارت سکنرونه او د «د غوښتنې پر بنسټ» برخې امکانات جلا بیه لري.",  // Extra training, ID-card scanners and the features under "Available on request" are quoted separately.
   "sms.see-our-plans": "زموږ پلانونه وګورئ",  // See our plans
 
   /* ---- update 4: pricing changes ---- */
   "sms.system-customisation-to-your-school": "د غوښتنې پر بنسټ، د ښوونځي د اړتیاوو سره سم د سیستم برابرول",  // System customisation to your school's needs, on request
-  "sms.launch-offer-free-installation-for-10": "د پیل وړاندیز: د لومړیو ۱۰ ښوونځیو لپاره وړیا نصب. تر اوسه ۲ ښوونځیو ته نصب شوی او ۸ نور ځایونه پاتې دي.",  // Launch offer: free installation for the first 10 schools. 2 are already installed, 8 places left.
-  "sms.simple-yearly-plans-every-plan-2": "ساده کلني پلانونه. هر پلان د سیستم ټولې برخې لري؛ تاسو یوازې د هغې مرستې کچه ټاکئ چې ورته اړتیا لرئ.",  // Simple yearly plans. Every plan includes every module: you only choose how much help you need.
-  "sms.plans-start-at-10-000-2": "د پلانونو بیه په کال کې له ۱۰٬۰۰۰ افغانیو پیلېږي او د هغې روزنې او ملاتړ په کچې پورې اړه لري چې ورته اړتیا لرئ. د سیستم ټولې برخې په هر پلان کې شاملې دي.",  // Plans start at 10,000 AFN a year, depending on the training and support you need. Every plan includes all modules.
+
+  /* ---- update 5: pricing in dollars and installation fee ---- */
+  "sms.a-one-time-installation-fee-and": "یو ځل د نصب فیس او یو مناسب کلنی ګډون. هر پلان د سیستم ټولې برخې لري؛ تاسو یوازې د روزنې او ملاتړ هغه کچه ټاکئ چې ورته اړتیا لرئ.",  // A one-time installation fee and a small yearly subscription. Every plan includes every module: you only choose how much help you need.
+  "sms.usd-49": "۴۹ ډالر",  // $49
+  "sms.per-year": "په کال کې",  // / year
+  "sms.one-time-installation-9-950": "د نصب فیس (یوازې یو ځل): ۹٬۹۵۰ افغانۍ",  // One-time installation: 9,950 AFN
+  "sms.usd-99": "۹۹ ډالر",  // $99
+  "sms.one-time-installation-14-950": "د نصب فیس (یوازې یو ځل): ۱۴٬۹۵۰ افغانۍ",  // One-time installation: 14,950 AFN
+  "sms.one-time-installation-19-950": "د نصب فیس (یوازې یو ځل): ۱۹٬۹۵۰ افغانۍ",  // One-time installation: 19,950 AFN
+  "sms.installation-priced-per-branch": "د نصب فیس د هرې څانګې لپاره جلا ټاکل کېږي",  // Installation priced per branch
+  "sms.launch-offer-50-discount-on-installation": "د پیل ځانګړی وړاندیز: د لومړیو ۱۰ ښوونځیو لپاره د نصب په فیس کې ۵۰٪ تخفیف. تر اوسه سیستم په ۲ ښوونځیو کې نصب شوی او یوازې ۸ نور فرصتونه پاتې دي.",  // Launch offer: 50% discount on installation for the first 10 schools. 2 are already installed, 8 places left.
+  "sms.the-installation-fee-is-paid-once": "د نصب فیس یوازې یو ځل، د کار په پیل کې، ورکول کېږي. د کلني ګډون فیس د هر کال په پیل کې ورکول کېږي.",  // The installation fee is paid only once, the first time. The yearly subscription is paid at the start of each year.
+  "sms.plans-start-at-49-a-year": "د پلانونو بیه په کال کې له ۴۹ ډالرو پیلېږي، او د نصب فیس چې یوازې یو ځل ورکول کېږي، له ۹٬۹۵۰ افغانیو پیلېږي. د سیستم ټولې برخې په هر پلان کې شاملې دي.",  // Plans start at $49 a year, plus a one-time installation fee from 9,950 AFN. Every plan includes all modules.
 };

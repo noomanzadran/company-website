@@ -288,3 +288,6 @@ html[dir="rtl"] .sms-page .sms-plan-badge { transform: translateX(50%); }
 .sms-page .sms-plan-offer .bi { color: #B86E00; font-size: 18px; }
 :root[data-theme="dark"] .sms-page .sms-plan-offer .bi { color: var(--sun); }
 .sms-page .sms-plan-notes ul { margin: 0; padding-inline-start: 20px; display: grid; gap: 6px; }
+.sms-page .sms-plan-price { margin-bottom: 8px; }
+.sms-page .sms-plan-setup { display: flex; align-items: flex-start; gap: 8px; margin: 0 0 20px; font-size: 14px; font-weight: 600; color: var(--muted); }
+.sms-page .sms-plan-setup .bi { color: var(--accent-color); line-height: 1.4; }
