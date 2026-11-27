@@ -480,6 +480,9 @@ window.SHAMS_I18N['fa-AF'] = {
   "sms.students-attendance-exams-and-fees": "شاگردان، حاضری، امتحانات و فیس در یک جا",  // Students, attendance, exams and fees in one place
   "sms.dari-pashto-and-english": "دری، پشتو و انگلیسی",  // Dari, Pashto and English
   "sms.would-you-like-your-school": "می‌خواهید مکتب شما هم به این جمع بپیوندد؟",  // Would you like your school to be next?
+  "sms.gawhar-academy": "اکادمی گوهر",
+  "sms.gawhar-academy-logo": "لوگوی اکادمی گوهر",
+  "sms.gawhar-academy-installation": "سیستم مدیریت مکاتب تیم تکنالوژی شمس را در اکادمی گوهر، مرکز آموزش زبان انگلیسی و کمپیوتر، نصب کردیم تا این اکادمی بتواند شاگردان، صنف‌ها، حاضری و فیس‌ها را در یک سیستم مدیریت کند.",
   "sms.questions-from": "سوالات ",  // Questions from REVIEW: FAQ heading split across two styled words: Dari "سوالات | مکاتب", Pashto "د ښوونځیو | پوښتنې".
   "sms.schools": "مکاتب",  // schools
   "sms.if-your-question-is-not": "اگر پاسخ سوال خود را این‌جا نیافتید، با ما تماس بگیرید تا پاسخ دهیم.",  // If your question is not answered here, contact us and we will reply.
@@ -500,6 +503,21 @@ window.SHAMS_I18N['fa-AF'] = {
   "sms.how-much-does-it-cost": "قیمت آن چقدر است؟",  // How much does it cost?
   "sms.see-it-working-at-your": "سیستم را در مکتب خود ببینید",  // See it working at your school
   "sms.request-a-demo-ask-for": "نمایش سیستم را درخواست کنید، قیمت بپرسید یا نیازهای مکتب خود را با ما در میان بگذارید",  // Request a demo, ask for a quote or discuss what your school needs
+  "sms.live-demo-title": "دیموی زنده را امتحان کنید",
+  "sms.live-demo-intro": "سلام و روز بخیر! برای آزمایش سیستم مدیریت مکتب شمس، از یکی از حساب‌های نمایشی زیر استفاده کنید.",
+  "sms.live-demo-open": "باز کردن دیمو (در تب جدید)",
+  "sms.live-demo-account-order": "برای هر نقش، اول آدرس ایمیل و بعد رمز عبور آمده است.",
+  "sms.live-demo-management": "بخش مدیریت",
+  "sms.live-demo-classroom": "استادان و شاگردان",
+  "sms.live-demo-admin": "ادمین",
+  "sms.live-demo-hr": "منابع بشری",
+  "sms.live-demo-finance": "مالی",
+  "sms.live-demo-owner": "مالک",
+  "sms.live-demo-teacher": "استاد",
+  "sms.live-demo-student": "شاگرد",
+  "sms.live-demo-sample-data": "این دیمو فقط معلومات نمونه دارد و برای آزمایش امکانات سیستم آماده شده است.",
+  "sms.live-demo-http": "ارتباط با دیمو رمزگذاری نشده است. از حساب‌های نمایشی همین صفحه استفاده کنید.",
+  "sms.live-demo-installation": "اگر می‌خواهید نسخهٔ اصلی را در مکتب‌تان نصب کنید، با ما به تماس شوید.",
   "sms.talk-to-our-team": "با تیم ما صحبت کنید",  // Talk to our team
   "sms.ask-us-anything-about-shams": "هر سوالی دربارهٔ ERP مکتب تیم تکنالوژی شمس دارید، از ما بپرسید.",  // Ask us anything about Shams Technology Team School ERP.
   "sms.email": "ایمیل",  // Email
@@ -906,7 +924,7 @@ window.SHAMS_I18N['fa-AF'] = {
   "sms.one-time-installation-14-950": "فیس نصب (فقط یک بار): ۱۴٬۹۵۰ افغانی",  // One-time installation: 14,950 AFN
   "sms.one-time-installation-19-950": "فیس نصب (فقط یک بار): ۱۹٬۹۵۰ افغانی",  // One-time installation: 19,950 AFN
   "sms.installation-priced-per-branch": "فیس نصب برای هر شعبه جداگانه تعیین می‌شود",  // Installation priced per branch
-  "sms.launch-offer-50-discount-on-installation": "پیشنهاد ویژهٔ آغاز کار: ۵۰٪ تخفیف در فیس نصب برای ۱۰ مکتب اول. تا حال سیستم در ۲ مکتب نصب شده و تنها ۸ فرصت دیگر باقی مانده است.",  // Launch offer: 50% discount on installation for the first 10 schools. 2 are already installed, 8 places left.
+  "sms.launch-offer-50-discount-on-installation": "پیشنهاد ویژهٔ آغاز کار: ۵۰٪ تخفیف در فیس نصب برای ۱۰ مکتب اول. تا حال سیستم در ۳ مکتب نصب شده و تنها ۷ فرصت دیگر باقی مانده است.",  // Launch offer: 50% discount on installation for the first 10 schools. 3 are already installed, 7 places left.
   "sms.the-installation-fee-is-paid-once": "فیس نصب فقط یک بار، در آغاز کار، پرداخت می‌شود. فیس اشتراک سالانه در آغاز هر سال پرداخت می‌شود.",  // The installation fee is paid only once, the first time. The yearly subscription is paid at the start of each year.
   "sms.plans-start-at-49-a-year": "قیمت پلان‌ها از ۴۹ دالر در سال شروع می‌شود، به‌علاوهٔ فیس نصب که فقط یک بار پرداخت می‌شود و از ۹٬۹۵۰ افغانی آغاز می‌گردد. همهٔ بخش‌های سیستم در هر پلان شامل است.",  // Plans start at $49 a year, plus a one-time installation fee from 9,950 AFN. Every plan includes all modules.
 };

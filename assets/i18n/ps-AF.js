@@ -480,6 +480,9 @@ window.SHAMS_I18N['ps-AF'] = {
   "sms.students-attendance-exams-and-fees": "زده‌کوونکي، حاضري، ازموینې او فیس په یوه ځای کې",  // Students, attendance, exams and fees in one place
   "sms.dari-pashto-and-english": "دري، پښتو او انګلیسي",  // Dari, Pashto and English
   "sms.would-you-like-your-school": "غواړئ ستاسو ښوونځی هم له دې ډلې سره یوځای شي؟",  // Would you like your school to be next?
+  "sms.gawhar-academy": "ګوهر اکاډمي",
+  "sms.gawhar-academy-logo": "د ګوهر اکاډمۍ لوګو",
+  "sms.gawhar-academy-installation": "موږ د شمس ټکنالوژۍ ټیم د ښوونځیو د مدیریت سیستم په ګوهر اکاډمۍ کې نصب کړ. دا د انګلیسي ژبې او کمپیوټر د زده کړې اکاډمي ده او اوس کولای شي زده‌کوونکي، ټولګي، حاضري او فیسونه په یوه سیستم کې اداره کړي.",
   "sms.questions-from": "د ښوونځیو ",  // Questions from REVIEW: FAQ heading split across two styled words: Dari "سوالات | مکاتب", Pashto "د ښوونځیو | پوښتنې".
   "sms.schools": "پوښتنې",  // schools
   "sms.if-your-question-is-not": "که د خپلې پوښتنې ځواب مو دلته ونه موند، له موږ سره اړیکه ونیسئ، ځواب به یې درکړو.",  // If your question is not answered here, contact us and we will reply.
@@ -500,6 +503,21 @@ window.SHAMS_I18N['ps-AF'] = {
   "sms.how-much-does-it-cost": "بیه یې څومره ده؟",  // How much does it cost?
   "sms.see-it-working-at-your": "سیستم په خپل ښوونځي کې وګورئ",  // See it working at your school
   "sms.request-a-demo-ask-for": "د سیستم ښودنه وغواړئ، بیه وپوښتئ یا د خپل ښوونځي اړتیاوې له موږ سره شریکې کړئ",  // Request a demo, ask for a quote or discuss what your school needs
+  "sms.live-demo-title": "ژوندۍ بېلګه وازمویئ",
+  "sms.live-demo-intro": "سلام، ورځ مو په خیر! د شمس د ښوونځي د مدیریت سیستم د ازمویلو لپاره له لاندې حسابونو څخه یو وکاروئ.",
+  "sms.live-demo-open": "بېلګه پرانیزئ (په نوې ټب کې)",
+  "sms.live-demo-account-order": "د هر رول لپاره لومړی برېښنالیک او بیا پټنوم لیکل شوی دی.",
+  "sms.live-demo-management": "د ادارې برخه",
+  "sms.live-demo-classroom": "ښوونکي او زده‌کوونکي",
+  "sms.live-demo-admin": "مدیر",
+  "sms.live-demo-hr": "بشري سرچینې",
+  "sms.live-demo-finance": "مالي چارې",
+  "sms.live-demo-owner": "مالک",
+  "sms.live-demo-teacher": "ښوونکی",
+  "sms.live-demo-student": "زده‌کوونکی",
+  "sms.live-demo-sample-data": "دا بېلګه یوازې نمونوي معلومات لري او د سیستم د امکاناتو د ازمویلو لپاره جوړه شوې ده.",
+  "sms.live-demo-http": "له بېلګې سره اړیکه کوډ شوې نه ده. همدا دلته ورکړل شوي حسابونه وکاروئ.",
+  "sms.live-demo-installation": "که غواړئ د سیستم بشپړه نسخه په خپل ښوونځي کې نصب کړئ، له موږ سره اړیکه ونیسئ.",
   "sms.talk-to-our-team": "زموږ له ټیم سره خبرې وکړئ",  // Talk to our team
   "sms.ask-us-anything-about-shams": "د شمس ټکنالوژۍ ټیم د ښوونځي ERP په اړه هره پوښتنه چې لرئ، له موږ یې وپوښتئ.",  // Ask us anything about Shams Technology Team School ERP.
   "sms.email": "برېښنالیک",  // Email
@@ -906,7 +924,7 @@ window.SHAMS_I18N['ps-AF'] = {
   "sms.one-time-installation-14-950": "د نصب فیس (یوازې یو ځل): ۱۴٬۹۵۰ افغانۍ",  // One-time installation: 14,950 AFN
   "sms.one-time-installation-19-950": "د نصب فیس (یوازې یو ځل): ۱۹٬۹۵۰ افغانۍ",  // One-time installation: 19,950 AFN
   "sms.installation-priced-per-branch": "د نصب فیس د هرې څانګې لپاره جلا ټاکل کېږي",  // Installation priced per branch
-  "sms.launch-offer-50-discount-on-installation": "د پیل ځانګړی وړاندیز: د لومړیو ۱۰ ښوونځیو لپاره د نصب په فیس کې ۵۰٪ تخفیف. تر اوسه سیستم په ۲ ښوونځیو کې نصب شوی او یوازې ۸ نور فرصتونه پاتې دي.",  // Launch offer: 50% discount on installation for the first 10 schools. 2 are already installed, 8 places left.
+  "sms.launch-offer-50-discount-on-installation": "د پیل ځانګړی وړاندیز: د لومړیو ۱۰ ښوونځیو لپاره د نصب په فیس کې ۵۰٪ تخفیف. تر اوسه سیستم په ۳ ښوونځیو کې نصب شوی او یوازې ۷ نور فرصتونه پاتې دي.",  // Launch offer: 50% discount on installation for the first 10 schools. 3 are already installed, 7 places left.
   "sms.the-installation-fee-is-paid-once": "د نصب فیس یوازې یو ځل، د کار په پیل کې، ورکول کېږي. د کلني ګډون فیس د هر کال په پیل کې ورکول کېږي.",  // The installation fee is paid only once, the first time. The yearly subscription is paid at the start of each year.
   "sms.plans-start-at-49-a-year": "د پلانونو بیه په کال کې له ۴۹ ډالرو پیلېږي، او د نصب فیس چې یوازې یو ځل ورکول کېږي، له ۹٬۹۵۰ افغانیو پیلېږي. د سیستم ټولې برخې په هر پلان کې شاملې دي.",  // Plans start at $49 a year, plus a one-time installation fee from 9,950 AFN. Every plan includes all modules.
 };
