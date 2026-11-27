@@ -481,6 +481,9 @@ window.SHAMS_I18N['ps-AF'] = {
   "sms.students-attendance-exams-and-fees": "زده‌کوونکي، حاضري، ازموینې او فیس په یوه ځای کې",  // Students, attendance, exams and fees in one place
   "sms.dari-pashto-and-english": "دري، پښتو او انګلیسي",  // Dari, Pashto and English
   "sms.would-you-like-your-school": "غواړئ ستاسو ښوونځی بل وي؟",  // Would you like your school to be next?
+  "sms.gawhar-academy": "ګوهر اکاډمي",
+  "sms.gawhar-academy-logo": "د ګوهر اکاډمۍ لوګو",
+  "sms.gawhar-academy-installation": "موږ د شمس ټکنالوژۍ ټیم د ښوونځیو د مدیریت سیستم په ګوهر اکاډمۍ کې نصب کړ. دا د انګلیسي ژبې او کمپیوټر د زده کړې اکاډمي ده او اوس کولای شي زده‌کوونکي، ټولګي، حاضري او فیسونه په یوه سیستم کې اداره کړي.",
   "sms.questions-from": "د ښوونځیو ",  // Questions from REVIEW: FAQ heading split across two styled words: Dari "سوالات | مکاتب", Pashto "د ښوونځیو | پوښتنې".
   "sms.schools": "پوښتنې",  // schools
   "sms.if-your-question-is-not": "که د خپلې پوښتنې ځواب مو دلته ونه موند، له موږ سره اړیکه ونیسئ، ځواب به یې درکړو.",  // If your question is not answered here, contact us and we will reply.
@@ -502,6 +505,21 @@ window.SHAMS_I18N['ps-AF'] = {
   "sms.the-price-depends-on-the-2": "بیه د زده‌کوونکو په شمېر او هغو برخو پورې اړه لري چې ټاکئ یې. د بیې لپاره له موږ سره اړیکه ونیسئ.",  // The price depends on the number of students and the modules you choose. Contact us for a quote.
   "sms.see-it-working-at-your": "سیستم په خپل ښوونځي کې وګورئ",  // See it working at your school
   "sms.request-a-demo-ask-for": "د سیستم ښودنه وغواړئ، بیه وپوښتئ یا د خپل ښوونځي اړتیاوې له موږ سره شریکې کړئ",  // Request a demo, ask for a quote or discuss what your school needs
+  "sms.live-demo-title": "ژوندۍ بېلګه وازمویئ",
+  "sms.live-demo-intro": "سلام، ورځ مو په خیر! د شمس د ښوونځي د مدیریت سیستم د ازمویلو لپاره له لاندې حسابونو څخه یو وکاروئ.",
+  "sms.live-demo-open": "بېلګه پرانیزئ (په نوې ټب کې)",
+  "sms.live-demo-account-order": "د هر رول لپاره لومړی برېښنالیک او بیا پټنوم لیکل شوی دی.",
+  "sms.live-demo-management": "د ادارې برخه",
+  "sms.live-demo-classroom": "ښوونکي او زده‌کوونکي",
+  "sms.live-demo-admin": "مدیر",
+  "sms.live-demo-hr": "بشري سرچینې",
+  "sms.live-demo-finance": "مالي چارې",
+  "sms.live-demo-owner": "مالک",
+  "sms.live-demo-teacher": "ښوونکی",
+  "sms.live-demo-student": "زده‌کوونکی",
+  "sms.live-demo-sample-data": "دا بېلګه یوازې نمونوي معلومات لري او د سیستم د امکاناتو د ازمویلو لپاره جوړه شوې ده.",
+  "sms.live-demo-http": "له بېلګې سره اړیکه کوډ شوې نه ده. همدا دلته ورکړل شوي حسابونه وکاروئ.",
+  "sms.live-demo-installation": "که غواړئ د سیستم بشپړه نسخه په خپل ښوونځي کې نصب کړئ، له موږ سره اړیکه ونیسئ.",
   "sms.talk-to-our-team": "زموږ له ټیم سره خبرې وکړئ",  // Talk to our team
   "sms.ask-us-anything-about-shams": "د شمس ټکنالوژۍ ټیم د ښوونځي ERP په اړه هره پوښتنه چې لرئ، له موږ یې وپوښتئ.",  // Ask us anything about Shams Technology Team School ERP.
   "sms.email": "برېښنالیک",  // Email
@@ -902,7 +920,7 @@ window.SHAMS_I18N['ps-AF'] = {
 
   /* ---- update 4: pricing changes ---- */
   "sms.system-customisation-to-your-school": "د غوښتنې پر بنسټ، د ښوونځي د اړتیاوو سره سم د سیستم برابرول",  // System customisation to your school's needs, on request
-  "sms.launch-offer-free-installation-for-10": "د پیل وړاندیز: د لومړیو ۱۰ ښوونځیو لپاره وړیا نصب. تر اوسه ۲ ښوونځیو ته نصب شوی او ۸ نور ځایونه پاتې دي.",  // Launch offer: free installation for the first 10 schools. 2 are already installed, 8 places left.
+  "sms.launch-offer-50-discount-on-installation": "د پیل ځانګړی وړاندیز: د لومړیو ۱۰ ښوونځیو لپاره د نصب په فیس کې ۵۰٪ تخفیف. تر اوسه سیستم په ۳ ښوونځیو کې نصب شوی او یوازې ۷ نور فرصتونه پاتې دي.",  // Launch offer: 50% discount on installation for the first 10 schools. 3 are already installed, 7 places left.
   "sms.simple-yearly-plans-every-plan-2": "ساده کلني پلانونه. هر پلان د سیستم ټولې برخې لري؛ تاسو یوازې د هغې مرستې کچه ټاکئ چې ورته اړتیا لرئ.",  // Simple yearly plans. Every plan includes every module: you only choose how much help you need.
   "sms.plans-start-at-10-000-2": "د پلانونو بیه په کال کې له ۱۰٬۰۰۰ افغانیو پیلېږي او د هغې روزنې او ملاتړ په کچې پورې اړه لري چې ورته اړتیا لرئ. د سیستم ټولې برخې په هر پلان کې شاملې دي.",  // Plans start at 10,000 AFN a year, depending on the training and support you need. Every plan includes all modules.
 };

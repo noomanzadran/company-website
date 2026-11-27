@@ -481,6 +481,9 @@ window.SHAMS_I18N['fa-AF'] = {
   "sms.students-attendance-exams-and-fees": "شاگردان، حاضری، امتحانات و فیس در یک جا",  // Students, attendance, exams and fees in one place
   "sms.dari-pashto-and-english": "دری، پشتو و انگلیسی",  // Dari, Pashto and English
   "sms.would-you-like-your-school": "می‌خواهید مکتب شما نفر بعدی باشد؟",  // Would you like your school to be next?
+  "sms.gawhar-academy": "اکادمی گوهر",
+  "sms.gawhar-academy-logo": "لوگوی اکادمی گوهر",
+  "sms.gawhar-academy-installation": "سیستم مدیریت مکاتب تیم تکنالوژی شمس را در اکادمی گوهر، مرکز آموزش زبان انگلیسی و کمپیوتر، نصب کردیم تا این اکادمی بتواند شاگردان، صنف‌ها، حاضری و فیس‌ها را در یک سیستم مدیریت کند.",
   "sms.questions-from": "سوالات ",  // Questions from REVIEW: FAQ heading split across two styled words: Dari "سوالات | مکاتب", Pashto "د ښوونځیو | پوښتنې".
   "sms.schools": "مکاتب",  // schools
   "sms.if-your-question-is-not": "اگر پاسخ سوال خود را این‌جا نیافتید، با ما تماس بگیرید تا پاسخ دهیم.",  // If your question is not answered here, contact us and we will reply.
@@ -502,6 +505,21 @@ window.SHAMS_I18N['fa-AF'] = {
   "sms.the-price-depends-on-the-2": "قیمت به تعداد شاگردان و بخش‌هایی که انتخاب می‌کنید بستگی دارد. برای دریافت قیمت با ما تماس بگیرید.",  // The price depends on the number of students and the modules you choose. Contact us for a quote.
   "sms.see-it-working-at-your": "سیستم را در مکتب خود ببینید",  // See it working at your school
   "sms.request-a-demo-ask-for": "نمایش سیستم را درخواست کنید، قیمت بپرسید یا نیازهای مکتب خود را با ما در میان بگذارید",  // Request a demo, ask for a quote or discuss what your school needs
+  "sms.live-demo-title": "دیموی زنده را امتحان کنید",
+  "sms.live-demo-intro": "سلام و روز بخیر! برای آزمایش سیستم مدیریت مکتب شمس، از یکی از حساب‌های نمایشی زیر استفاده کنید.",
+  "sms.live-demo-open": "باز کردن دیمو (در تب جدید)",
+  "sms.live-demo-account-order": "برای هر نقش، اول آدرس ایمیل و بعد رمز عبور آمده است.",
+  "sms.live-demo-management": "بخش مدیریت",
+  "sms.live-demo-classroom": "استادان و شاگردان",
+  "sms.live-demo-admin": "ادمین",
+  "sms.live-demo-hr": "منابع بشری",
+  "sms.live-demo-finance": "مالی",
+  "sms.live-demo-owner": "مالک",
+  "sms.live-demo-teacher": "استاد",
+  "sms.live-demo-student": "شاگرد",
+  "sms.live-demo-sample-data": "این دیمو فقط معلومات نمونه دارد و برای آزمایش امکانات سیستم آماده شده است.",
+  "sms.live-demo-http": "ارتباط با دیمو رمزگذاری نشده است. از حساب‌های نمایشی همین صفحه استفاده کنید.",
+  "sms.live-demo-installation": "اگر می‌خواهید نسخهٔ اصلی را در مکتب‌تان نصب کنید، با ما به تماس شوید.",
   "sms.talk-to-our-team": "با تیم ما صحبت کنید",  // Talk to our team
   "sms.ask-us-anything-about-shams": "هر سوالی دربارهٔ ERP مکتب تیم تکنالوژی شمس دارید، از ما بپرسید.",  // Ask us anything about Shams Technology Team School ERP.
   "sms.email": "ایمیل",  // Email
@@ -902,7 +920,7 @@ window.SHAMS_I18N['fa-AF'] = {
 
   /* ---- update 4: pricing changes ---- */
   "sms.system-customisation-to-your-school": "تنظیم و تغییر سیستم مطابق نیاز مکتب شما، در صورت درخواست",  // System customisation to your school's needs, on request
-  "sms.launch-offer-free-installation-for-10": "پیشنهاد آغاز کار: نصب رایگان برای ۱۰ مکتب اول. تا حال برای ۲ مکتب نصب شده و ۸ جای دیگر باقی مانده است.",  // Launch offer: free installation for the first 10 schools. 2 are already installed, 8 places left.
+  "sms.launch-offer-50-discount-on-installation": "پیشنهاد ویژهٔ آغاز کار: ۵۰٪ تخفیف در فیس نصب برای ۱۰ مکتب اول. تا حال سیستم در ۳ مکتب نصب شده و تنها ۷ فرصت دیگر باقی مانده است.",  // Launch offer: 50% discount on installation for the first 10 schools. 3 are already installed, 7 places left.
   "sms.simple-yearly-plans-every-plan-2": "پلان‌های سالانهٔ ساده. هر پلان همهٔ بخش‌های سیستم را دارد؛ شما فقط مقدار کمکی را که نیاز دارید انتخاب می‌کنید.",  // Simple yearly plans. Every plan includes every module: you only choose how much help you need.
   "sms.plans-start-at-10-000-2": "قیمت پلان‌ها از ۱۰٬۰۰۰ افغانی در سال شروع می‌شود و به مقدار آموزش و پشتیبانی مورد نیاز شما بستگی دارد. همهٔ بخش‌های سیستم در هر پلان شامل است.",  // Plans start at 10,000 AFN a year, depending on the training and support you need. Every plan includes all modules.
 };
