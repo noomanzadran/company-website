@@ -503,21 +503,6 @@ window.SHAMS_I18N['ps-AF'] = {
   "sms.how-much-does-it-cost": "بیه یې څومره ده؟",  // How much does it cost?
   "sms.see-it-working-at-your": "سیستم په خپل ښوونځي کې وګورئ",  // See it working at your school
   "sms.request-a-demo-ask-for": "د سیستم ښودنه وغواړئ، بیه وپوښتئ یا د خپل ښوونځي اړتیاوې له موږ سره شریکې کړئ",  // Request a demo, ask for a quote or discuss what your school needs
-  "sms.live-demo-title": "ژوندۍ بېلګه وازمویئ",
-  "sms.live-demo-intro": "سلام، ورځ مو په خیر! د شمس د ښوونځي د مدیریت سیستم د ازمویلو لپاره له لاندې حسابونو څخه یو وکاروئ.",
-  "sms.live-demo-open": "بېلګه پرانیزئ (په نوې ټب کې)",
-  "sms.live-demo-account-order": "د هر رول لپاره لومړی برېښنالیک او بیا پټنوم لیکل شوی دی.",
-  "sms.live-demo-management": "د ادارې برخه",
-  "sms.live-demo-classroom": "ښوونکي او زده‌کوونکي",
-  "sms.live-demo-admin": "مدیر",
-  "sms.live-demo-hr": "بشري سرچینې",
-  "sms.live-demo-finance": "مالي چارې",
-  "sms.live-demo-owner": "مالک",
-  "sms.live-demo-teacher": "ښوونکی",
-  "sms.live-demo-student": "زده‌کوونکی",
-  "sms.live-demo-sample-data": "دا بېلګه یوازې نمونوي معلومات لري او د سیستم د امکاناتو د ازمویلو لپاره جوړه شوې ده.",
-  "sms.live-demo-http": "له بېلګې سره اړیکه کوډ شوې نه ده. همدا دلته ورکړل شوي حسابونه وکاروئ.",
-  "sms.live-demo-installation": "که غواړئ د سیستم بشپړه نسخه په خپل ښوونځي کې نصب کړئ، له موږ سره اړیکه ونیسئ.",
   "sms.talk-to-our-team": "زموږ له ټیم سره خبرې وکړئ",  // Talk to our team
   "sms.ask-us-anything-about-shams": "د شمس ټکنالوژۍ ټیم د ښوونځي ERP په اړه هره پوښتنه چې لرئ، له موږ یې وپوښتئ.",  // Ask us anything about Shams Technology Team School ERP.
   "sms.email": "برېښنالیک",  // Email

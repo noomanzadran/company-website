@@ -503,21 +503,6 @@ window.SHAMS_I18N['fa-AF'] = {
   "sms.how-much-does-it-cost": "قیمت آن چقدر است؟",  // How much does it cost?
   "sms.see-it-working-at-your": "سیستم را در مکتب خود ببینید",  // See it working at your school
   "sms.request-a-demo-ask-for": "نمایش سیستم را درخواست کنید، قیمت بپرسید یا نیازهای مکتب خود را با ما در میان بگذارید",  // Request a demo, ask for a quote or discuss what your school needs
-  "sms.live-demo-title": "دیموی زنده را امتحان کنید",
-  "sms.live-demo-intro": "سلام و روز بخیر! برای آزمایش سیستم مدیریت مکتب شمس، از یکی از حساب‌های نمایشی زیر استفاده کنید.",
-  "sms.live-demo-open": "باز کردن دیمو (در تب جدید)",
-  "sms.live-demo-account-order": "برای هر نقش، اول آدرس ایمیل و بعد رمز عبور آمده است.",
-  "sms.live-demo-management": "بخش مدیریت",
-  "sms.live-demo-classroom": "استادان و شاگردان",
-  "sms.live-demo-admin": "ادمین",
-  "sms.live-demo-hr": "منابع بشری",
-  "sms.live-demo-finance": "مالی",
-  "sms.live-demo-owner": "مالک",
-  "sms.live-demo-teacher": "استاد",
-  "sms.live-demo-student": "شاگرد",
-  "sms.live-demo-sample-data": "این دیمو فقط معلومات نمونه دارد و برای آزمایش امکانات سیستم آماده شده است.",
-  "sms.live-demo-http": "ارتباط با دیمو رمزگذاری نشده است. از حساب‌های نمایشی همین صفحه استفاده کنید.",
-  "sms.live-demo-installation": "اگر می‌خواهید نسخهٔ اصلی را در مکتب‌تان نصب کنید، با ما به تماس شوید.",
   "sms.talk-to-our-team": "با تیم ما صحبت کنید",  // Talk to our team
   "sms.ask-us-anything-about-shams": "هر سوالی دربارهٔ ERP مکتب تیم تکنالوژی شمس دارید، از ما بپرسید.",  // Ask us anything about Shams Technology Team School ERP.
   "sms.email": "ایمیل",  // Email
